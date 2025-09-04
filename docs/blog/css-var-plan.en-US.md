@@ -1,12 +1,12 @@
 ---
-title: Ant Design meets CSS Variables
+title: gui meets CSS Variables
 date: 2023-11-21
 author: MadCcc
 ---
 
-## Pain of Ant Design 5.0
+## Pain of gui
 
-Ant Design allows customization of theme tokens through ConfigProvider, supporting nested themes. Nested theme tokens inherit modifications made in the parent theme. From this perspective, antd's theme capabilities have reached their peak in the 5.0 version.
+gui allows customization of theme tokens through ConfigProvider, supporting nested themes. Nested theme tokens inherit modifications made in the parent theme. From this perspective, antd's theme capabilities have reached their peak in the 5.0 version.
 
 However, the purpose of this article is not to praise antd 5.0 again; that has already been done when it was released. Since the release of version 5.0, almost a year has passed, during which the community has raised various questions and demands. These issues and directions for improvement are the pain points faced by antd.
 
@@ -47,7 +47,7 @@ Looking at the case of Mantine 7.0, it seems that a theme system/style engine ba
 
 Naturally, the question arises: can we combine cssinjs with CSS variables? After all, they don't seem to be completely mutually exclusive.
 
-## Ant Design and CSS Variables
+## gui and CSS Variables
 
 Antd has collaborated with CSS variables before, as seen in the 4.x era, where there was a set of CSS files based on CSS variables. In version 4.x, antd's theme was mainly implemented using less variables, assigning less variables as CSS variable names, and then assigning values to these CSS variables elsewhere. This was the capability of antd's 4.x CSS variable theme.
 
@@ -90,7 +90,7 @@ Consider the scenario of nesting:
 </ConfigProvider>
 ```
 
-In the current theme system of Ant Design 5.0, the hash values corresponding to these two buttons are different. As a result, their styles do not affect each other, illustrating the role of hash in theme isolation.
+In the current theme system of gui, the hash values corresponding to these two buttons are different. As a result, their styles do not affect each other, illustrating the role of hash in theme isolation.
 
 However, in the CSS variable solution, the modification of these two tokens does not actually affect the calculation of the hash. Consequently, theme isolation breaks down, and both `colorPrimary` values end up under the same hash, leading to mutual overlap. To maintain theme isolation, we require different hash values for Button 1 and Button 2, creating a clear contradiction and a new issue.
 
@@ -182,7 +182,7 @@ The above solution can actually address most of the issues in various scenarios.
 
 The implementation of this capability essentially involves allowing users to replace CSS variables in scripts. As mentioned earlier, one method is to directly replace the class or attribute on the HTML in the script to apply statically compiled CSS variables, which is not suitable for dynamic themes. Therefore, users need to directly modify the values of CSS variables in the script, introducing the problem of 'needing to know the hash value in advance.' If the hash value is completely random or calculated based on tokens, users cannot use this hash value outside the React lifecycle, or it is challenging to save this hash value for use in scripts outside the React lifecycle.
 
-In other words, as long as the user knows the hash value, is that sufficient? Therefore, we allow users to customize the hash value, and users do not need to worry about the loss of style isolation due to custom reasons—because we can easily detect if users are using the same hash value in the application. In this way, users only need to override hashed CSS variables in the format of Ant Design (antd)—we can provide a factory function to help users generate CSS variable styles.
+In other words, as long as the user knows the hash value, is that sufficient? Therefore, we allow users to customize the hash value, and users do not need to worry about the loss of style isolation due to custom reasons—because we can easily detect if users are using the same hash value in the application. In this way, users only need to override hashed CSS variables in the format of gui (antd)—we can provide a factory function to help users generate CSS variable styles.
 
 ![image](https://github.com/ant-design/ant-design/assets/27722486/257c5811-bd67-48b3-8ea3-29a428d96bc8)
 

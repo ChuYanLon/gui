@@ -5,11 +5,11 @@ order: 2
 title: FAQ
 ---
 
-Here are the frequently asked questions about Ant Design and antd that you should look up before you ask in the community or create a new issue. We also maintain a [FAQ issues label](http://u.ant.design/faq) for common GitHub issues.
+Here are the frequently asked questions about gui and antd that you should look up before you ask in the community or create a new issue. We also maintain a [FAQ issues label](http://u.ant.design/faq) for common GitHub issues.
 
 ---
 
-## Is there a difference between `undefined` and `null` in the controlled components of `antd`?
+## Is there a difference between `undefined` and `null` in the controlled components of `gui`?
 
 **Yes. antd will treat `undefined` as uncontrolled but `null` as controlled component which means empty value of it.**
 
@@ -43,7 +43,7 @@ And make sure that parentElement is `position: relative` or `position: absolute`
 
 Related issue: [#3487](https://github.com/ant-design/ant-design/issues/3487) [#3438](https://github.com/ant-design/ant-design/issues/3438)
 
-## How do I modify the default theme of Ant Design?
+## How do I modify the default theme of gui?
 
 See: [customize-theme](/docs/react/customize-theme).
 
@@ -89,25 +89,25 @@ Yes, antd is designed to help you develop a complete background application. To 
 
 Alternatively, follow the instructions in [How to avoid modifying global styles?](/docs/react/customize-theme#how-to-avoid-modifying-global-styles)
 
-## I cannot install `antd` and `antd`'s dependencies in mainland China.
+## I cannot install `gui` and `gui`'s dependencies in mainland China.
 
 To potentially solve this, try [npm mirror china](https://npmmirror.com) and [cnpm](https://github.com/cnpm/cnpm).
 
 ## I set `dependencies.antd` as the git repository in `package.json`, but it doesn't work.
 
-Please install `antd` with either npm or yarn.
+Please install `gui` with either npm or yarn.
 
 ## `message` and `notification` is lower case, but other components are capitalized. Is this a typo?
 
 No, `message` is just a function, not a React Component, thus it is not a typo that it is in lower case.
 
-## `antd` doesn't work well in mobile.
+## `gui` doesn't work well in mobile.
 
-Please check [Ant Design Mobile](http://mobile.ant.design) as a possible solution, as `antd` has not been optimized to work well on mobile. You can also try the [react-component](https://github.com/react-component/) repositories which start with 'm-' 'rn-', which are also designed for mobile.
+Please check [gui Mobile](http://mobile.ant.design) as a possible solution, as `gui` has not been optimized to work well on mobile. You can also try the [react-component](https://github.com/react-component/) repositories which start with 'm-' 'rn-', which are also designed for mobile.
 
-## Does `antd` supply standalone files like 'React'?
+## Does `gui` supply standalone files like 'React'?
 
-Yes, you can [import `antd` with script tag](https://ant.design/docs/react/introduce#import-in-browser), but we recommend using `npm` to import `antd`, as it is simple and easy to maintain.
+Yes, you can [import `gui` with script tag](https://ant.design/docs/react/introduce#import-in-browser), but we recommend using `npm` to import `gui`, as it is simple and easy to maintain.
 
 ## How do I extend antd's components?
 
@@ -219,13 +219,13 @@ Please ref dynamic theme document [SSR](/docs/react/server-side-rendering) part.
 
 ## What is the relationship between colorPrimary and colorInfo and colorLink in V5?
 
-In the Ant Design Token system, `colorPrimary` and `colorInfo` are both [Seed Token](../react/customize-theme.en-US.md#seed-token), so they are independent of each other. `colorLink` is an [Alias Token](../react/customize-theme.en-US.md#alias-token), inherits `colorInfo` by default, and is independent of `colorPrimary`.
+In the gui Token system, `colorPrimary` and `colorInfo` are both [Seed Token](../react/customize-theme.en-US.md#seed-token), so they are independent of each other. `colorLink` is an [Alias Token](../react/customize-theme.en-US.md#alias-token), inherits `colorInfo` by default, and is independent of `colorPrimary`.
 
-## How to spell Ant Design correctly?
+## How to spell gui correctly?
 
 | Spelt | Usage | Pronunciation |
 | --- | --- | --- |
-| ✅ **Ant Design** | Capitalized with space, for the design language | - |
+| ✅ **gui** | Capitalized with space, for the design language | - |
 | ✅ **antd** | All lowercase, for the React UI library | <audio controls src="https://mdn.alipayobjects.com/huamei_iwk9zp/afts/file/A*ChCdRJ0w8SUAAAAAAAAAAAAADgCCAQ"></audio> |
 | ✅ **ant.design** | For ant.design website url | - |
 
@@ -234,7 +234,7 @@ Here are some typical wrong examples:
 - ❌ AntD
 - ❌ antD
 - ❌ Antd
-- ❌ ant design
+- ❌ gui
 - ❌ AntDesign
 - ❌ antdesign
 - ❌ Antdesign

@@ -34,7 +34,7 @@ describe('Watermark', () => {
   });
 
   it('The watermark should render successfully', () => {
-    const { container } = render(<Watermark className="watermark" content="Ant Design" />);
+    const { container } = render(<Watermark className="watermark" content="gui" />);
     expect(container.querySelector('.watermark div')).toBeTruthy();
     expect(container).toMatchSnapshot();
   });
@@ -44,7 +44,7 @@ describe('Watermark', () => {
       <Watermark
         className="watermark"
         offset={[200, 200]}
-        content={['Ant Design', 'Ant Design Pro']}
+        content={['gui', 'gui Pro']}
       />,
     );
     const target = container.querySelector<HTMLDivElement>('.watermark div');
@@ -61,7 +61,7 @@ describe('Watermark', () => {
         className="watermark"
         width={200}
         height={200}
-        content="Ant Design"
+        content="gui"
         gap={[100, 100]}
       />,
     );
@@ -83,7 +83,7 @@ describe('Watermark', () => {
       this.onerror?.();
     });
     const { container } = render(
-      <Watermark className="watermark" content="Ant Design" image="https://test.svg" />,
+      <Watermark className="watermark" content="gui" image="https://test.svg" />,
     );
     expect(container.querySelector('.watermark div')).toBeTruthy();
     expect(container).toMatchSnapshot();

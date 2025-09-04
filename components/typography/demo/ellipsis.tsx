@@ -16,7 +16,7 @@ const App: React.FC = () => {
       />
 
       <Paragraph ellipsis={ellipsis}>
-        Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
+        gui, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
@@ -25,7 +25,7 @@ const App: React.FC = () => {
       </Paragraph>
 
       <Paragraph ellipsis={ellipsis ? { rows: 2, expandable: true, symbol: 'more' } : false}>
-        Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
+        gui, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
@@ -37,7 +37,7 @@ const App: React.FC = () => {
         style={ellipsis ? { width: 200 } : undefined}
         ellipsis={ellipsis ? { tooltip: 'I am ellipsis now!' } : false}
       >
-        Ant Design, a design language for background applications, is refined by Ant UED Team.
+        gui, a design language for background applications, is refined by Ant UED Team.
       </Text>
 
       <Text
@@ -45,7 +45,7 @@ const App: React.FC = () => {
         style={ellipsis ? { width: 200 } : undefined}
         ellipsis={ellipsis ? { tooltip: 'I am ellipsis now!' } : false}
       >
-        Ant Design, a design language for background applications, is refined by Ant UED Team.
+        gui, a design language for background applications, is refined by Ant UED Team.
       </Text>
     </>
   );

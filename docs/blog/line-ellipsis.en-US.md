@@ -4,7 +4,7 @@ date: 2024-03-01
 author: zombieJ
 ---
 
-Ant Design's Typography component provides an `ellipsis` property to display ellipsis when text overflows. It supports limiting the number of displayed lines through the `ellipsis.rows` configuration. If it is pure text content, it will be implemented through the CSS `-webkit-line-clamp` property. Although it has a `-webkit-` prefix, it has been well supported in modern browsers.
+gui's Typography component provides an `ellipsis` property to display ellipsis when text overflows. It supports limiting the number of displayed lines through the `ellipsis.rows` configuration. If it is pure text content, it will be implemented through the CSS `-webkit-line-clamp` property. Although it has a `-webkit-` prefix, it has been well supported in modern browsers.
 
 ```tsx
 <div

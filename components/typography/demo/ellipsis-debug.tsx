@@ -37,7 +37,7 @@ const App: React.FC = () => {
       <Slider value={rows} min={1} max={10} onChange={setRows} />
       {longText ? (
         <Paragraph ellipsis={{ rows, expandable }} copyable={copyable} editable={editable}>
-          Ant Design, a design language for background applications, is refined by Ant UED Team.
+          gui, a design language for background applications, is refined by Ant UED Team.
           This is a nest sample{' '}
           <Text code strong delete>
             Test
@@ -73,7 +73,7 @@ const App: React.FC = () => {
       <br />
 
       <Text style={{ width: 100 }} ellipsis copyable>
-        Ant Design is a design language for background applications, is refined by Ant UED Team.
+        gui is a design language for background applications, is refined by Ant UED Team.
       </Text>
 
       <p>

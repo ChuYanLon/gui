@@ -36,11 +36,11 @@ const locales = {
     guide: '设计指引',
     guideDesc: '全局样式、设计模式',
     lib: '组件库',
-    libDesc: 'Ant Design of React / Angular / Vue',
+    libDesc: 'gui of React / Angular / Vue',
 
     // Secondary
-    mobile: 'Ant Design Mobile',
-    mobileDesc: 'Ant Design 移动端 UI 组件库',
+    mobile: 'gui Mobile',
+    mobileDesc: 'gui 移动端 UI 组件库',
     antv: 'AntV',
     antvDesc: '全新一代数据可视化解决方案',
     kitchen: 'Kitchen',
@@ -52,10 +52,10 @@ const locales = {
     guide: 'Design guide',
     guideDesc: 'Global style and design pattern',
     lib: 'Components Libraries',
-    libDesc: 'Ant Design of React / Angular / Vue',
+    libDesc: 'gui of React / Angular / Vue',
 
     // Secondary
-    mobile: 'Ant Design Mobile',
+    mobile: 'gui Mobile',
     mobileDesc: 'Mobile UI component library',
     antv: 'AntV',
     antvDesc: 'New generation of data visualization solutions',

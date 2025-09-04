@@ -8,7 +8,7 @@ const App: React.FC = () => {
 
   const sharedProps = {
     style: { width: '100%' },
-    defaultValue: 'Ant Design love you!',
+    defaultValue: 'gui love you!',
     ref: inputRef,
   };
 

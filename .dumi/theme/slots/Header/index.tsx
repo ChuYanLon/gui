@@ -1,31 +1,28 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { GithubOutlined, MenuOutlined } from '@ant-design/icons';
-import { Alert, Button, Col, ConfigProvider, Popover, Row, Select, Tooltip } from 'antd';
+import { MenuOutlined } from '@ant-design/icons';
+import { Alert, Col, ConfigProvider, Popover, Row } from 'antd';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 import dayjs from 'dayjs';
-import { useLocation, useSiteData } from 'dumi';
+import { useLocation } from 'dumi';
 import DumiSearchBar from 'dumi/theme-default/slots/SearchBar';
 
 import useLocale from '../../../hooks/useLocale';
 import ThemeSwitch from '../../common/ThemeSwitch';
-import DirectionIcon from '../../icons/DirectionIcon';
 import { ANT_DESIGN_NOT_SHOW_BANNER } from '../../layouts/GlobalLayout';
 import * as utils from '../../utils';
-import { getThemeConfig } from '../../utils';
 import SiteContext from '../SiteContext';
 import type { SharedProps } from './interface';
 import Logo from './Logo';
 import Navigation from './Navigation';
-import SwitchBtn from './SwitchBtn';
 
 const RESPONSIVE_XS = 1120;
 const RESPONSIVE_SM = 1200;
 
 const locales = {
   cn: {
-    message: '语雀征文 · 说说你和开源的故事，赢取 Ant Design 精美周边 🎁',
-    shortMessage: '语雀征文 · 说说你和开源的故事，赢取 Ant Design 精美周边 🎁',
+    message: '语雀征文 · 说说你和开源的故事，赢取 gui 精美周边 🎁',
+    shortMessage: '语雀征文 · 说说你和开源的故事，赢取 gui 精美周边 🎁',
     more: '前往了解',
     link: 'https://www.yuque.com/opensource2023',
   },
@@ -164,9 +161,6 @@ interface HeaderState {
 const Header: React.FC = () => {
   const [locale, lang] = useLocale(locales);
 
-  const { pkg } = useSiteData();
-
-  const themeConfig = getThemeConfig();
   const [headerState, setHeaderState] = useState<HeaderState>({
     menuVisible: false,
     windowWidth: 1400,
@@ -214,26 +208,6 @@ const Header: React.FC = () => {
     };
   }, []);
 
-  const handleVersionChange = useCallback((url: string) => {
-    const currentUrl = window.location.href;
-    const currentPathname = window.location.pathname;
-    if (/overview/.test(currentPathname) && /0?[1-39][0-3]?x/.test(url)) {
-      window.location.href = currentUrl
-        .replace(window.location.origin, url)
-        .replace(/\/components\/overview/, `/docs${/0(9|10)x/.test(url) ? '' : '/react'}/introduce`)
-        .replace(/\/$/, '');
-      return;
-    }
-    // Mirror url must have `/`, we add this for compatible
-    const urlObj = new URL(currentUrl.replace(window.location.origin, url));
-    if (urlObj.host.includes('antgroup')) {
-      urlObj.pathname = `${urlObj.pathname.replace(/\/$/, '')}/`;
-      window.location.href = urlObj.toString();
-    } else {
-      window.location.href = urlObj.href.replace(/\/$/, '');
-    }
-  }, []);
-
   const onLangChange = useCallback(() => {
     const currentProtocol = `${window.location.protocol}//`;
     const currentHref = window.location.href.slice(currentProtocol.length);
@@ -254,20 +228,7 @@ const Header: React.FC = () => {
     [direction],
   );
 
-  const getDropdownStyle = useMemo<React.CSSProperties>(
-    () => (direction === 'rtl' ? { direction: 'ltr', textAlign: 'right' } : {}),
-    [direction],
-  );
-
   const { menuVisible, windowWidth, searching } = headerState;
-  const docVersions: Record<string, string> = {
-    [pkg.version]: pkg.version,
-    ...themeConfig?.docVersions,
-  };
-  const versionOptions = Object.keys(docVersions).map((version) => ({
-    value: docVersions[version],
-    label: version,
-  }));
 
   const isHome = ['', 'index', 'index-cn'].includes(pathname);
   const isZhCN = lang === 'cn';
@@ -302,49 +263,8 @@ const Header: React.FC = () => {
 
   let menu = [
     navigationNode,
-    <Select
-      key="version"
-      size="small"
-      variant="filled"
-      className={styles.versionSelect}
-      defaultValue={pkg.version}
-      onChange={handleVersionChange}
-      styles={{ popup: { root: getDropdownStyle } }}
-      popupMatchSelectWidth={false}
-      getPopupContainer={(trigger) => trigger.parentNode}
-      options={versionOptions}
-    />,
-    <SwitchBtn
-      key="lang"
-      onClick={onLangChange}
-      value={utils.isZhCN(pathname) ? 1 : 2}
-      label1="中"
-      label2="En"
-      tooltip1="中文 / English"
-      tooltip2="English / 中文"
-    />,
-    <SwitchBtn
-      key="direction"
-      onClick={onDirectionChange}
-      value={direction === 'rtl' ? 2 : 1}
-      label1={<DirectionIcon className={styles.dataDirectionIcon} direction="ltr" />}
-      tooltip1="LTR"
-      label2={<DirectionIcon className={styles.dataDirectionIcon} direction="rtl" />}
-      tooltip2="RTL"
-      pure
-      aria-label="RTL Switch Button"
-    />,
-    <ThemeSwitch key="theme" />,
-    <a
-      key="github"
-      href="https://github.com/ant-design/ant-design"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <Tooltip title="GitHub" destroyOnHidden>
-        <Button type="text" icon={<GithubOutlined />} style={{ fontSize: 16 }} />
-      </Tooltip>
-    </a>,
+    //@TODO: 这里先注释掉主题切换，等主题切换功能完善后再放开
+    // <ThemeSwitch key="theme" />,
   ];
 
   if (windowWidth < RESPONSIVE_XS) {
@@ -413,11 +333,11 @@ const Header: React.FC = () => {
           />
         </ConfigProvider>
       )}
-      <Row style={{ flexFlow: 'nowrap', height: 64 }}>
-        <Col {...colProps[0]}>
+      <Row style={{ flexFlow: 'nowrap', height: 64 }} align={"middle"} justify={"space-between"}>
+        <Col>
           <Logo {...sharedProps} location={location} />
         </Col>
-        <Col {...colProps[1]}>
+        <Col span={8}>
           <div className={styles.menuRow}>
             <DumiSearchBar />
             {!isMobile && menu}

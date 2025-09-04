@@ -1,4 +1,4 @@
-import React, { Suspense, use } from 'react';
+import React, {  use } from 'react';
 import { Flex, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
@@ -12,8 +12,6 @@ import * as utils from '../../../../theme/utils';
 import GroupMaskLayer from '../GroupMaskLayer';
 
 import '../SiteContext';
-
-const ComponentsBlock = React.lazy(() => import('./ComponentsBlock'));
 
 const locales = {
   cn: {
@@ -51,7 +49,7 @@ const useStyle = createStyles(({ token, css, cx }, siteConfig: SiteContextProps)
 
   return {
     holder: css`
-      height: 640px;
+      height: 450px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -146,32 +144,18 @@ const PreviewBanner: React.FC<Readonly<React.PropsWithChildren>> = (props) => {
       />
 
       <div className={styles.holder}>
-        {/* Mobile not show the component preview */}
-        <Suspense fallback={null}>
-          {siteConfig.isMobile ? null : (
-            <div className={styles.block}>
-              <ComponentsBlock />
-            </div>
-          )}
-        </Suspense>
         <div className={styles.mask} />
         <Typography className={styles.typography}>
-          <h1>Ant Design 5.0</h1>
+          <h1>gui</h1>
           <p>{locale.slogan}</p>
         </Typography>
         <Flex gap="middle" className={styles.btnWrap}>
           <LinkButton
             size="large"
             type="primary"
-            to={utils.getLocalizedPathname('/components/overview/', isZhCN, search)}
+            to={utils.getLocalizedPathname('/components/started/', isZhCN, search)}
           >
             {locale.start}
-          </LinkButton>
-          <LinkButton
-            size="large"
-            to={utils.getLocalizedPathname('/docs/spec/introduce/', isZhCN, search)}
-          >
-            {locale.designLanguage}
           </LinkButton>
         </Flex>
         <div className={styles.child}>{children}</div>

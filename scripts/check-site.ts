@@ -65,27 +65,27 @@ describe('site test', () => {
   it('Basic Pages en', async () => {
     const { status, $ } = await render('/');
     expect($('title').first().text()).toEqual(
-      `Ant Design - The world's second most popular React UI framework`,
+      `gui - The world's second most popular React UI framework`,
     );
     expect(status).toBe(200);
   });
 
   it('Basic Pages zh', async () => {
     const { status, $ } = await render('/index-cn');
-    expect($('title').first().text()).toEqual(`Ant Design - 一套企业级 UI 设计语言和 React 组件库`);
+    expect($('title').first().text()).toEqual(`gui - 一套企业级 UI 设计语言和 React 组件库`);
     expect(status).toBe(200);
   });
 
   it('Overview en', async () => {
-    const { status, $ } = await render('/components/overview');
+    const { status, $ } = await render('/components/started');
     expect(status).toBe(200);
     expect($('h1').text()).toMatch(`Overview`);
   });
 
   it('Overview zh', async () => {
-    const { status, $ } = await render('/components/overview-cn');
+    const { status, $ } = await render('/components/started-cn');
     expect(status).toBe(200);
-    expect($('h1').text()).toMatch(`组件总览`);
+    expect($('h1').text()).toMatch(`快速上手`);
   });
 
   it('Resource en', async () => {

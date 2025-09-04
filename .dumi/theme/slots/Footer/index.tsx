@@ -10,8 +10,8 @@ import {
   MediumOutlined,
   MessageOutlined,
   QuestionCircleOutlined,
-  XOutlined,
   UsergroupAddOutlined,
+  XOutlined,
   ZhihuOutlined,
 } from '@ant-design/icons';
 import { createStyles } from 'antd-style';
@@ -27,10 +27,10 @@ import AdditionalInfo from './AdditionalInfo';
 
 const locales = {
   cn: {
-    owner: '蚂蚁集团和 Ant Design 开源社区',
+    owner: '蚂蚁集团和 gui 开源社区',
   },
   en: {
-    owner: 'Ant Group and Ant Design Community',
+    owner: 'Ant Group and gui Community',
   },
 };
 
@@ -95,17 +95,17 @@ const Footer: React.FC = () => {
       title: <FormattedMessage id="app.footer.resources" />,
       items: [
         {
-          title: 'Ant Design X',
+          title: 'gui X',
           url: isZhCN ? 'https://ant-design-x.antgroup.com' : 'https://x.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Charts',
+          title: 'gui Charts',
           url: isZhCN ? 'https://ant-design-charts.antgroup.com' : 'https://charts.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Pro',
+          title: 'gui Pro',
           url: 'https://pro.ant.design',
           openExternal: true,
         },
@@ -117,22 +117,22 @@ const Footer: React.FC = () => {
           openExternal: true,
         },
         {
-          title: 'Ant Design Mobile',
+          title: 'gui Mobile',
           url: isZhCN ? 'https://ant-design-mobile.antgroup.com/zh' : 'https://mobile.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Mini',
+          title: 'gui Mini',
           url: isZhCN ? 'https://ant-design-mini.antgroup.com/' : 'https://mini.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Web3',
+          title: 'gui Web3',
           url: isZhCN ? 'https://web3.antdigital.dev' : 'https://web3.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Landing',
+          title: 'gui Landing',
           description: <FormattedMessage id="app.footer.landing" />,
           url: 'https://landing.ant.design',
           openExternal: true,
@@ -415,23 +415,7 @@ const Footer: React.FC = () => {
     return [col1, col2, col3, col4];
   }, [lang, location.search]);
 
-  return (
-    <>
-      <RcFooter
-        columns={getColumns}
-        className={styles.footer}
-        bottom={
-          <>
-            <div style={{ opacity: '0.4' }}>
-              Made with <span style={{ color: '#fff' }}>❤</span> by
-            </div>
-            <div>{locale.owner}</div>
-          </>
-        }
-      />
-      <AdditionalInfo />
-    </>
-  );
+  return <></>;
 };
 
 export default Footer;

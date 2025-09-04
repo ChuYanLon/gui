@@ -17,7 +17,7 @@ exports[`renders components/typography/demo/basic.tsx correctly 1`] = `
   <div
     class="ant-typography"
   >
-    After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims to
+    After massive project practice and summaries, gui, a design language for background applications, is refined by Ant UED Team, which aims to
     <!-- -->
     <span
       class="ant-typography"
@@ -114,7 +114,7 @@ exports[`renders components/typography/demo/basic.tsx correctly 1`] = `
   <div
     class="ant-typography"
   >
-    随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁集团体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于
+    随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁集团体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 gui。基于
     <span
       class="ant-typography"
     >
@@ -229,7 +229,7 @@ Array [
     <div
       class="ant-typography"
     >
-      After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims to
+      After massive project practice and summaries, gui, a design language for background applications, is refined by Ant UED Team, which aims to
       <!-- -->
       <span
         class="ant-typography"
@@ -321,7 +321,7 @@ Array [
     <div
       class="ant-typography"
     >
-      随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁集团体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于
+      随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁集团体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 gui。基于
       <span
         class="ant-typography"
       >
@@ -959,7 +959,7 @@ Array [
     class="ant-typography"
     style="margin:0"
   >
-    h1. Ant Design
+    h1. gui
     <button
       aria-describedby="test-id"
       aria-label="Edit"
@@ -991,7 +991,7 @@ Array [
     class="ant-typography"
     style="margin:0"
   >
-    h2. Ant Design
+    h2. gui
     <button
       aria-describedby="test-id"
       aria-label="Edit"
@@ -1023,7 +1023,7 @@ Array [
     class="ant-typography"
     style="margin:0"
   >
-    h3. Ant Design
+    h3. gui
     <button
       aria-describedby="test-id"
       aria-label="Edit"
@@ -1055,7 +1055,7 @@ Array [
     class="ant-typography"
     style="margin:0"
   >
-    h4. Ant Design
+    h4. gui
     <button
       aria-describedby="test-id"
       aria-label="Edit"
@@ -1087,7 +1087,7 @@ Array [
     class="ant-typography"
     style="margin:0"
   >
-    h5. Ant Design
+    h5. gui
     <button
       aria-describedby="test-id"
       aria-label="Edit"
@@ -1143,20 +1143,20 @@ Array [
   <div
     class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-single-line"
   >
-    Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team.
+    gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team.
   </div>,
   <div
     class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line"
     style="-webkit-line-clamp:2"
   >
-    Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team.
+    gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team. gui, a design language for background applications, is refined by Ant UED Team.
   </div>,
   <span
     aria-describedby="test-id"
     class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-single-line"
     style="width:200px"
   >
-    Ant Design, a design language for background applications, is refined by Ant UED Team.
+    gui, a design language for background applications, is refined by Ant UED Team.
   </span>,
   <span
     aria-describedby="test-id"
@@ -1164,7 +1164,7 @@ Array [
     style="width:200px"
   >
     <code>
-      Ant Design, a design language for background applications, is refined by Ant UED Team.
+      gui, a design language for background applications, is refined by Ant UED Team.
     </code>
   </span>,
 ]
@@ -1232,7 +1232,7 @@ exports[`renders components/typography/demo/ellipsis-controlled.tsx correctly 1`
     class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line"
     style="-webkit-line-clamp:2"
   >
-    Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.Ant Design, a design language for background applications, is refined by Ant UED Team.
+    gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.gui, a design language for background applications, is refined by Ant UED Team.
     <button
       aria-describedby="test-id"
       aria-label="Copy"
@@ -1376,7 +1376,7 @@ Array [
   <div
     class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-single-line"
   >
-    Ant Design, a design language for background applications, is refined by Ant UED Team. This is a nest sample
+    gui, a design language for background applications, is refined by Ant UED Team. This is a nest sample
     <!-- -->
     <span
       class="ant-typography"
@@ -1495,7 +1495,7 @@ Array [
     class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-single-line"
     style="width:100px"
   >
-    Ant Design is a design language for background applications, is refined by Ant UED Team.
+    gui is a design language for background applications, is refined by Ant UED Team.
     <button
       aria-describedby="test-id"
       aria-label="Copy"
@@ -1630,7 +1630,7 @@ Array [
   <div
     class="ant-typography"
   >
-    After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims to
+    After massive project practice and summaries, gui, a design language for background applications, is refined by Ant UED Team, which aims to
     <span
       class="ant-typography"
     >
@@ -1707,7 +1707,7 @@ Array [
   <div
     class="ant-typography"
   >
-    随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁集团体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于
+    随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁集团体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 gui。基于
     <span
       class="ant-typography"
     >
@@ -1865,7 +1865,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
     <span
       class="ant-typography"
     >
-      Ant Design (default)
+      gui (default)
     </span>
   </div>
   <div
@@ -1874,7 +1874,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
     <span
       class="ant-typography ant-typography-secondary"
     >
-      Ant Design (secondary)
+      gui (secondary)
     </span>
   </div>
   <div
@@ -1883,7 +1883,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
     <span
       class="ant-typography ant-typography-success"
     >
-      Ant Design (success)
+      gui (success)
     </span>
   </div>
   <div
@@ -1892,7 +1892,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
     <span
       class="ant-typography ant-typography-warning"
     >
-      Ant Design (warning)
+      gui (warning)
     </span>
   </div>
   <div
@@ -1901,7 +1901,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
     <span
       class="ant-typography ant-typography-danger"
     >
-      Ant Design (danger)
+      gui (danger)
     </span>
   </div>
   <div
@@ -1910,7 +1910,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
     <span
       class="ant-typography ant-typography-disabled"
     >
-      Ant Design (disabled)
+      gui (disabled)
     </span>
   </div>
   <div
@@ -1920,7 +1920,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
       class="ant-typography"
     >
       <mark>
-        Ant Design (mark)
+        gui (mark)
       </mark>
     </span>
   </div>
@@ -1931,7 +1931,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
       class="ant-typography"
     >
       <code>
-        Ant Design (code)
+        gui (code)
       </code>
     </span>
   </div>
@@ -1942,7 +1942,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
       class="ant-typography"
     >
       <kbd>
-        Ant Design (keyboard)
+        gui (keyboard)
       </kbd>
     </span>
   </div>
@@ -1953,7 +1953,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
       class="ant-typography"
     >
       <u>
-        Ant Design (underline)
+        gui (underline)
       </u>
     </span>
   </div>
@@ -1964,7 +1964,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
       class="ant-typography"
     >
       <del>
-        Ant Design (delete)
+        gui (delete)
       </del>
     </span>
   </div>
@@ -1975,7 +1975,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
       class="ant-typography"
     >
       <strong>
-        Ant Design (strong)
+        gui (strong)
       </strong>
     </span>
   </div>
@@ -1986,7 +1986,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
       class="ant-typography"
     >
       <i>
-        Ant Design (italic)
+        gui (italic)
       </i>
     </span>
   </div>
@@ -1999,7 +1999,7 @@ exports[`renders components/typography/demo/text.tsx correctly 1`] = `
       rel="noopener noreferrer"
       target="_blank"
     >
-      Ant Design (Link)
+      gui (Link)
     </a>
   </div>
 </div>
@@ -2010,27 +2010,27 @@ Array [
   <h1
     class="ant-typography"
   >
-    h1. Ant Design
+    h1. gui
   </h1>,
   <h2
     class="ant-typography"
   >
-    h2. Ant Design
+    h2. gui
   </h2>,
   <h3
     class="ant-typography"
   >
-    h3. Ant Design
+    h3. gui
   </h3>,
   <h4
     class="ant-typography"
   >
-    h4. Ant Design
+    h4. gui
   </h4>,
   <h5
     class="ant-typography"
   >
-    h5. Ant Design
+    h5. gui
   </h5>,
 ]
 `;

@@ -25,7 +25,7 @@ const App: React.FC = () => {
         { name: 'count', desc: locale.count, version: '5.4.0' },
       ]}
     >
-      <Input.TextArea defaultValue="Hello, Ant Design" rows={3} count={{ max: 100, show: true }} />
+      <Input.TextArea defaultValue="Hello, gui" rows={3} count={{ max: 100, show: true }} />
     </SemanticPreview>
   );
 };

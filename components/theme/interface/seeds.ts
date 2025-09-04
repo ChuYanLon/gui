@@ -77,8 +77,8 @@ export interface SeedToken extends PresetColorType {
   /**
    * @nameZH 字体
    * @nameEN Font family for default text
-   * @desc Ant Design 的字体家族中优先使用系统默认的界面字体，同时提供了一套利于屏显的备用字体库，来维护在不同平台以及浏览器的显示下，字体始终保持良好的易读性和可读性，体现了友好、稳定和专业的特性。
-   * @descEN The font family of Ant Design prioritizes the default interface font of the system, and provides a set of alternative font libraries that are suitable for screen display to maintain the readability and readability of the font under different platforms and browsers, reflecting the friendly, stable and professional characteristics.
+   * @desc gui 的字体家族中优先使用系统默认的界面字体，同时提供了一套利于屏显的备用字体库，来维护在不同平台以及浏览器的显示下，字体始终保持良好的易读性和可读性，体现了友好、稳定和专业的特性。
+   * @descEN The font family of gui prioritizes the default interface font of the system, and provides a set of alternative font libraries that are suitable for screen display to maintain the readability and readability of the font under different platforms and browsers, reflecting the friendly, stable and professional characteristics.
    */
   fontFamily: string;
 
@@ -132,8 +132,8 @@ export interface SeedToken extends PresetColorType {
   /**
    * @nameZH 尺寸变化单位
    * @nameEN Size Change Unit
-   * @desc 用于控制组件尺寸的变化单位，在 Ant Design 中我们的基础单位为 4 ，便于更加细致地控制尺寸梯度
-   * @descEN The unit of size change, in Ant Design, our base unit is 4, which is more fine-grained control of the size step
+   * @desc 用于控制组件尺寸的变化单位，在 gui 中我们的基础单位为 4 ，便于更加细致地控制尺寸梯度
+   * @descEN The unit of size change, in gui, our base unit is 4, which is more fine-grained control of the size step
    * @default 4
    */
   sizeUnit: number;
@@ -157,8 +157,8 @@ export interface SeedToken extends PresetColorType {
   /**
    * @nameZH 基础高度
    * @nameEN Base Control Height
-   * @desc Ant Design 中按钮和输入框等基础控件的高度
-   * @descEN The height of the basic controls such as buttons and input boxes in Ant Design
+   * @desc gui 中按钮和输入框等基础控件的高度
+   * @descEN The height of the basic controls such as buttons and input boxes in gui
    * @default 32
    */
   controlHeight: number;

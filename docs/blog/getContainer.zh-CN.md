@@ -10,7 +10,7 @@ yuque_url: https://www.yuque.com/ant-design/ant-design/eegn0tn5fy94uwk8
 
 <img alt="Overflow" height="200" src="https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*Noh-TYJ0BdcAAAAAAAAAAAAADrJ8AQ/original" />
 
-因而在 Ant Design 中，我们默认将其渲染到 `body` 下，但是这又会带来新的问题。由于不在同一个容器下，当用户滚动屏幕时会发现弹出层并未跟随滚动：
+因而在 gui 中，我们默认将其渲染到 `body` 下，但是这又会带来新的问题。由于不在同一个容器下，当用户滚动屏幕时会发现弹出层并未跟随滚动：
 
 <img alt="Scroll" height="370" src="https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*d44KQqkTX90AAAAAAAAAAAAADrJ8AQ/original" />
 

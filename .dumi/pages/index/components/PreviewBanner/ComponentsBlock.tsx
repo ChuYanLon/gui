@@ -28,7 +28,7 @@ const { _InternalPanelDoNotUseOrYouWillBeFired: InternalMessage } = message;
 const locales = {
   cn: {
     range: '设置范围',
-    text: 'Ant Design 5.0 使用 CSS-in-JS 技术以提供动态与混合主题的能力。与此同时，我们使用组件级别的 CSS-in-JS 解决方案，让你的应用获得更好的性能。',
+    text: 'gui 使用 CSS-in-JS 技术以提供动态与混合主题的能力。与此同时，我们使用组件级别的 CSS-in-JS 解决方案，让你的应用获得更好的性能。',
     infoText: '信息内容展示',
     dropdown: '下拉菜单',
     finished: '已完成',
@@ -44,12 +44,12 @@ const locales = {
     default: '默认按钮',
     dashed: '虚线按钮',
     icon: '图标按钮',
-    hello: '你好，Ant Design!',
-    release: 'Ant Design 5.0 正式发布！',
+    hello: '你好，gui!',
+    release: 'gui 正式发布！',
   },
   en: {
     range: 'Set Range',
-    text: 'Ant Design 5.0 use CSS-in-JS technology to provide dynamic & mix theme ability. And which use component level CSS-in-JS solution get your application a better performance.',
+    text: 'gui use CSS-in-JS technology to provide dynamic & mix theme ability. And which use component level CSS-in-JS solution get your application a better performance.',
     infoText: 'Info Text',
     dropdown: 'Dropdown',
     finished: 'Finished',
@@ -65,8 +65,8 @@ const locales = {
     default: 'Default',
     dashed: 'Dashed',
     icon: 'Icon',
-    hello: 'Hello, Ant Design!',
-    release: 'Ant Design 5.0 is released!',
+    hello: 'Hello, gui!',
+    release: 'gui is released!',
   },
 };
 
@@ -109,7 +109,7 @@ const ComponentsBlock: React.FC = () => {
 
   return (
     <Tilt options={{ max: 4, glare: false, scale: 0.98 }} className={styles.holder}>
-      <ModalPanel title="Ant Design 5.0" width="100%">
+      <ModalPanel title="gui" width="100%">
         {locale.text}
       </ModalPanel>
       <Alert message={locale.infoText} type="info" />
@@ -209,7 +209,7 @@ const ComponentsBlock: React.FC = () => {
         <InternalMessage content={locale.release} type="success" />
       </div>
       <InternalTooltip title={locale.hello} placement="topLeft" className={styles.noMargin} />
-      <Alert message="Ant Design love you!" type="success" />
+      <Alert message="gui love you!" type="success" />
     </Tilt>
   );
 };

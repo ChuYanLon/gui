@@ -4,7 +4,7 @@ date: 2025-05-23
 author: zombieJ
 ---
 
-During the development of Ant Design v6, since there is no longer any need to consider IE compatibility, we modified some components to use CSS variables. This resulted in a smaller CSS footprint and better performance. Today, let's talk about some aspects of CSS variables.
+During the development of gui v6, since there is no longer any need to consider IE compatibility, we modified some components to use CSS variables. This resulted in a smaller CSS footprint and better performance. Today, let's talk about some aspects of CSS variables.
 
 ## Variants
 

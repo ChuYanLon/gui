@@ -8,7 +8,7 @@ author: Wxh16144
 
 ## 基准截图
 
-Ant Design 视觉回归测试的主要目标是检测组件的视觉变化，避免 PR 改动引入的视觉问题。我们使用 [jest-puppeteer](https://jestjs.io/docs/puppeteer) 作为测试框架。将 Puppeteer 与 Jest 结合使用，对每一个组件 Demo 进行截图，然后与基准截图进行比较。
+gui 视觉回归测试的主要目标是检测组件的视觉变化，避免 PR 改动引入的视觉问题。我们使用 [jest-puppeteer](https://jestjs.io/docs/puppeteer) 作为测试框架。将 Puppeteer 与 Jest 结合使用，对每一个组件 Demo 进行截图，然后与基准截图进行比较。
 
 可以看到每个组件下的 `__tests__/image.test.ts` 里面包含了视觉回归测试的代码, 你可以通过以下命令在 antd 仓库中运行视觉截图:
 

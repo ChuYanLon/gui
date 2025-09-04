@@ -19,7 +19,7 @@ interface WatermarkConfig {
 const App: React.FC = () => {
   const [form] = Form.useForm();
   const [config, setConfig] = useState<WatermarkConfig>({
-    content: 'Ant Design',
+    content: 'gui',
     color: 'rgba(0, 0, 0, 0.15)',
     fontSize: 16,
     zIndex: 11,
@@ -46,7 +46,7 @@ const App: React.FC = () => {
             The light-speed iteration of the digital world makes products more complex. However,
             human consciousness and attention resources are limited. Facing this design
             contradiction, the pursuit of natural interaction will be the consistent direction of
-            Ant Design.
+            gui.
           </Paragraph>
           <Paragraph>
             Natural user cognition: According to cognitive psychology, about 80% of external

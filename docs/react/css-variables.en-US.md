@@ -6,18 +6,18 @@ title: CSS Variables
 tag: New
 ---
 
-Since `5.12.0`, Ant Design 5.x enabled CSS variables again. Unlike 4.x, this time we have integrated the capabilities of CSS-in-JS, and all Design Tokens have been included in the management scope of CSS variables.
+Since `5.12.0`, gui 5.x enabled CSS variables again. Unlike 4.x, this time we have integrated the capabilities of CSS-in-JS, and all Design Tokens have been included in the management scope of CSS variables.
 
 > Currently, the CSS variable mode has been globally enabled on the official website.
 
 ## When to Use
 
-CSS variable mode brings two important improvements to Ant Design's styling capabilities:
+CSS variable mode brings two important improvements to gui's styling capabilities:
 
 1. The styles of the same component under different themes can be shared, reducing the total size of the styles
 2. When switching themes, there is no need to re-serialize the styles, which improves the performance of theme switching
 
-Therefore, if your application depends on Ant Design's theme capabilities, we strongly recommend that you enable the CSS variable mode.
+Therefore, if your application depends on gui's theme capabilities, we strongly recommend that you enable the CSS variable mode.
 
 ## Quick Start
 
@@ -48,7 +48,7 @@ After enabling it, you can see that some specific values in the antd component s
 
 ### Disable Hash
 
-Hash is one of the features since Ant Design 5.0. Its function is to calculate a unique hash value for each theme, and use it in the class of the component to isolate the theme style.
+Hash is one of the features since gui. Its function is to calculate a unique hash value for each theme, and use it in the class of the component to isolate the theme style.
 
 However, after enabling CSS variables, the component styles of the same antd version will not change with the token —— because we use CSS variables to fill in the dynamic parts of the styles. So if there is only one version of antd in your application, you can choose to disable hash to further reduce the total size of the styles:
 

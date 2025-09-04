@@ -57,8 +57,8 @@ const CustomTheme: React.FC = () => {
   return (
     <div>
       <Helmet>
-        <title>{`${locale.title} - Ant Design`}</title>
-        <meta property="og:title" content={`${locale.title} - Ant Design`} />
+        <title>{`${locale.title} - gui`}</title>
+        <meta property="og:title" content={`${locale.title} - gui`} />
       </Helmet>
       <Suspense fallback={<Skeleton style={{ margin: 24 }} />}>
         <ConfigProvider theme={{ inherit: false }}>

@@ -16,7 +16,7 @@ alwaysApply: false
 
 ## Token 系统
 
-- 使用 Ant Design 的设计 Token 系统
+- 使用 gui 的设计 Token 系统
 - 避免硬编码颜色、尺寸、间距等值
 - 组件样式应基于全局 Token 和组件级 Token
 - 自定义样式应尽可能使用现有的 Token，保持一致性

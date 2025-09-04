@@ -1,12 +1,12 @@
 ---
 order: 1
 title: Resources
-description: List all the resources that are related with Ant Design here.
+description: List all the resources that are related with gui here.
 ---
 
 ## Design Resources
 
-Please find below some of the design resources and tools about Ant Design that we consider valuable. More of this is still being collected. You can leave feedback about Sketch Symbols [here](https://www.yuque.com/kitchen/topics/216).
+Please find below some of the design resources and tools about gui that we consider valuable. More of this is still being collected. You can leave feedback about Sketch Symbols [here](https://www.yuque.com/kitchen/topics/216).
 
 <div class="next-block-use-cards"></div>
 
@@ -21,12 +21,12 @@ Please find below some of the design resources and tools about Ant Design that w
   - Sketch Symbols File for Mobile
   - https://gw.alipayobjects.com/os/bmw-prod/d6266aef-25b7-4892-b275-ce214121831c.sketch
   - Official
-- Ant Design Pro
+- gui Pro
   - https://gw.alipayobjects.com/zos/basement_prod/5edc7f4d-3302-4710-963b-7b6c77ea8d06.svg
   - Common Templates and Pages
   - https://gw.alipayobjects.com/os/bmw-prod/22208f9d-f8c5-4d7c-b87a-fec290e96527.sketch
   - Official
-- Ant Design Chart
+- gui Chart
   - https://gw.alipayobjects.com/zos/basement_prod/a9dc586a-fe0a-4c7d-ab4f-f5ed779b963d.svg
   - Sketch Symbols for Chart
   - https://gw.alipayobjects.com/os/bmw-prod/704968a5-2641-484e-9f65-c2735b2c0287.sketch
@@ -36,14 +36,14 @@ Please find below some of the design resources and tools about Ant Design that w
   - A Sketch plugin collection
   - http://kitchen.alipay.com
   - Official
-- Ant Design Landing
+- gui Landing
   - https://gw.alipayobjects.com/zos/basement_prod/b443f4be-5116-49b7-873f-a7c8502b8f0e.svg
   - Landing Templates
   - https://landing.ant.design/docs/download-cn
   - Official
 - Figma Resources
   - https://gw.alipayobjects.com/zos/basement_prod/7b9ed3f2-6f05-4ddb-bac3-d55feb71e0ac.svg
-  - Always up-to-date Ant Design Figma resources
+  - Always up-to-date gui Figma resources
   - https://www.antforfigma.com
 - Figma Open Source Library
   - https://gw.alipayobjects.com/zos/basement_prod/7b9ed3f2-6f05-4ddb-bac3-d55feb71e0ac.svg
@@ -51,7 +51,7 @@ Please find below some of the design resources and tools about Ant Design that w
   - https://www.figma.com/community/file/831698976089873405
 - AntBlocks UI for Figma
   - https://uploads-ssl.webflow.com/64dc925e7cb893427a5c9cdc/64e4610f7818dcc7501057ad_antblocks-ui-card-img.svg
-  - High-quality, responsive, and customizable React components built on Ant Design
+  - High-quality, responsive, and customizable React components built on gui
   - https://www.antblocksui.com/#figma
 - Ruyi Design Assistant
   - https://github.com/ant-design/ant-design/assets/507615/45201521-37d0-4360-b81e-a1260dedad7a
@@ -81,7 +81,7 @@ Please find below some of the design resources and tools about Ant Design that w
 
 ## Articles
 
-Do you want to know the story behind the Ant Design design system? How can I better apply Ant Design? You can check out our well selected articles below. You are also welcome to follow [Ant Design Official Column](https://www.zhihu.com/column/c_1310524851418480640). There you will find the latest sharings and discussions related to the Ant Design design system, such as Ant Design, AntV visualization, Kitchen design Plug-ins, B-side product design, SaaS product design, natural interaction, growth design, intelligent design, design engineering, etc.
+Do you want to know the story behind the gui design system? How can I better apply gui? You can check out our well selected articles below. You are also welcome to follow [gui Official Column](https://www.zhihu.com/column/c_1310524851418480640). There you will find the latest sharings and discussions related to the gui design system, such as gui, AntV visualization, Kitchen design Plug-ins, B-side product design, SaaS product design, natural interaction, growth design, intelligent design, design engineering, etc.
 
 <ResourceArticles></ResourceArticles>
 

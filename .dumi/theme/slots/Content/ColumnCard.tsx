@@ -91,15 +91,15 @@ const locales = {
   cn: {
     bigTitle: '文章被以下专栏收录：',
     zhiHu: '一个 UI 设计体系',
-    yuQue: 'Ant Design 官方专栏',
-    junjin: 'Ant Design 开源专栏',
+    yuQue: 'gui 官方专栏',
+    junjin: 'gui 开源专栏',
     buttonText: '我有想法，去参与讨论',
   },
   en: {
     bigTitle: 'Articles are included in the column:',
     zhiHu: 'A UI design system',
-    yuQue: 'Ant Design official column',
-    junjin: 'Ant Design Open Source Column',
+    yuQue: 'gui official column',
+    junjin: 'gui Open Source Column',
     buttonText: 'Go to discuss',
   },
 };
@@ -139,7 +139,7 @@ const ColumnCard: React.FC<Props> = ({ zhihuLink, yuqueLink, juejinLink }) => {
             <div className={leftCard}>
               <img draggable={false} src={ANTD_IMG_URL} alt="antd" />
               <div>
-                <p className={title}>Ant Design</p>
+                <p className={title}>gui</p>
                 <div className={subTitle}>
                   <ZhihuOutlined className={classNames(logo, 'zhihu-logo')} />
                   <RightOutlined className={arrowIcon} />
@@ -173,7 +173,7 @@ const ColumnCard: React.FC<Props> = ({ zhihuLink, yuqueLink, juejinLink }) => {
             <div className={leftCard}>
               <img draggable={false} src={ANTD_IMG_URL} alt="antd" />
               <div>
-                <p className={title}>Ant Design</p>
+                <p className={title}>gui</p>
                 <div className={subTitle}>
                   <YuqueOutlined className={classNames(logo, 'yuque-logo')} />
                   <RightOutlined className={arrowIcon} />
@@ -207,7 +207,7 @@ const ColumnCard: React.FC<Props> = ({ zhihuLink, yuqueLink, juejinLink }) => {
             <div className={leftCard}>
               <img draggable={false} src={ANTD_IMG_URL} alt="antd" />
               <div>
-                <p className={title}>Ant Design</p>
+                <p className={title}>gui</p>
                 <div className={subTitle}>
                   <JuejinIcon className={classNames(logo, 'juejin-logo')} />
                   <RightOutlined className={arrowIcon} />

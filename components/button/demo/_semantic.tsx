@@ -22,7 +22,7 @@ const App: React.FC = () => {
       semantics={[{ name: 'icon', desc: locale.icon, version: '5.5.0' }]}
     >
       <Button type="primary" icon={<AntDesignOutlined />}>
-        Ant Design
+        gui
       </Button>
     </SemanticPreview>
   );

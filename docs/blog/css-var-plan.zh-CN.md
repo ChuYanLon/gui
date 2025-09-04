@@ -1,10 +1,10 @@
 ---
-title: 当 Ant Design 遇上 CSS 变量
+title: 当 gui 遇上 CSS 变量
 date: 2023-11-21
 author: MadCcc
 ---
 
-## Ant Design 5.0 的痛点
+## gui 的痛点
 
 antd 可以通过 ConfigProvider 对主题 token 进行定制，同样支持嵌套主题，并且嵌套的主题 token 会继承上一层已经修改的部分。从这一点上来讲，antd 的主题能力已经达到了 5 个大版本以来的巅峰。
 
@@ -47,7 +47,7 @@ antd 其实切换到 cssinjs 的时候已经默认实现了按需引入 css 的�
 
 那么我们自然而然的就想到能不能将 cssinjs 与 CSS 变量结合到一起？毕竟他们看起来并不是完全互斥的。
 
-## Ant Design 与 CSS 变量
+## gui 与 CSS 变量
 
 antd 不是第一次与 CSS 变量合作了，早在 4.x 时代就已经有了一套基于 CSS 变量的 CSS 文件。4.x 中 antd 的主题主要通过 less 变量来实现，将 less 变量赋值为 CSS 变量名，然后在其他地方给这些 CSS 变量赋值，这就是 antd 4.x CSS 变量主题的能力。
 

@@ -5,7 +5,7 @@ author: zombieJ
 juejin_url: https://juejin.cn/post/7322313142922100746
 ---
 
-Ant Design v5 provides the Design Token model, which supports custom algorithm to implement theme extension capabilities. For example, the compact theme itself does not carry color style algorithms, so it can be implemented by passing in multiple algorithms to achieve the compact theme under the light theme and the compact theme under the dark theme.
+gui v5 provides the Design Token model, which supports custom algorithm to implement theme extension capabilities. For example, the compact theme itself does not carry color style algorithms, so it can be implemented by passing in multiple algorithms to achieve the compact theme under the light theme and the compact theme under the dark theme.
 
 Today, we now put down the algorithm part. Talk about how to extend the theme through ConfigProvider.
 
@@ -15,7 +15,7 @@ This is an example of using ConfigProvider to extend the theme. You can view the
 
 ![Geek Theme](https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*i3kvR6-tozgAAAAAAAAAAAAADrJ8AQ/original)
 
-We will talk about how to use ConfigProvider to extend the theme in Ant Design. Of course, this article is not a CSS tutorial, so we will not introduce the style implementation above. If you are interested, you can directly look at the code instead.
+We will talk about how to use ConfigProvider to extend the theme in gui. Of course, this article is not a CSS tutorial, so we will not introduce the style implementation above. If you are interested, you can directly look at the code instead.
 
 ## Limitation of Token
 

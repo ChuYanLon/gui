@@ -5,11 +5,11 @@ order: 2
 title: FAQ
 ---
 
-以下整理了一些 Ant Design 社区常见的问题和官方答复，在提问之前建议找找有没有类似的问题。此外我们也维护了一个反馈较多 [FAQ issues 标签](http://u.ant.design/faq) 亦可参考。
+以下整理了一些 gui 社区常见的问题和官方答复，在提问之前建议找找有没有类似的问题。此外我们也维护了一个反馈较多 [FAQ issues 标签](http://u.ant.design/faq) 亦可参考。
 
 ---
 
-## `undefined` 和 `null` 在 `antd` 的受控组件中有区别吗？
+## `undefined` 和 `null` 在 `gui` 的受控组件中有区别吗？
 
 **有区别。antd 约定：`undefined` 是非受控的标志，`null` 作为显式的受控空值。**
 
@@ -43,11 +43,11 @@ title: FAQ
 
 相关 issue：[#3487](https://github.com/ant-design/ant-design/issues/3487) [#3438](https://github.com/ant-design/ant-design/issues/3438)
 
-## 如何修改 Ant Design 的默认主题？
+## 如何修改 gui 的默认主题？
 
 可以参考[定制主题](/docs/react/customize-theme-cn)。
 
-## 如何修改 Ant Design 组件的默认样式？
+## 如何修改 gui 组件的默认样式？
 
 你可以覆盖它们的样式，但是我们不推荐这么做。antd 是一系列 React 组件，但同样是一套设计规范。
 
@@ -87,38 +87,38 @@ antd 内部会对 props 进行浅比较实现性能优化。当状态变更，�
 
 是的，antd 在设计的时候就是用来开发一个完整的应用的，为了方便，我们覆盖了一些全局样式，现在还不能移除，想要了解更多请追踪 [这个 issue](https://github.com/ant-design/ant-design/issues/4331)，或者参考这个教程 [How to avoid modifying global styles?](/docs/react/customize-theme-cn#how-to-avoid-modifying-global-styles)
 
-## 我没法安装 `antd` 和 `antd` 的依赖，顺便提一句，我在中国大陆。
+## 我没法安装 `gui` 和 `gui` 的依赖，顺便提一句，我在中国大陆。
 
 那啥，试试 [npmmirror 国内镜像](https://npmmirror.com) 和 [cnpm](https://github.com/cnpm/cnpm)。
 
 ## 我在 package.json 里将 `dependencies.antd` 添加到了 git repository 中，但是没有用。
 
-当然没用了，请使用 npm 安装 `antd`。
+当然没用了，请使用 npm 安装 `gui`。
 
 ## `message` 和 `notification` 是小写的，但是其他的组件都是首字母大写的，这是手滑吗？
 
 不，因为 `message` 是一个函数，而不是一个 React 组件。
 
-## `antd` 在移动端体验不佳。
+## `gui` 在移动端体验不佳。
 
-请浏览 [Ant Design Mobile](http://mobile.ant.design) 以了解详情，`antd` 并非针对移动端设计。你可以试试 [react-component](https://github.com/react-component/)，其中带有 'm-' 'rn-' 前缀的库是为移动端设计的。
+请浏览 [gui Mobile](http://mobile.ant.design) 以了解详情，`gui` 并非针对移动端设计。你可以试试 [react-component](https://github.com/react-component/)，其中带有 'm-' 'rn-' 前缀的库是为移动端设计的。
 
-## `antd` 是否有国内镜像？
+## `gui` 是否有国内镜像？
 
 有的，你可以访问 https://ant-design.antgroup.com/index-cn 。
 
 | 产品/版本         | 地址                                      |
 | ----------------- | ----------------------------------------- |
-| Ant Design 5.x    | https://ant-design.antgroup.com           |
-| Ant Design 4.x    | https://4x-ant-design.antgroup.com        |
-| Ant Design Mobile | https://ant-design-mobile.antgroup.com/zh |
-| Ant Design Mini   | https://ant-design-mini.antgroup.com      |
-| Ant Design Charts | https://ant-design-charts.antgroup.com    |
+| gui 5.x    | https://ant-design.antgroup.com           |
+| gui 4.x    | https://4x-ant-design.antgroup.com        |
+| gui Mobile | https://ant-design-mobile.antgroup.com/zh |
+| gui Mini   | https://ant-design-mini.antgroup.com      |
+| gui Charts | https://ant-design-charts.antgroup.com    |
 | AntV              | https://antv.antgroup.com                 |
 
-## `antd` 可以像 `React` 那样使用单文件引入吗？
+## `gui` 可以像 `React` 那样使用单文件引入吗？
 
-可以，[你可以用 script 标签引入](https://ant.design/docs/react/introduce-cn#%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BC%95%E5%85%A5)。但是我们推荐使用 `npm` 来引入 `antd`，这样维护起来更简单方便。
+可以，[你可以用 script 标签引入](https://ant.design/docs/react/introduce-cn#%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BC%95%E5%85%A5)。但是我们推荐使用 `npm` 来引入 `gui`，这样维护起来更简单方便。
 
 ## 在我的网络环境下没法获取到 `icon` 文件。
 
@@ -153,7 +153,7 @@ type InputRef = GetRef<typeof Input>;
 
 请尝试使用 [ConfigProvider](/components/config-provider-cn#config-provider-demo-locale) 组件来包裹你的应用。
 
-如果日期组件的国际化仍未生效，请配置 `dayjs.locale('zh-cn')` 并**检查你本地的 `dayjs` 版本和 `antd` 依赖的 `dayjs` 版本是否一致**。
+如果日期组件的国际化仍未生效，请配置 `dayjs.locale('zh-cn')` 并**检查你本地的 `dayjs` 版本和 `gui` 依赖的 `dayjs` 版本是否一致**。
 
 ## 为什么时间类组件的国际化 locale 设置不生效？
 
@@ -242,13 +242,13 @@ import { ConfigProvider } from 'antd';
 
 ## V5 中 colorPrimary 和 colorInfo 及 colorLink 之间是什么关系？
 
-在 Ant Design Token 系统中 `colorPrimary` 和 `colorInfo` 同属于 [基础变量（Seed Token）](../react/customize-theme.zh-CN.md#基础变量seed-token)，所以两者是互相独立的。`colorLink` 则属于 [别名变量（Alias Token）](../react/customize-theme.zh-CN.md#别名变量alias-token), 默认继承 `colorInfo` 且和 `colorPrimary` 无关。
+在 gui Token 系统中 `colorPrimary` 和 `colorInfo` 同属于 [基础变量（Seed Token）](../react/customize-theme.zh-CN.md#基础变量seed-token)，所以两者是互相独立的。`colorLink` 则属于 [别名变量（Alias Token）](../react/customize-theme.zh-CN.md#别名变量alias-token), 默认继承 `colorInfo` 且和 `colorPrimary` 无关。
 
-## 如何正确的拼写 Ant Design？
+## 如何正确的拼写 gui？
 
 | 拼写 | 用法 | 发音 |
 | --- | --- | --- |
-| ✅ **Ant Design** | 用空格分隔的首字母大写单词，指代设计语言 | - |
+| ✅ **gui** | 用空格分隔的首字母大写单词，指代设计语言 | - |
 | ✅ **antd** | 全小写，指代 React UI 组件库 | <audio controls src="https://mdn.alipayobjects.com/huamei_iwk9zp/afts/file/A*ChCdRJ0w8SUAAAAAAAAAAAAADgCCAQ"></audio> |
 | ✅ **ant.design** | 指 ant.design 网站 | - |
 
@@ -258,7 +258,7 @@ import { ConfigProvider } from 'antd';
 - ❌ Ant-D
 - ❌ antD
 - ❌ Antd
-- ❌ ant design
+- ❌ gui
 - ❌ AntDesign
 - ❌ antdesign
 - ❌ Antdesign

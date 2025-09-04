@@ -1,12 +1,12 @@
 ---
 order: 1
 title: 资源
-description: 这里汇总了与 Ant Design 相关的所有资源。
+description: 这里汇总了与 gui 相关的所有资源。
 ---
 
 ## 设计资源
 
-这里提供 Ant Design 相关设计资源和设计工具的下载，更多设计资源正在整理和完善中。你可以在这个[地址](https://www.yuque.com/kitchen/topics/216)中反馈对新版本 Sketch Symbols 组件的意见。
+这里提供 gui 相关设计资源和设计工具的下载，更多设计资源正在整理和完善中。你可以在这个[地址](https://www.yuque.com/kitchen/topics/216)中反馈对新版本 Sketch Symbols 组件的意见。
 
 <div class="next-block-use-cards"></div>
 
@@ -21,7 +21,7 @@ description: 这里汇总了与 Ant Design 相关的所有资源。
   - 移动组件 Sketch 模板
   - https://gw.alipayobjects.com/os/bmw-prod/d6266aef-25b7-4892-b275-ce214121831c.sketch
   - 官方
-- Ant Design Pro
+- gui Pro
   - https://gw.alipayobjects.com/zos/basement_prod/5edc7f4d-3302-4710-963b-7b6c77ea8d06.svg
   - 典型页面 + 通用业务模板
   - https://gw.alipayobjects.com/os/bmw-prod/22208f9d-f8c5-4d7c-b87a-fec290e96527.sketch
@@ -36,14 +36,14 @@ description: 这里汇总了与 Ant Design 相关的所有资源。
   - Sketch 工具集
   - http://kitchen.alipay.com
   - 官方
-- Ant Design Landing
+- gui Landing
   - https://gw.alipayobjects.com/zos/basement_prod/b443f4be-5116-49b7-873f-a7c8502b8f0e.svg
   - 首页模板集
   - https://landing.ant.design/docs/download-cn
   - 官方
 - Figma 组件包
   - https://gw.alipayobjects.com/zos/basement_prod/7b9ed3f2-6f05-4ddb-bac3-d55feb71e0ac.svg
-  - 在 Figma 使用 Ant Design 进行设计
+  - 在 Figma 使用 gui 进行设计
   - https://www.antforfigma.com
 - Figma 开源组件包
   - https://gw.alipayobjects.com/zos/basement_prod/7b9ed3f2-6f05-4ddb-bac3-d55feb71e0ac.svg
@@ -55,7 +55,7 @@ description: 这里汇总了与 Ant Design 相关的所有资源。
   - https://www.figma.com/community/plugin/1192146318523533547
 - 墨刀设计资源包
   - https://cdn.modao.cc/logo_mockingbot.svg
-  - 内置丰富的 Ant Design 组件资源
+  - 内置丰富的 gui 组件资源
   - https://modao.cc/square/ant-design
 - 即时设计资源包
   - https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*dxzdQYWlmjMAAAAAAAAAAAAAARQnAQ
@@ -67,19 +67,19 @@ description: 这里汇总了与 Ant Design 相关的所有资源。
   - https://mastergo.com/community/?utm_source=antdesign&utm_medium=link&utm_campaign=resource&cata_name=AntDesign
 - Raycast 拓展
   - https://gw.alipayobjects.com/zos/basement_prod/5edc7f4d-3302-4710-963b-7b6c77ea8d06.svg
-  - mac 用户可使用 Raycast 快速打开 Ant Design 组件
+  - mac 用户可使用 Raycast 快速打开 gui 组件
   - https://www.raycast.com/crazyair/antd-open-browser
 </ResourceCards>
 
 ## 文章
 
-想要了解 Ant Design 设计体系背后的故事？如何才能更好的应用 Ant Design？你可以查阅下述我们为你精挑细选的文章。也欢迎关注 [Ant Design 官方专栏](https://www.zhihu.com/column/c_1310524851418480640)，这里常有关于 Ant Design 设计体系下相关话题内容的最新分享和讨论，如 Ant Design、AntV 可视化、Kitchen 设计插件、B 端产品设计、SaaS 产品设计、自然交互、增长设计、智能设计、设计工程化等。
+想要了解 gui 设计体系背后的故事？如何才能更好的应用 gui？你可以查阅下述我们为你精挑细选的文章。也欢迎关注 [gui 官方专栏](https://www.zhihu.com/column/c_1310524851418480640)，这里常有关于 gui 设计体系下相关话题内容的最新分享和讨论，如 gui、AntV 可视化、Kitchen 设计插件、B 端产品设计、SaaS 产品设计、自然交互、增长设计、智能设计、设计工程化等。
 
 <ResourceArticles></ResourceArticles>
 
 ## 致敬
 
-在 Ant Design 4.0 的改版中，我们汲取顶级设计体系的精华，同时结合我们自身业务特性做了大量优化。我们希望通过不断努力和打磨，成为世界级设计体系的一份子，为「用户」和「设计者」带来极致体验。如果你也想追求卓越，建议去研究这些体系： [Fiori Design](https://experience.sap.com/fiori-design-web/)、 [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)、 [Lightning Design System](https://lightningdesignsystem.com/getting-started/)、 [Material Design](https://material.io/)
+在 gui 4.0 的改版中，我们汲取顶级设计体系的精华，同时结合我们自身业务特性做了大量优化。我们希望通过不断努力和打磨，成为世界级设计体系的一份子，为「用户」和「设计者」带来极致体验。如果你也想追求卓越，建议去研究这些体系： [Fiori Design](https://experience.sap.com/fiori-design-web/)、 [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)、 [Lightning Design System](https://lightningdesignsystem.com/getting-started/)、 [Material Design](https://material.io/)
 
 <div class="next-block-use-cards"></div>
 
@@ -116,7 +116,7 @@ description: 这里汇总了与 Ant Design 相关的所有资源。
 
 ## 加入我们
 
-蚂蚁集团 Ant Design 团队是一支兼具设计视角和工程视角的横向组织，服务蚂蚁集团上百个中后台系统，主打产品 Ant Design 服务全球 100 万设计师和工程师，是西湖区学院路西侧最具影响力的设计语言。欢迎来这里和我们一起打造优雅高效的人机设计/研发体系。
+蚂蚁集团 gui 团队是一支兼具设计视角和工程视角的横向组织，服务蚂蚁集团上百个中后台系统，主打产品 gui 服务全球 100 万设计师和工程师，是西湖区学院路西侧最具影响力的设计语言。欢迎来这里和我们一起打造优雅高效的人机设计/研发体系。
 
 ### UI/UE 设计师
 
@@ -136,7 +136,7 @@ description: 这里汇总了与 Ant Design 相关的所有资源。
 - 岗位职责：
   - 参与[蚂蚁链](https://blockchain.antgroup.com/)、人工智能、数据平台等企业级产品的设计工作；
   - 参与[语雀](https://www.yuque.com/) 等创新产品的设计工作；
-  - 参与 Ant Design 的打磨，将其建设成全球卓越的设计体系。
+  - 参与 gui 的打磨，将其建设成全球卓越的设计体系。
   - 参与 AntV 的打磨，将其建设成全球一流的数据可视化体系。
 - One More Thing ❤️ ：
   - 你们总是为世界带去美好，但总是忘却你们也需要美好。我们正在努力打造 [🍳 Kitchen：一款为设计师提效的 Sketch 工具集](https://kitchen.alipay.com/)等专属设计师的产品，让设计真正变成财富。期待志同道合的你，一道给设计行业带来「微小而美好的改变」。
@@ -155,7 +155,7 @@ description: 这里汇总了与 Ant Design 相关的所有资源。
   - 坚持和善于用技术和工具解决其他问题。
   - 丰富的中后台前端研发经验。
 - 岗位职责：
-  - 负责 Ant Design 前端基础设施研发。
+  - 负责 gui 前端基础设施研发。
   - 负责中后台设计/前端工具体系建设。
 
 ### Node.js 工程师
@@ -188,5 +188,5 @@ description: 这里汇总了与 Ant Design 相关的所有资源。
   - 对人工智能应用在设计行业，有坚定的信心和意愿；
   - 已经有相关实践工作，优先考虑。
 - 岗位职责：
-  - 负责 Ant Design 工具体系和智能设计的研发，并配合团队成员进行商业化实践，把设计做成业务；
+  - 负责 gui 工具体系和智能设计的研发，并配合团队成员进行商业化实践，把设计做成业务；
   - 组建和培养有梯度的研发团队。

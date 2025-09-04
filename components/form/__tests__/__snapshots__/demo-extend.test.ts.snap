@@ -8639,7 +8639,7 @@ Array [
                 class="ant-input ant-input-outlined"
                 id="global_state_username"
                 type="text"
-                value="Ant Design"
+                value="gui"
               />
             </div>
           </div>
@@ -8657,7 +8657,7 @@ Array [
     "name": [
       "username"
     ],
-    "value": "Ant Design"
+    "value": "gui"
   }
 ]
     </pre>

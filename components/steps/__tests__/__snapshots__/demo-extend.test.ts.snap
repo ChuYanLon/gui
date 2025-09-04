@@ -1594,13 +1594,13 @@ exports[`renders components/steps/demo/inline.tsx extend context correctly 1`] =
                   <a
                     href="https://ant.design"
                   >
-                    Ant Design Title 1
+                    gui Title 1
                   </a>
                 </h4>
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Ant Design, a design language for background applications, is refined by Ant UED Team
+                  gui, a design language for background applications, is refined by Ant UED Team
                 </div>
               </div>
             </div>
@@ -1807,13 +1807,13 @@ exports[`renders components/steps/demo/inline.tsx extend context correctly 1`] =
                   <a
                     href="https://ant.design"
                   >
-                    Ant Design Title 2
+                    gui Title 2
                   </a>
                 </h4>
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Ant Design, a design language for background applications, is refined by Ant UED Team
+                  gui, a design language for background applications, is refined by Ant UED Team
                 </div>
               </div>
             </div>
@@ -2020,13 +2020,13 @@ exports[`renders components/steps/demo/inline.tsx extend context correctly 1`] =
                   <a
                     href="https://ant.design"
                   >
-                    Ant Design Title 3
+                    gui Title 3
                   </a>
                 </h4>
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Ant Design, a design language for background applications, is refined by Ant UED Team
+                  gui, a design language for background applications, is refined by Ant UED Team
                 </div>
               </div>
             </div>
@@ -2233,13 +2233,13 @@ exports[`renders components/steps/demo/inline.tsx extend context correctly 1`] =
                   <a
                     href="https://ant.design"
                   >
-                    Ant Design Title 4
+                    gui Title 4
                   </a>
                 </h4>
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Ant Design, a design language for background applications, is refined by Ant UED Team
+                  gui, a design language for background applications, is refined by Ant UED Team
                 </div>
               </div>
             </div>

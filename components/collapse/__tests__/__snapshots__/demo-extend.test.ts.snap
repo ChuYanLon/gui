@@ -641,7 +641,7 @@ exports[`renders components/collapse/demo/component-token.tsx extend context cor
       <span
         class="ant-collapse-header-text"
       >
-        This is panel header 1, (Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! )
+        This is panel header 1, (gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! )
       </span>
     </div>
   </div>
@@ -681,7 +681,7 @@ exports[`renders components/collapse/demo/component-token.tsx extend context cor
       <span
         class="ant-collapse-header-text"
       >
-        This is panel header 2, (Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! )
+        This is panel header 2, (gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! )
       </span>
     </div>
   </div>
@@ -721,7 +721,7 @@ exports[`renders components/collapse/demo/component-token.tsx extend context cor
       <span
         class="ant-collapse-header-text"
       >
-        This is panel header 3, (Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! Ant Design! )
+        This is panel header 3, (gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! gui! )
       </span>
     </div>
   </div>

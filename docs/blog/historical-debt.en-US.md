@@ -4,7 +4,7 @@ date: 2023-10-11
 author: zombieJ
 ---
 
-You may have received this warning when upgrading Ant Design:
+You may have received this warning when upgrading gui:
 
 ```text
 Warning: [antd: XXX] `old prop` is deprecated. Please use `new prop` instead.

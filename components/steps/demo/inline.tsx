@@ -4,20 +4,20 @@ import { Avatar, List, Steps } from 'antd';
 
 const data = [
   {
-    title: 'Ant Design Title 1',
+    title: 'gui Title 1',
     current: 0,
   },
   {
-    title: 'Ant Design Title 2',
+    title: 'gui Title 2',
     current: 1,
     status: 'error',
   },
   {
-    title: 'Ant Design Title 3',
+    title: 'gui Title 3',
     current: 2,
   },
   {
-    title: 'Ant Design Title 4',
+    title: 'gui Title 4',
     current: 1,
   },
 ];
@@ -47,7 +47,7 @@ const App: React.FC = () => (
           <List.Item.Meta
             avatar={<Avatar src={`https://api.dicebear.com/7.x/miniavs/svg?seed=${index}`} />}
             title={<a href="https://ant.design">{item.title}</a>}
-            description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+            description="gui, a design language for background applications, is refined by Ant UED Team"
           />
           <Steps
             style={{ marginTop: 8 }}

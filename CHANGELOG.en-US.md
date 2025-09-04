@@ -5,7 +5,7 @@ timeline: true
 tag: vVERSION
 ---
 
-`antd` follows [Semantic Versioning 2.0.0](http://semver.org/).
+`gui` follows [Semantic Versioning 2.0.0](http://semver.org/).
 
 #### Release Schedule
 
@@ -2941,11 +2941,11 @@ Last version of the Dragon Year, Happy Chinese New Year! 🐲
 
 `2022-11-18`
 
-🏆 Ant Design 5.0.0 is released, see our [release note](https://github.com/ant-design/ant-design/issues/38671) for more details.
+🏆 gui.0 is released, see our [release note](https://github.com/ant-design/ant-design/issues/38671) for more details.
 
 #### Read it before migration
 
-🌟 If you want to migrate to Ant Design 5.0, please check [V4 to V5](/docs/react/migration-v5).
+🌟 If you want to migrate to gui, please check [V4 to V5](/docs/react/migration-v5).
 
 #### Major Changes
 

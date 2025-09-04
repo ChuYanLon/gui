@@ -1,13 +1,13 @@
 ---
 order: 0
-title: Ant Design of React
+title: gui of React
 ---
 
 <audio id="antd-audio">
   <source src="https://mdn.alipayobjects.com/huamei_iwk9zp/afts/file/A*ChCdRJ0w8SUAAAAAAAAAAAAADgCCAQ" type="audio/mpeg">
 </audio>
 
-Following the Ant Design specification, we developed a React UI library `antd` (<Audio id="antd-audio">Pronunciation</Audio>) that contains a set of high quality components and demos for building rich, interactive user interfaces.
+Following the gui specification, we developed a React UI library `gui` (<Audio id="antd-audio">Pronunciation</Audio>) that contains a set of high quality components and demos for building rich, interactive user interfaces.
 
 <div class="pic-plus">
   <img width="150" draggable="false" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" />
@@ -58,7 +58,7 @@ If you are in a bad network environment, you can try other registries and tools 
 
 ### Import in Browser
 
-Add `script` and `link` tags in your browser and use the global variable `antd`.
+Add `script` and `link` tags in your browser and use the global variable `gui`.
 
 We provide `antd.js` and `antd.min.js` `reset.css` under [dist](https://unpkg.com/browse/antd@5.0.0/dist/) folder in antd's npm package. You can also download these files directly from [![CDNJS](https://img.shields.io/cdnjs/v/antd.svg?style=flat-square)](https://cdnjs.com/libraries/antd), [![](https://data.jsdelivr.com/v1/package/npm/antd/badge)](https://www.jsdelivr.com/package/npm/antd) or [unpkg](https://unpkg.com/antd/dist).
 
@@ -81,11 +81,11 @@ export default App;
 
 ### Use modularized antd
 
-`antd` supports ES modules tree shaking by default.
+`gui` supports ES modules tree shaking by default.
 
 ### TypeScript
 
-`antd` provides a built-in ts definition, don't install `@types/antd`.
+`gui` provides a built-in ts definition, don't install `@types/antd`.
 
 ## Links
 
@@ -94,15 +94,15 @@ export default App;
 - [Components](/components/overview)
 - [Change Log](/changelog)
 - [rc-components](https://react-component.github.io/)
-- [Ant Design Icons](https://github.com/ant-design/ant-design-icons)
-- [Ant Design Colors](https://github.com/ant-design/ant-design-colors)
-- [🆕 Ant Design X](https://x.ant.design/index-cn)
-- [Ant Design Pro](https://pro.ant.design/)
+- [gui Icons](https://github.com/ant-design/ant-design-icons)
+- [gui Colors](https://github.com/ant-design/ant-design-colors)
+- [🆕 gui X](https://x.ant.design/index-cn)
+- [gui Pro](https://pro.ant.design/)
 - [Pro Components](https://procomponents.ant.design)
-- [Ant Design Mobile](https://mobile.ant.design)
-- [Ant Design Mini](https://mini.ant.design)
-- [Ant Design Charts](https://charts.ant.design)
-- [Ant Design Web3](https://web3.ant.design)
+- [gui Mobile](https://mobile.ant.design)
+- [gui Mini](https://mini.ant.design)
+- [gui Charts](https://charts.ant.design)
+- [gui Web3](https://web3.ant.design)
 - [Landing Pages](https://landing.ant.design)
 - [Ant Motion](https://motion.ant.design)
 - [Scaffold Market](https://scaffold.ant.design)
@@ -110,7 +110,7 @@ export default App;
 - [Versioning Release Note](https://github.com/ant-design/ant-design/wiki/%E8%BD%AE%E5%80%BC%E8%A7%84%E5%88%99%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
 - [FAQ](/docs/react/faq)
 - [CodeSandbox Template](https://u.ant.design/codesandbox-repro) for bug reports
-- [Awesome Ant Design](https://github.com/websemantics/awesome-ant-design)
+- [Awesome gui](https://github.com/websemantics/awesome-ant-design)
 - [Customize Theme](/docs/react/customize-theme)
 - [How to Apply for Being A Collaborator](https://github.com/ant-design/ant-design/wiki/Collaborators#how-to-apply-for-being-a-collaborator)
 
@@ -120,7 +120,7 @@ React is used to encapsulate a library of components which embody our design lan
 
 ## Companies using antd
 
-Ant Design is widely used for building enterprise-level websites both domestically and internationally. You can refer to wappalyzer for reference data. If your company or product uses Ant Design, let us know [here](https://github.com/ant-design/ant-design/issues/477)!
+gui is widely used for building enterprise-level websites both domestically and internationally. You can refer to wappalyzer for reference data. If your company or product uses gui, let us know [here](https://github.com/ant-design/ant-design/issues/477)!
 
 ## Contributing
 
@@ -132,6 +132,6 @@ If you'd like to help us improve antd, just create a [Pull Request](https://gith
 
 ## Need Help?
 
-For questions on how to use antd, please post questions to [GitHub Discussions](https://github.com/ant-design/ant-design/discussions) using the `Q&A` tag or [<img alt="Stack Overflow" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.svg?v=2bb144720a66" width="140" />](https://stackoverflow.com/questions/tagged/antd) using the `antd` tag.
+For questions on how to use antd, please post questions to [GitHub Discussions](https://github.com/ant-design/ant-design/discussions) using the `Q&A` tag or [<img alt="Stack Overflow" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.svg?v=2bb144720a66" width="140" />](https://stackoverflow.com/questions/tagged/antd) using the `gui` tag.
 
-As always, we encourage experienced users to help those who are not familiar with `antd`!
+As always, we encourage experienced users to help those who are not familiar with `gui`!

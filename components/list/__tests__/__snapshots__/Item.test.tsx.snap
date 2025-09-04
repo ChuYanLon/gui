@@ -28,13 +28,13 @@ exports[`List Item Layout horizontal itemLayout List should accept extra node 1`
                 <a
                   href="https://ant.design"
                 >
-                  ant design
+                  gui
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Ant Design, a design language for background applications, is refined by Ant UED Team.
+                gui, a design language for background applications, is refined by Ant UED Team.
               </div>
             </div>
           </div>
@@ -73,17 +73,17 @@ exports[`List Item Layout rowKey could be function 1`] = `
         <li
           class="ant-list-item"
         >
-          ant design
+          gui
         </li>
         <li
           class="ant-list-item"
         >
-          ant design
+          gui
         </li>
         <li
           class="ant-list-item"
         >
-          ant design
+          gui
         </li>
       </ul>
     </div>
@@ -107,17 +107,17 @@ exports[`List Item Layout rowKey could be string 1`] = `
         <li
           class="ant-list-item"
         >
-          ant design
+          gui
         </li>
         <li
           class="ant-list-item"
         >
-          ant design
+          gui
         </li>
         <li
           class="ant-list-item"
         >
-          ant design
+          gui
         </li>
       </ul>
     </div>
@@ -153,13 +153,13 @@ exports[`List Item Layout should render in RTL direction 1`] = `
                 <a
                   href="https://ant.design"
                 >
-                  ant design
+                  gui
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Ant Design, a design language for background applications, is refined by Ant UED Team.
+                gui, a design language for background applications, is refined by Ant UED Team.
               </div>
             </div>
           </div>

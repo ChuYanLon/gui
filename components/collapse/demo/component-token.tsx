@@ -3,7 +3,7 @@ import { Collapse, ConfigProvider } from 'antd';
 /** Test usage. Do not use in your production. */
 import type { CollapseProps } from 'antd';
 
-const text = `Ant Design! `.repeat(26);
+const text = `gui! `.repeat(26);
 
 const items: CollapseProps['items'] = [
   { key: '1', label: `This is panel header 1, (${text})`, children: text },

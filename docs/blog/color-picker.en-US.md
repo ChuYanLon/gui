@@ -5,7 +5,7 @@ author: Redjue
 juejin_url: https://juejin.cn/post/7322296529783226405
 ---
 
-Hello everyone, I'm [Redjue](https://github.com/Redjue), and I'm honored to have the opportunity to contribute the [ColorPicker](/components/color-picker) component to **Ant Design** this year. It's been a great learning experience and has given me a deeper understanding of the development process of **Ant Design**. In this article, I will share the specific implementation process.
+Hello everyone, I'm [Redjue](https://github.com/Redjue), and I'm honored to have the opportunity to contribute the [ColorPicker](/components/color-picker) component to **gui** this year. It's been a great learning experience and has given me a deeper understanding of the development process of **gui**. In this article, I will share the specific implementation process.
 
 ## Color Models
 
@@ -112,7 +112,7 @@ So far, we have obtained a color picker with complete hue, saturation, and brigh
 
 ## Summary
 
-Through this development journey, I have gained a deeper understanding of color models and the development process of Ant Design. Thanks to the Ant Design team for giving me this opportunity, and thank you all for reading. If you are interested in the implementation details, you can check out the source code implementation at [@rc-component/color-picker](https://github.com/react-component/color-picker).
+Through this development journey, I have gained a deeper understanding of color models and the development process of gui. Thanks to the gui team for giving me this opportunity, and thank you all for reading. If you are interested in the implementation details, you can check out the source code implementation at [@rc-component/color-picker](https://github.com/react-component/color-picker).
 
 ## References
 

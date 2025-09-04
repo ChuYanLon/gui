@@ -2055,7 +2055,7 @@ Array [
             <span
               class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-single-line"
             >
-              Ant Design, a design language for background applications, is refined by Ant UED Team
+              gui, a design language for background applications, is refined by Ant UED Team
             </span>
           </span>
         </li>
@@ -2171,7 +2171,7 @@ Array [
           rel="noopener noreferrer"
           target="_blank"
         >
-          Ant Design
+          gui
         </a>
       </span>
     </li>
@@ -2991,7 +2991,7 @@ Array [
           rel="noopener noreferrer"
           target="_blank"
         >
-          Ant Design
+          gui
         </a>
       </span>
     </li>

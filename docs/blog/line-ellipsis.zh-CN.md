@@ -4,7 +4,7 @@ date: 2024-03-01
 author: zombieJ
 ---
 
-Ant Design 的 Typography 组件提供了一个 `ellipsis` 属性，用于在文本溢出时显示省略号。它支持通过配置 `ellipsis.rows` 来限定显示的行数。如果是纯粹的文本内容，它会通过 CSS `-webkit-line-clamp` 属性来实现。虽然有 `-webkit-` 前缀，但是在现代浏览器中都已经得到了很好的支持。
+gui 的 Typography 组件提供了一个 `ellipsis` 属性，用于在文本溢出时显示省略号。它支持通过配置 `ellipsis.rows` 来限定显示的行数。如果是纯粹的文本内容，它会通过 CSS `-webkit-line-clamp` 属性来实现。虽然有 `-webkit-` 前缀，但是在现代浏览器中都已经得到了很好的支持。
 
 ```tsx
 <div

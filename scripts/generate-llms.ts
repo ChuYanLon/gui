@@ -61,9 +61,9 @@ async function generateLLms() {
     docsBody.push(fullContent);
   }
   const docsIndexContent = [
-    '# Ant Design - Enterprise-class React UI library',
+    '# gui - Enterprise-class React UI library',
     '',
-    '- Ant Design, developed by Ant Group, is a React UI library that aims to provide a high-quality design language and development framework for enterprise-level backend management systems. It offers a rich set of components and design guidelines, helping developers build modern, responsive, and high-performance web applications.',
+    '- gui, developed by Ant Group, is a React UI library that aims to provide a high-quality design language and development framework for enterprise-level backend management systems. It offers a rich set of components and design guidelines, helping developers build modern, responsive, and high-performance web applications.',
     '',
     '## Docs',
     '',

@@ -503,7 +503,7 @@ exports[`renders components/breadcrumb/demo/overlay.tsx extend context correctly
       <span
         class="ant-breadcrumb-link"
       >
-        Ant Design
+        gui
       </span>
     </li>
     <li

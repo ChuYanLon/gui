@@ -5,7 +5,7 @@ author: Redjue
 juejin_url: https://juejin.cn/post/7322296529783226405
 ---
 
-大家好，我是 [Redjue（红果汁）](https://github.com/Redjue)，很荣幸今年有机会向 **Ant Design** 贡献了颜色选择器组件 [ColorPicker](/components/color-picker-cn)，这是一次很棒的学习机会，也让我对 **Ant Design** 的开发流程有了更深入的了解。在这篇文章中，我将分享一下具体的实现过程。
+大家好，我是 [Redjue（红果汁）](https://github.com/Redjue)，很荣幸今年有机会向 **gui** 贡献了颜色选择器组件 [ColorPicker](/components/color-picker-cn)，这是一次很棒的学习机会，也让我对 **gui** 的开发流程有了更深入的了解。在这篇文章中，我将分享一下具体的实现过程。
 
 ## 色彩模型
 
@@ -112,7 +112,7 @@ const alpha = (offset.x + centerOffsetX) / width;
 
 ## 总结
 
-通过这次开发之旅，我对色彩模型有了更深入的了解，也对 **Ant Design** 的开发流程有了更深入的了解。感谢 **Ant Design** 团队给我这次机会，也感谢大家的阅读。如果对细节实现感兴趣的童鞋，可以移步 [@rc-component/color-picker](https://github.com/react-component/color-picker) 查看源码实现。
+通过这次开发之旅，我对色彩模型有了更深入的了解，也对 **gui** 的开发流程有了更深入的了解。感谢 **gui** 团队给我这次机会，也感谢大家的阅读。如果对细节实现感兴趣的童鞋，可以移步 [@rc-component/color-picker](https://github.com/react-component/color-picker) 查看源码实现。
 
 ## 图片来源
 

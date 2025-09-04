@@ -155,7 +155,7 @@ exports[`renders components/layout/demo/component-token.tsx correctly 1`] = `
     <div
       style="margin-inline-start:24px;font-size:24px"
     >
-      Ant Design
+      gui
     </div>
   </header>
   <div
@@ -750,7 +750,7 @@ exports[`renders components/layout/demo/fixed.tsx correctly 1`] = `
     class="ant-layout-footer"
     style="text-align:center"
   >
-    Ant Design ©
+    gui ©
     <!-- -->
     2016
     <!-- -->
@@ -1265,7 +1265,7 @@ exports[`renders components/layout/demo/fixed-sider.tsx correctly 1`] = `
       class="ant-layout-footer"
       style="text-align:center"
     >
-      Ant Design ©
+      gui ©
       <!-- -->
       2016
       <!-- -->
@@ -1451,7 +1451,7 @@ exports[`renders components/layout/demo/responsive.tsx correctly 1`] = `
       class="ant-layout-footer"
       style="text-align:center"
     >
-      Ant Design ©
+      gui ©
       <!-- -->
       2016
       <!-- -->
@@ -1739,7 +1739,7 @@ exports[`renders components/layout/demo/side.tsx correctly 1`] = `
       class="ant-layout-footer"
       style="text-align:center"
     >
-      Ant Design ©
+      gui ©
       <!-- -->
       2016
       <!-- -->
@@ -2059,7 +2059,7 @@ exports[`renders components/layout/demo/top.tsx correctly 1`] = `
     class="ant-layout-footer"
     style="text-align:center"
   >
-    Ant Design ©
+    gui ©
     <!-- -->
     2016
     <!-- -->
@@ -2429,7 +2429,7 @@ exports[`renders components/layout/demo/top-side.tsx correctly 1`] = `
     class="ant-layout-footer"
     style="text-align:center"
   >
-    Ant Design ©
+    gui ©
     <!-- -->
     2016
     <!-- -->

@@ -59,7 +59,7 @@ const Content: React.FC<React.PropsWithChildren> = ({ children }) => {
                 <Space>
                   <span>{meta.frontmatter?.title}</span>
                   <span>{meta.frontmatter?.subtitle}</span>
-                  {!pathname.startsWith('/components/overview') && (
+                  {!pathname.startsWith('/components/started') && (
                     <EditButton
                       title={<FormattedMessage id="app.content.edit-page" />}
                       filename={meta.frontmatter.filename}

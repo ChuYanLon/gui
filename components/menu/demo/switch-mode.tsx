@@ -57,7 +57,7 @@ const items: MenuItem[] = [
     icon: <LinkOutlined />,
     label: (
       <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-        Ant Design
+        gui
       </a>
     ),
   },

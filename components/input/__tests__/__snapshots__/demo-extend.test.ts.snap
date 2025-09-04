@@ -732,7 +732,7 @@ Array [
   <span
     class="ant-typography"
   >
-    Ant Design
+    gui
     <button
       aria-describedby="test-id"
       aria-label="Copy"
@@ -6723,7 +6723,7 @@ exports[`renders components/input/demo/focus.tsx extend context correctly 1`] = 
       class="ant-input ant-input-outlined"
       style="width: 100%;"
       type="text"
-      value="Ant Design love you!"
+      value="gui love you!"
     />
   </div>
 </div>

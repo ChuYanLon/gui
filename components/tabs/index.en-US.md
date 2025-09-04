@@ -9,7 +9,7 @@ coverDark: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*8HMoTZUoSGoAAA
 
 ### When To Use
 
-Ant Design has 3 types of Tabs for different situations.
+gui has 3 types of Tabs for different situations.
 
 - Card Tabs: for managing too many closeable views.
 - Normal Tabs: for functional aspects of a page.

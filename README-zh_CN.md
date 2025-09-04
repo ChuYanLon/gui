@@ -2,7 +2,7 @@
 
 <img height="180" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
 
-<h1>Ant Design</h1>
+<h1>gui</h1>
 
 一套企业级 UI 设计语言和 React 组件库。
 
@@ -111,7 +111,7 @@ export default App;
 
 ### 🛡 TypeScript
 
-`antd` 使用 TypeScript 编写，具有完整的类型定义，参考 [在 Next.js 中使用](https://ant.design/docs/react/use-with-next-cn)。
+`gui` 使用 TypeScript 编写，具有完整的类型定义，参考 [在 Next.js 中使用](https://ant.design/docs/react/use-with-next-cn)。
 
 ## 🌍 国际化
 
@@ -123,13 +123,13 @@ export default App;
 - [所有组件](https://ant.design/components/overview-cn)
 - [更新日志](CHANGELOG.zh-CN.md)
 - [React 底层基础组件](https://react-component.github.io/)
-- [🆕 Ant Design X](https://x.ant.design/index-cn)
-- [Ant Design Pro](https://pro.ant.design/)
+- [🆕 gui X](https://x.ant.design/index-cn)
+- [gui Pro](https://pro.ant.design/)
 - [Pro Components](https://procomponents.ant.design)
-- [Ant Design Mobile](https://mobile.ant.design)
-- [Ant Design Mini](https://mini.ant.design)
-- [Ant Design Charts](https://charts.ant.design)
-- [Ant Design Web3](https://web3.ant.design)
+- [gui Mobile](https://mobile.ant.design)
+- [gui Mini](https://mini.ant.design)
+- [gui Charts](https://charts.ant.design)
+- [gui Web3](https://web3.ant.design)
 - [动效](https://motion.ant.design)
 - [脚手架市场](https://scaffold.ant.design)
 - [设计规范速查手册](https://github.com/ant-design/ant-design/wiki/Ant-Design-%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E7%AE%80%E7%89%88)
@@ -207,7 +207,7 @@ $ npm start
 
 通过 GitHub Discussions 提问时，建议使用 `Q&A` 标签。
 
-通过 Stack Overflow 或者 Segment Fault 提问时，建议加上 `antd` 标签。
+通过 Stack Overflow 或者 Segment Fault 提问时，建议加上 `gui` 标签。
 
 1. [GitHub Discussions](https://github.com/ant-design/ant-design/discussions)
 2. [Stack Overflow](https://stackoverflow.com/questions/tagged/antd)（英文）

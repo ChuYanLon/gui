@@ -31,7 +31,7 @@ const items: MenuItem[] = [
         key: '3',
         label: (
           <Typography.Text ellipsis>
-            Ant Design, a design language for background applications, is refined by Ant UED Team
+            gui, a design language for background applications, is refined by Ant UED Team
           </Typography.Text>
         ),
       },
@@ -65,7 +65,7 @@ const items: MenuItem[] = [
     icon: <LinkOutlined />,
     label: (
       <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-        Ant Design
+        gui
       </a>
     ),
   },

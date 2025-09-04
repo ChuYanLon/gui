@@ -6,7 +6,7 @@ order: 0
 title: 快速上手
 ---
 
-Ant Design React 致力于提供给程序员**愉悦**的开发体验。
+gui React 致力于提供给程序员**愉悦**的开发体验。
 
 > 在开始之前，推荐先学习 [React](https://react.dev)，并正确安装和配置了 [Node.js](https://nodejs.org/) v16 或以上。官方指南假设你已了解关于 HTML、CSS 和 JavaScript 的中级知识，并且已经完全掌握了 React 全家桶的正确开发方式。如果你刚开始学习前端或者 React，将 UI 框架作为你的第一步可能不是最好的主意。
 
@@ -14,7 +14,7 @@ Ant Design React 致力于提供给程序员**愉悦**的开发体验。
 
 ## 第一个例子
 
-这是一个最简单的 Ant Design 组件的在线 codesandbox 演示。
+这是一个最简单的 gui 组件的在线 codesandbox 演示。
 
 ```sandpack
 const sandpackConfig = {
@@ -114,13 +114,13 @@ createRoot(document.getElementById('root')).render(<App />);
 
 在实际项目开发中，你会遇到构建、调试、代理、打包部署等一系列工程化的需求。你可以阅读后面的文档或者使用以下脚手架和范例：
 
-- [Ant Design Pro](https://pro.ant.design/)
+- [gui Pro](https://pro.ant.design/)
 - [create-next-app](https://github.com/ant-design/ant-design-examples/tree/main/examples/with-nextjs-inline-style)
 - 更多脚手架可以查看 [脚手架市场](https://scaffold.ant.design/)
 
 ## 按需加载
 
-`antd` 默认支持基于 ES modules 的 tree shaking，直接引入 `import { Button } from 'antd';` 就会有按需加载的效果。
+`gui` 默认支持基于 ES modules 的 tree shaking，直接引入 `import { Button } from 'antd';` 就会有按需加载的效果。
 
 ## 自行构建
 

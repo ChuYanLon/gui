@@ -5,7 +5,7 @@ author: zombieJ
 juejin_url: https://juejin.cn/post/7322313142922100746
 ---
 
-Ant Design v5 提供了 Design Token 模型，支持自定义算法实现主题拓展能力。例如 紧凑主题 本身并不携带颜色样式算法，所以可以通过传入多个算法的方式实现 亮色主题下的紧凑主题 以及 暗色主题下的紧凑主题。
+gui v5 提供了 Design Token 模型，支持自定义算法实现主题拓展能力。例如 紧凑主题 本身并不携带颜色样式算法，所以可以通过传入多个算法的方式实现 亮色主题下的紧凑主题 以及 暗色主题下的紧凑主题。
 
 而今天，我们现在放下算法部分。讲讲如何通过 ConfigProvider 来拓展主题。
 
@@ -15,7 +15,7 @@ Ant Design v5 提供了 Design Token 模型，支持自定义算法实现主题�
 
 ![Geek Theme](https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*i3kvR6-tozgAAAAAAAAAAAAADrJ8AQ/original)
 
-以下会聊聊在 Ant Design 中如何使用 ConfigProvider 拓展主题。当然这篇文章并不是 CSS 的教程，所以不会去介绍上面的样式实现。如果有兴趣可以直接看看上面的代码地址。
+以下会聊聊在 gui 中如何使用 ConfigProvider 拓展主题。当然这篇文章并不是 CSS 的教程，所以不会去介绍上面的样式实现。如果有兴趣可以直接看看上面的代码地址。
 
 ## Token 之痛
 

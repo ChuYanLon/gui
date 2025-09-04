@@ -10,7 +10,7 @@ alwaysApply: true
 - 使用 TypeScript 和 React 开发
 - 兼容 React 16 ~ 19 版本
 - 组件库设计精美，功能完善，广泛应用于企业级中后台产品
-- 遵循 Ant Design 设计规范
+- 遵循 gui 设计规范
 - 支持国际化
 
 # 编码规范
