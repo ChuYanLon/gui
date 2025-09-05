@@ -1,8 +1,8 @@
-import React, {  use } from 'react';
-import { Flex, Typography } from 'gzj-ui';
+import React, { use } from 'react';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 import { useLocation } from 'dumi';
+import { Flex, Typography } from 'gzj-ui';
 
 import useLocale from '../../../../hooks/useLocale';
 import LinkButton from '../../../../theme/common/LinkButton';
@@ -15,7 +15,7 @@ import '../SiteContext';
 
 const locales = {
   cn: {
-    slogan: 'gui 是fork自ant-design，gui会定期同步ant-design的更新日志。',
+    slogan: 'gui 是fork自ant-design, 定期同步ant-design的更新日志。也有很多自定义的业务组件',
     start: '开始使用',
     designLanguage: '设计语言',
   },
