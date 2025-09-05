@@ -9,7 +9,7 @@
       "gzj-ui": ["es"],
       "gzj-ui/es/*": ["es/*"],
       "gzj-ui/lib/*": ["lib/*"],
-      "gzj-ui/locale/*": ["locale/*"],
+      "gzj-ui/locale/*": ["locale/*"]
     }
   },
   "include": ["components/*/demo/*.tsx"],

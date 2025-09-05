@@ -6,46 +6,9 @@
 
 An enterprise-class UI design language and React UI library.
 
-[![CI status][github-action-image]][github-action-url] [![codecov][codecov-image]][codecov-url] [![NPM version][npm-image]][npm-url] [![NPM downloads][download-image]][download-url]
-
-[![][bundlephobia-image]][bundlephobia-url] [![][jsdelivr-image]][jsdelivr-url] [![FOSSA Status][fossa-image]][fossa-url] [![DeepWiki][deepwiki-image]][deepwiki-url]
-
-[![Follow Twitter][twitter-image]][twitter-url] [![Renovate status][renovate-image]][renovate-dashboard-url] [![][issues-helper-image]][issues-helper-url] [![dumi][dumi-image]][dumi-url] [![Issues need help][help-wanted-image]][help-wanted-url]
-
-[Changelog](./CHANGELOG.en-US.md) · [Report Bug][github-issues-url] · [Request Feature][github-issues-url] · English · [中文](./README-zh_CN.md)
-
 ## ❤️ Sponsors [![](https://opencollective.com/ant-design/tiers/sponsors/badge.svg?label=Sponsors&color=brightgreen)](https://opencollective.com/ant-design/contribute/sponsors-218)
 
 [![](https://opencollective.com/ant-design/tiers/sponsors.svg?avatarHeight=72)](https://opencollective.com/ant-design/contribute/sponsors-218/checkout)
-
-[npm-image]: https://img.shields.io/npm/v/antd.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/antd
-[github-action-image]: https://github.com/ant-design/ant-design/actions/workflows/test.yml/badge.svg
-[github-action-url]: https://github.com/ant-design/ant-design/actions/workflows/test.yml
-[codecov-image]: https://img.shields.io/codecov/c/github/ant-design/ant-design/master.svg?style=flat-square
-[codecov-url]: https://codecov.io/gh/ant-design/ant-design/branch/master
-[download-image]: https://img.shields.io/npm/dm/antd.svg?style=flat-square
-[download-url]: https://npmjs.org/package/antd
-[fossa-image]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fant-design%2Fant-design.svg?type=shield
-[fossa-url]: https://app.fossa.io/projects/git%2Bgithub.com%2Fant-design%2Fant-design?ref=badge_shield
-[help-wanted-image]: https://flat.badgen.net/github/label-issues/ant-design/ant-design/help%20wanted/open
-[help-wanted-url]: https://github.com/ant-design/ant-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
-[twitter-image]: https://img.shields.io/twitter/follow/AntDesignUI.svg?label=Ant%20Design
-[twitter-url]: https://twitter.com/AntDesignUI
-[jsdelivr-image]: https://data.jsdelivr.com/v1/package/npm/antd/badge
-[jsdelivr-url]: https://www.jsdelivr.com/package/npm/antd
-[bundlephobia-image]: https://badgen.net/bundlephobia/minzip/antd?style=flat-square
-[bundlephobia-url]: https://bundlephobia.com/package/antd
-[issues-helper-image]: https://img.shields.io/badge/using-actions--cool-blue?style=flat-square
-[issues-helper-url]: https://github.com/actions-cool
-[renovate-image]: https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square
-[renovate-dashboard-url]: https://github.com/ant-design/ant-design/issues/32498
-[dumi-image]: https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square
-[dumi-url]: https://github.com/umijs/dumi
-[github-issues-url]: https://new-issue.ant.design
-[deepwiki-url]: https://deepwiki.com/ant-design/ant-design
-[deepwiki-image]: https://img.shields.io/badge/Chat%20with-DeepWiki%20🤖-20B2AA?style=flat-square
-
 </div>
 
 [![](https://user-images.githubusercontent.com/507615/209472919-6f7e8561-be8c-4b0b-9976-eb3c692aa20a.png)](https://ant.design)
@@ -72,19 +35,19 @@ An enterprise-class UI design language and React UI library.
 ## 📦 Install
 
 ```bash
-npm install antd
+npm install gzj-ui
 ```
 
 ```bash
-yarn add antd
+yarn add gzj-ui
 ```
 
 ```bash
-pnpm add antd
+pnpm add gzj-ui
 ```
 
 ```bash
-bun add antd
+bun add gzj-ui
 ```
 
 ## 🔨 Usage
@@ -99,96 +62,3 @@ export default () => (
   </>
 );
 ```
-
-## 🔗 Links
-
-- [Home page](https://ant.design/)
-- [Components Overview](https://ant.design/components/overview)
-- [Change Log](CHANGELOG.en-US.md)
-- [rc-components](https://react-component.github.io/)
-- [🆕 gui X](https://x.ant.design/index-cn)
-- [gui Pro](https://pro.ant.design/)
-- [Pro Components](https://procomponents.ant.design)
-- [gui Mobile](https://mobile.ant.design)
-- [gui Mini](https://mini.ant.design)
-- [gui Charts](https://charts.ant.design)
-- [gui Web3](https://web3.ant.design)
-- [Landing Pages](https://landing.ant.design)
-- [Ant Motion](https://motion.ant.design)
-- [Scaffold Market](https://scaffold.ant.design)
-- [Developer Instruction](https://github.com/ant-design/ant-design/wiki/Development)
-- [Versioning Release Note](https://github.com/ant-design/ant-design/wiki/%E8%BD%AE%E5%80%BC%E8%A7%84%E5%88%99%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
-- [FAQ](https://ant.design/docs/react/faq)
-- [Online Playground](https://u.ant.design/reproduce) for bug reports
-- [Customize Theme](https://ant.design/docs/react/customize-theme)
-- [How to Apply for Being A Collaborator](https://github.com/ant-design/ant-design/wiki/Collaborators#how-to-apply-for-being-a-collaborator)
-
-## ⌨️ Development
-
-Use [opensumi.run](https://opensumi.run), a free online pure front-end dev environment.
-
-[![opensumi.run](https://custom-icon-badges.demolab.com/badge/opensumi-run-blue.svg?logo=opensumi)](https://opensumi.run/ide/ant-design/ant-design)
-
-Or clone locally:
-
-```bash
-$ git clone git@github.com:ant-design/ant-design.git
-$ cd ant-design
-$ npm install
-$ npm start
-```
-
-Open your browser and visit http://127.0.0.1:8001, see more at [Development](https://github.com/ant-design/ant-design/wiki/Development).
-
-## 🤝 Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-
-<table>
-<tr>
-  <td>
-    <a href="https://next.ossinsight.io/widgets/official/compose-recent-top-contributors?repo_id=34526884" target="_blank" style="display: block" align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-recent-top-contributors/thumbnail.png?repo_id=34526884&image_size=auto&color_scheme=dark" width="280">
-        <img alt="Top Contributors of ant-design/ant-design - Last 28 days" src="https://next.ossinsight.io/widgets/official/compose-recent-top-contributors/thumbnail.png?repo_id=34526884&image_size=auto&color_scheme=light" width="280">
-      </picture>
-    </a>
-  </td>
-  <td rowspan="2">
-    <a href="https://next.ossinsight.io/widgets/official/compose-last-28-days-stats?repo_id=34526884" target="_blank" style="display: block" align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-last-28-days-stats/thumbnail.png?repo_id=34526884&image_size=auto&color_scheme=dark" width="655" height="auto">
-        <img alt="Performance Stats of ant-design/ant-design - Last 28 days" src="https://next.ossinsight.io/widgets/official/compose-last-28-days-stats/thumbnail.png?repo_id=34526884&image_size=auto&color_scheme=light" width="655" height="auto">
-      </picture>
-    </a>
-  </td>
-</tr>
-<tr>
-  <td>
-    <a href="https://next.ossinsight.io/widgets/official/compose-org-active-contributors?period=past_28_days&activity=new&owner_id=12101536&repo_ids=34526884" target="_blank" style="display: block" align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-org-active-contributors/thumbnail.png?period=past_28_days&activity=new&owner_id=12101536&repo_ids=34526884&image_size=2x3&color_scheme=dark" width="273" height="auto">
-        <img alt="New participants of ant-design - past 28 days" src="https://next.ossinsight.io/widgets/official/compose-org-active-contributors/thumbnail.png?period=past_28_days&activity=new&owner_id=12101536&repo_ids=34526884&image_size=2x3&color_scheme=light" width="273" height="auto">
-      </picture>
-    </a>
-  </td>
-</tr>
-</table>
-
-<a href="https://openomy.app/github/ant-design/ant-design" target="_blank" style="display: block; width: 100%;" align="center">
-  <img src="https://openomy.app/svg?repo=ant-design/ant-design&chart=bubble&latestMonth=3" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
-</a>
-
-Let's build a better antd together.
-
-We warmly invite contributions from everyone. Before you get started, please take a moment to review our [Contribution Guide](https://ant.design/docs/react/contributing). Feel free to share your ideas through [Pull Requests](https://github.com/ant-design/ant-design/pulls) or [GitHub Issues](https://github.com/ant-design/ant-design/issues). If you're interested in enhancing our codebase, explore the [Development Instructions](https://github.com/ant-design/ant-design/wiki/Development) and enjoy your coding journey! :)
-
-For collaborators, adhere to our [Pull Request Principle](https://github.com/ant-design/ant-design/wiki/PR-principle) and utilize our [Pull Request Template](https://github.com/ant-design/ant-design/wiki/PR-principle#pull-request-template) when creating a Pull Request.
-
-## Issue funding
-
-We use [Issuehunt](https://issuehunt.io/repos/3452688) to up-vote and promote specific features that you would like to see and implement. Check our backlog and help us:
-
-[![Let's fund issues in this repository](https://raw.githubusercontent.com/BoostIO/issuehunt-materials/master/v1/issuehunt-button-v1.svg)](https://issuehunt.io/repos/34526884)
-
-## ❤️ Backers [![](https://opencollective.com/ant-design/tiers/backers/badge.svg?label=Backers&color=brightgreen)](https://opencollective.com/ant-design#support)
-
-[![](https://opencollective.com/ant-design/tiers/backers.svg?avatarHeight=72)](https://opencollective.com/ant-design/contribute/backers-217/checkout)

@@ -18,7 +18,7 @@
       "gzj-ui": ["components/index.ts"],
       "gzj-ui/es/*": ["components/*"],
       "gzj-ui/lib/*": ["components/*"],
-      "gzj-ui/locale/*": ["components/locale/*"],
+      "gzj-ui/locale/*": ["components/locale/*"]
     },
     "resolvePackageJsonExports": true,
     "strict": true,

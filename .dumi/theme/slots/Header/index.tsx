@@ -282,7 +282,7 @@ const Header: React.FC = () => {
 
   return (
     <header className={headerClassName}>
-      {isMobile && (
+      {/* {isMobile && (
         <Popover
           classNames={{ root: styles.popoverMenu }}
           placement="bottomRight"
@@ -294,7 +294,7 @@ const Header: React.FC = () => {
         >
           <MenuOutlined className="nav-phone-icon" />
         </Popover>
-      )}
+      )} */}
       {isZhCN && bannerVisible && (
         <ConfigProvider
           theme={{
