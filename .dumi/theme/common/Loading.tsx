@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Skeleton, Spin } from 'antd';
+import { Flex, Skeleton, Spin } from 'gzj-ui';
 import { useLocation } from 'dumi';
 
 const Loading: React.FC = () => {

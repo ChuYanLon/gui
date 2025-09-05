@@ -1,6 +1,6 @@
 import React from 'react';
-import type { PaginationProps } from 'antd';
-import { ConfigProvider, Pagination } from 'antd';
+import type { PaginationProps } from 'gzj-ui';
+import { ConfigProvider, Pagination } from 'gzj-ui';
 
 const itemRender: PaginationProps['itemRender'] = (_, type, originalElement) => {
   if (type === 'prev') {

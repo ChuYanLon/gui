@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { BugOutlined } from '@ant-design/icons';
-import { Button, Flex, Popover, theme } from 'antd';
+import { Button, Flex, Popover, theme } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import dayjs, { Dayjs } from 'dayjs';
 

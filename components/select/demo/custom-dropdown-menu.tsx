@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { PlusOutlined } from '@ant-design/icons';
-import { Button, Divider, Input, Select, Space } from 'antd';
-import type { InputRef } from 'antd';
+import { Button, Divider, Input, Select, Space } from 'gzj-ui';
+import type { InputRef } from 'gzj-ui';
 
 let index = 0;
 

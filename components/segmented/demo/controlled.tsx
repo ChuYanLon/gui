@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Segmented } from 'antd';
+import { Segmented } from 'gzj-ui';
 
 const Demo: React.FC = () => {
   const [value, setValue] = useState<string | number>('Map');

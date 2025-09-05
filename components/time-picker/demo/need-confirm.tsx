@@ -1,6 +1,6 @@
 import React from 'react';
-import type { TimePickerProps } from 'antd';
-import { TimePicker } from 'antd';
+import type { TimePickerProps } from 'gzj-ui';
+import { TimePicker } from 'gzj-ui';
 
 const onChange: TimePickerProps['onChange'] = (time, timeString) => {
   console.log(time, timeString);

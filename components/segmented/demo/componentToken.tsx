@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Segmented } from 'antd';
+import { ConfigProvider, Segmented } from 'gzj-ui';
 
 const Demo: React.FC = () => (
   <ConfigProvider

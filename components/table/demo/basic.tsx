@@ -1,6 +1,6 @@
 import React from 'react';
-import { Space, Table, Tag } from 'antd';
-import type { TableProps } from 'antd';
+import { Space, Table, Tag } from 'gzj-ui';
+import type { TableProps } from 'gzj-ui';
 
 interface DataType {
   key: string;

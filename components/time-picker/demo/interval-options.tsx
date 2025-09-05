@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimePicker } from 'antd';
+import { TimePicker } from 'gzj-ui';
 
 const App: React.FC = () => <TimePicker minuteStep={15} secondStep={10} hourStep={1} />;
 

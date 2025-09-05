@@ -7,7 +7,7 @@ import {
   HomeOutlined,
   QuestionCircleOutlined,
 } from '@ant-design/icons';
-import type { ColorPickerProps, GetProp, MenuProps, ThemeConfig } from 'antd';
+import type { ColorPickerProps, GetProp, MenuProps, ThemeConfig } from 'gzj-ui';
 import {
   Breadcrumb,
   Card,
@@ -19,7 +19,7 @@ import {
   Radio,
   theme,
   Typography,
-} from 'antd';
+} from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import { generateColor } from 'antd/es/color-picker/util';
 import classNames from 'classnames';

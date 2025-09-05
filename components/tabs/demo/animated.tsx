@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space, Switch, Tabs } from 'antd';
+import { Space, Switch, Tabs } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [inkBar, setInkBar] = React.useState(true);

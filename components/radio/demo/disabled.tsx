@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Radio } from 'antd';
+import { Button, Radio } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [disabled, setDisabled] = useState(true);

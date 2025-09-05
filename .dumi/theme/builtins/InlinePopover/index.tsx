@@ -1,6 +1,6 @@
 import React from 'react';
 import { PictureOutlined } from '@ant-design/icons';
-import { Image, Tooltip, Typography } from 'antd';
+import { Image, Tooltip, Typography } from 'gzj-ui';
 
 import useLocale from '../../../hooks/useLocale';
 

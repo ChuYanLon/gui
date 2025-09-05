@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { SearchOutlined } from '@ant-design/icons';
-import type { InputRef, TableColumnsType, TableColumnType } from 'antd';
-import { Button, Input, Space, Table } from 'antd';
+import type { InputRef, TableColumnsType, TableColumnType } from 'gzj-ui';
+import { Button, Input, Space, Table } from 'gzj-ui';
 import type { FilterDropdownProps } from 'antd/es/table/interface';
 import Highlighter from 'react-highlight-words';
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { RadioChangeEvent } from 'antd';
-import { Cascader, Radio } from 'antd';
+import type { RadioChangeEvent } from 'gzj-ui';
+import { Cascader, Radio } from 'gzj-ui';
 
 interface Option {
   value: string;

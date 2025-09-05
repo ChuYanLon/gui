@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Space } from 'antd';
+import { Badge, Space } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

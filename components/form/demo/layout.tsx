@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Form, Input, Radio } from 'antd';
+import { Button, Form, Input, Radio } from 'gzj-ui';
 
 type LayoutType = Parameters<typeof Form>[0]['layout'];
 

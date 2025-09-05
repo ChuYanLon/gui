@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { theme } from 'antd';
+import { theme } from 'gzj-ui';
 
 import useLocale from '../../hooks/useLocale';
 import Group from './components/Group';

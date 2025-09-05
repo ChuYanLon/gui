@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SmileOutlined } from '@ant-design/icons';
-import { TreeSelect } from 'antd';
+import { TreeSelect } from 'gzj-ui';
 
 const icon = <SmileOutlined />;
 const treeData = [

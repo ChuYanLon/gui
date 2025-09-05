@@ -1,6 +1,6 @@
 import React from 'react';
-import { Table } from 'antd';
-import type { TableColumnsType } from 'antd';
+import { Table } from 'gzj-ui';
+import type { TableColumnsType } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 
 const useStyle = createStyles(({ css, token }) => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Select, Tabs } from 'antd';
+import { Select, Tabs } from 'gzj-ui';
 
 const { Option } = Select;
 

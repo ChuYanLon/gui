@@ -1,6 +1,6 @@
 import React from 'react';
-import { Tree } from 'antd';
-import type { GetProps, TreeDataNode } from 'antd';
+import { Tree } from 'gzj-ui';
+import type { GetProps, TreeDataNode } from 'gzj-ui';
 
 type DirectoryTreeProps = GetProps<typeof Tree.DirectoryTree>;
 

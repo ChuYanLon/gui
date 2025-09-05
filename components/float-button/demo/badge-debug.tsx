@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { ConfigProvider, FloatButton, Slider } from 'antd';
-import type { ConfigProviderProps, GetProp } from 'antd';
+import { ConfigProvider, FloatButton, Slider } from 'gzj-ui';
+import type { ConfigProviderProps, GetProp } from 'gzj-ui';
 
 type AliasToken = GetProp<ConfigProviderProps, 'theme'>['token'];
 

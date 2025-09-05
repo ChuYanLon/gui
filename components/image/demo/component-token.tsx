@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Image } from 'antd';
+import { ConfigProvider, Image } from 'gzj-ui';
 
 const App: React.FC = () => (
   <ConfigProvider

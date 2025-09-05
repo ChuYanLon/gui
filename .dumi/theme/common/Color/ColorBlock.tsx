@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { App } from 'antd';
+import { App } from 'gzj-ui';
 import CopyToClipboard from 'react-copy-to-clipboard';
 
 interface ColorBlockProps {

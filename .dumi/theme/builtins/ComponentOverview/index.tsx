@@ -1,7 +1,7 @@
 import React, { memo, useMemo, useRef, useState } from 'react';
 import type { CSSProperties } from 'react';
 import { SearchOutlined } from '@ant-design/icons';
-import { Affix, Card, Col, Divider, Flex, Input, Row, Tag, Typography } from 'antd';
+import { Affix, Card, Col, Divider, Flex, Input, Row, Tag, Typography } from 'gzj-ui';
 import { createStyles, useTheme } from 'antd-style';
 import { useIntl, useLocation, useSidebarData } from 'dumi';
 import debounce from 'lodash/debounce';

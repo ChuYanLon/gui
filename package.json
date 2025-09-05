@@ -1,19 +1,14 @@
 {
-  "name": "antd",
-  "version": "5.27.2",
+  "name": "gzj-ui",
+  "version": "0.0.1",
   "description": "An enterprise-class UI design language and React components implementation",
   "license": "MIT",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/ant-design"
-  },
-  "homepage": "https://ant.design",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/ChuYanLon/gui"
   },
   "bugs": {
-    "url": "https://github.com/ant-design/ant-design/issues"
+    "url": "https://github.com/ChuYanLon/gui/issues"
   },
   "keywords": [
     "ant",
@@ -70,12 +65,10 @@
     "lint:style": "tsx scripts/check-cssinjs.tsx",
     "llms": "tsx scripts/generate-llms.ts",
     "prepare": "is-ci || husky && dumi setup",
-    "prepublishOnly": "tsx ./scripts/pre-publish.ts",
     "prettier": "prettier -c --write . --cache",
     "prettier-import-sort": "npm run prettier -- --plugin=@ianvs/prettier-plugin-sort-imports",
     "biome": "biome check --write",
     "pub": "echo 'Please use `npm publish` instead.'",
-    "postpublish": "tsx scripts/post-publish.ts",
     "presite": "npm run prestart",
     "site": "dumi build && cp .surgeignore _site && npm run llms",
     "size-limit": "size-limit",
@@ -334,17 +327,14 @@
     "webpack-bundle-analyzer": "^4.10.2",
     "xhr-mock": "^2.5.1"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "size-limit": [
     {
-      "path": "./dist/antd.min.js",
+      "path": "./dist/gui.min.js",
       "limit": "510 KiB",
       "gzip": true
     },
     {
-      "path": "./dist/antd-with-locales.min.js",
+      "path": "./dist/gui-with-locales.min.js",
       "limit": "600 KiB",
       "gzip": true
     }

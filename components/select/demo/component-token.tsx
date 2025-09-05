@@ -1,6 +1,6 @@
 import React from 'react';
-import { ConfigProvider, Select, Space } from 'antd';
-import type { SelectProps } from 'antd';
+import { ConfigProvider, Select, Space } from 'gzj-ui';
+import type { SelectProps } from 'gzj-ui';
 
 const options: SelectProps['options'] = [];
 

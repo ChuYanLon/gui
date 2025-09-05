@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Checkbox, Input, InputNumber, Select, Space, Tooltip } from 'antd';
+import { Button, Checkbox, Input, InputNumber, Select, Space, Tooltip } from 'gzj-ui';
 
 const WrapperTooltip: React.FC<React.PropsWithChildren> = (props) => (
   <Tooltip title="Thanks for using antd. Have a nice day !" {...props} />

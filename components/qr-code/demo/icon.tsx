@@ -1,5 +1,5 @@
 import React from 'react';
-import { QRCode } from 'antd';
+import { QRCode } from 'gzj-ui';
 
 const App: React.FC = () => (
   <QRCode

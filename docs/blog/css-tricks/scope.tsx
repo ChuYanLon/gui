@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex } from 'antd';
+import { Flex } from 'gzj-ui';
 
 const styleTxt = `
   @scope (.blog-css-tricks-a) to (span) {

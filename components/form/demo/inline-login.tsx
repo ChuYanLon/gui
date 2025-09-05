@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
-import { Button, Form, Input } from 'antd';
+import { Button, Form, Input } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [form] = Form.useForm();

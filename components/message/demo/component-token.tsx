@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, message } from 'antd';
+import { ConfigProvider, message } from 'gzj-ui';
 
 /** Test usage. Do not use in your production. */
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalPanel } = message;

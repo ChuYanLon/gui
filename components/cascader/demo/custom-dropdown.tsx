@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader, Divider } from 'antd';
+import { Cascader, Divider } from 'gzj-ui';
 
 interface Option {
   value: string;

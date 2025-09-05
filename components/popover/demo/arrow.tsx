@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
-import { Button, ConfigProvider, Flex, Popover, Segmented } from 'antd';
-import type { PopoverProps } from 'antd';
+import { Button, ConfigProvider, Flex, Popover, Segmented } from 'gzj-ui';
+import type { PopoverProps } from 'gzj-ui';
 
 const text = <span>Title</span>;
 

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'gzj-ui';
 
 import Divider from '..';
 import mountTest from '../../../tests/shared/mountTest';

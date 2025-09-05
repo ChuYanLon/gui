@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'gzj-ui';
 
 import type { TableProps, TableRef } from '..';
 import Table from '..';

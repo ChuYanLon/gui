@@ -1,6 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
-import { Flex } from 'antd';
+import { Flex } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

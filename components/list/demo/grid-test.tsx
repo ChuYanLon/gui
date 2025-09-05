@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, List } from 'antd';
+import { Card, List } from 'gzj-ui';
 
 const data = [
   {

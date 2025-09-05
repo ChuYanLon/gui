@@ -120,7 +120,7 @@ antd will have a strict discussion on the demand for new components to prevent A
 antd expose the basic component definitions. For the unexposed props, you can get them via the utility types provided by antd. For example:
 
 ```tsx
-import type { Checkbox, CheckboxProps, GetProp, GetProps, GetRef, Input } from 'antd';
+import type { Checkbox, CheckboxProps, GetProp, GetProps, GetRef, Input } from 'gzj-ui';
 
 // Get Props
 type CheckboxGroupProps = GetProps<typeof Checkbox.Group>;
@@ -206,7 +206,7 @@ Please ref document [Shadow Dom Usage](/docs/react/compatible-style#shadow-dom-u
 Config with SeedToken:
 
 ```jsx
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'gzj-ui';
 
 <ConfigProvider theme={{ token: { motion: false } }}>
   <App />
@@ -249,7 +249,7 @@ When we try to set the form value using the `setFieldsValue` method in the form 
 
 ```tsx
 // This is not real world code, just for explain
-import { Form } from 'antd';
+import { Form } from 'gzj-ui';
 
 type Test = {
   value: string[] | null;
@@ -290,7 +290,7 @@ Currently, this problem is [waiting for Next.js to give an official solution](ht
 'use client';
 
 import React from 'react';
-import { Typography as OriginTypography } from 'antd';
+import { Typography as OriginTypography } from 'gzj-ui';
 import type { LinkProps } from 'antd/es/typography/Link';
 import type { ParagraphProps } from 'antd/es/typography/Paragraph';
 import type { TextProps } from 'antd/es/typography/Text';

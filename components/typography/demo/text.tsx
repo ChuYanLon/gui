@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space, Typography } from 'antd';
+import { Space, Typography } from 'gzj-ui';
 
 const { Text, Link } = Typography;
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Badge, Descriptions } from 'antd';
-import type { DescriptionsProps } from 'antd';
+import { Badge, Descriptions } from 'gzj-ui';
+import type { DescriptionsProps } from 'gzj-ui';
 
 const items: DescriptionsProps['items'] = [
   {

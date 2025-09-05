@@ -1,6 +1,6 @@
 import React from 'react';
 import { CloseCircleOutlined } from '@ant-design/icons';
-import { Button, Result, Typography } from 'antd';
+import { Button, Result, Typography } from 'gzj-ui';
 
 const { Paragraph, Text } = Typography;
 

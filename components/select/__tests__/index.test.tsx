@@ -1,6 +1,6 @@
 import React from 'react';
 import { CloseOutlined } from '@ant-design/icons';
-import { Button, Input, Space } from 'antd';
+import { Button, Input, Space } from 'gzj-ui';
 
 import type { SelectProps } from '..';
 import Select from '..';

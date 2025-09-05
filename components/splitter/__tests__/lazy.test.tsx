@@ -1,6 +1,6 @@
 import React from 'react';
 import { createEvent, fireEvent, render } from '@testing-library/react';
-import { Splitter } from 'antd';
+import { Splitter } from 'gzj-ui';
 import { spyElementPrototypes } from 'rc-util/lib/test/domHook';
 import { resetWarned } from 'rc-util/lib/warning';
 

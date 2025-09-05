@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Divider, Space, Tooltip } from 'antd';
+import { Button, Divider, Space, Tooltip } from 'gzj-ui';
 
 const colors = [
   'pink',

@@ -1,6 +1,6 @@
 import React from 'react';
-import type { CollapseProps } from 'antd';
-import { Collapse } from 'antd';
+import type { CollapseProps } from 'gzj-ui';
+import { Collapse } from 'gzj-ui';
 
 import SemanticPreview from '../../../.dumi/theme/common/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

@@ -4,7 +4,7 @@ import dayjs from 'dayjs';
 import 'dayjs/locale/zh-cn';
 
 import React, { useEffect, useLayoutEffect, useRef } from 'react';
-import { ConfigProvider, theme } from 'antd';
+import { ConfigProvider, theme } from 'gzj-ui';
 import zhCN from 'antd/es/locale/zh_CN';
 import { Helmet, useOutlet, useSearchParams, useSiteData } from 'dumi';
 

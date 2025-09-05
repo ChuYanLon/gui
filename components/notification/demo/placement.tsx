@@ -7,8 +7,8 @@ import {
   RadiusUpleftOutlined,
   RadiusUprightOutlined,
 } from '@ant-design/icons';
-import { Button, Divider, notification, Space } from 'antd';
-import type { NotificationArgsProps } from 'antd';
+import { Button, Divider, notification, Space } from 'gzj-ui';
+import type { NotificationArgsProps } from 'gzj-ui';
 
 type NotificationPlacement = NotificationArgsProps['placement'];
 

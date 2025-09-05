@@ -30,7 +30,7 @@ Different from animations usage in typical front-office applications, animations
  * inline: true
  */
 
-import { Col, Row } from 'antd';
+import { Col, Row } from 'gzj-ui';
 
 const text = [
   {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Descriptions } from 'antd';
+import { Descriptions } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Descriptions title="User Info">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { RadioChangeEvent } from 'antd';
-import { Radio } from 'antd';
+import type { RadioChangeEvent } from 'gzj-ui';
+import { Radio } from 'gzj-ui';
 import type { CheckboxGroupProps } from 'antd/es/checkbox';
 
 const plainOptions: CheckboxGroupProps<string>['options'] = ['Apple', 'Pear', 'Orange'];

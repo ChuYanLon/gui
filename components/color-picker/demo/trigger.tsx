@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
-import { Button, ColorPicker } from 'antd';
-import type { ColorPickerProps, GetProp } from 'antd';
+import { Button, ColorPicker } from 'gzj-ui';
+import type { ColorPickerProps, GetProp } from 'gzj-ui';
 
 type Color = Extract<GetProp<ColorPickerProps, 'value'>, string | { cleared: any }>;
 

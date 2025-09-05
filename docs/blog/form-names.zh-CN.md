@@ -8,7 +8,7 @@ author: crazyair
 
 ```tsx
 import React from 'react';
-import { Cascader, Form } from 'antd';
+import { Cascader, Form } from 'gzj-ui';
 
 const data = { province: 'Beijing', city: 'Haidian' };
 const options = [
@@ -80,8 +80,8 @@ rules={[{
  * defaultShowCode: true
  */
 import React from 'react';
-import type { FormItemProps } from 'antd';
-import { Button, Cascader, DatePicker, Form as OriginForm } from 'antd';
+import type { FormItemProps } from 'gzj-ui';
+import { Button, Cascader, DatePicker, Form as OriginForm } from 'gzj-ui';
 import dayjs from 'dayjs';
 
 interface AggregateProps<V = any> extends FormItemProps<V> {

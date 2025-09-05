@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space, TimePicker } from 'antd';
+import { Space, TimePicker } from 'gzj-ui';
 import dayjs from 'dayjs';
 
 const App: React.FC = () => (

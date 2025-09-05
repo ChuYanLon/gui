@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Flex, Popconfirm } from 'antd';
+import { Button, ConfigProvider, Flex, Popconfirm } from 'gzj-ui';
 
 const text = 'Are you sure to delete this task?';
 const description = 'Delete the task';

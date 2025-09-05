@@ -1,6 +1,6 @@
 import React from 'react';
 import { SearchOutlined } from '@ant-design/icons';
-import { Button, Input, Select, Space } from 'antd';
+import { Button, Input, Select, Space } from 'gzj-ui';
 
 const { Search } = Input;
 

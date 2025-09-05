@@ -1,6 +1,6 @@
 import React from 'react';
-import type { CascaderProps } from 'antd';
-import { Cascader, ConfigProvider } from 'antd';
+import type { CascaderProps } from 'gzj-ui';
+import { Cascader, ConfigProvider } from 'gzj-ui';
 
 interface Option {
   value: string;

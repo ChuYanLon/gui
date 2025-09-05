@@ -22,7 +22,7 @@ const sandpackConfig = {
 };
 
 import React from 'react';
-import { Button, Space, DatePicker, version } from 'antd';
+import { Button, Space, DatePicker, version } from 'gzj-ui';
 
 const App = () => (
   <div style={{ padding: '0 24px' }}>
@@ -47,7 +47,7 @@ export default App;
 
 ```jsx
 import React, { useState } from 'react';
-import { ConfigProvider, DatePicker, message } from 'antd';
+import { ConfigProvider, DatePicker, message } from 'gzj-ui';
 // 由于 antd 组件的默认文案是英文，所以需要修改为中文
 import dayjs from 'dayjs';
 import { createRoot } from 'react-dom/client';
@@ -90,8 +90,8 @@ createRoot(document.getElementById('root')).render(<App />);
 然后依照演示代码的写法，在之前的 codesandbox 里修改 `index.js`，首先在 `import` 内引入 Alert 组件：
 
 ```diff
-- import { ConfigProvider, DatePicker, message } from 'antd';
-+ import { ConfigProvider, DatePicker, message, Alert } from 'antd';
+- import { ConfigProvider, DatePicker, message } from 'gzj-ui';
++ import { ConfigProvider, DatePicker, message, Alert } from 'gzj-ui';
 ```
 
 然后在 `render` 内添加相应的 jsx 代码：
@@ -120,7 +120,7 @@ createRoot(document.getElementById('root')).render(<App />);
 
 ## 按需加载
 
-`gui` 默认支持基于 ES modules 的 tree shaking，直接引入 `import { Button } from 'antd';` 就会有按需加载的效果。
+`gui` 默认支持基于 ES modules 的 tree shaking，直接引入 `import { Button } from 'gzj-ui';` 就会有按需加载的效果。
 
 ## 自行构建
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Typography } from 'antd';
+import { Col, Row, Typography } from 'gzj-ui';
 import { createStyles, useTheme } from 'antd-style';
 import { useLocation } from 'dumi';
 

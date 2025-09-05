@@ -11,7 +11,7 @@ juejin_url: https://juejin.cn/post/7322306608103686194
 
 ```tsx
 import React from 'react';
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'gzj-ui';
 
 export default () => {
   const [modal, contextHolder] = Modal.useModal();

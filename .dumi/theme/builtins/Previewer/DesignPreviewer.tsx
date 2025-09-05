@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import React, { useEffect, useRef } from 'react';
 import { CheckOutlined, SketchOutlined } from '@ant-design/icons';
-import { App } from 'antd';
+import { App } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import copy from 'copy-to-clipboard';
 import { nodeToGroup } from 'html2sketch';

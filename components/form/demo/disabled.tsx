@@ -16,7 +16,7 @@ import {
   Switch,
   TreeSelect,
   Upload,
-} from 'antd';
+} from 'gzj-ui';
 
 const { RangePicker } = DatePicker;
 const { TextArea } = Input;

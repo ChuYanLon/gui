@@ -36,7 +36,7 @@ const sandpackConfig = {
   autorun: true,
 };
 
-import { Button, ConfigProvider, Space } from 'antd';
+import { Button, ConfigProvider, Space } from 'gzj-ui';
 import React from 'react';
 
 const App: React.FC = () => (
@@ -78,7 +78,7 @@ const sandpackConfig = {
 };
 
 import React from 'react';
-import { Button, ConfigProvider, Input, Space, theme } from 'antd';
+import { Button, ConfigProvider, Input, Space, theme } from 'gzj-ui';
 
 const App: React.FC = () => (
   <ConfigProvider
@@ -114,7 +114,7 @@ export default App;
 
 ```sandpack
 import React from 'react';
-import { ConfigProvider, Button, Space, Input, Divider } from 'antd';
+import { ConfigProvider, Button, Space, Input, Divider } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>
@@ -169,7 +169,7 @@ antd 默认内置了一些组件交互动效让企业级页面更加富有细节
 
 ```sandpack
 import React from 'react';
-import { Checkbox, Col, ConfigProvider, Flex, Radio, Row, Switch } from 'antd';
+import { Checkbox, Col, ConfigProvider, Flex, Radio, Row, Switch } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [checked, setChecked] = React.useState<boolean>(false);
@@ -213,7 +213,7 @@ export default App;
 在 v5 中，动态切换主题对用户来说是非常简单的，你可以在任何时候通过 `ConfigProvider` 的 `theme` 属性来动态切换主题，而不需要任何额外配置。
 
 ```sandpack
-import { Button, ConfigProvider, Space, Input, ColorPicker, Divider } from 'antd';
+import { Button, ConfigProvider, Space, Input, ColorPicker, Divider } from 'gzj-ui';
 import React from 'react';
 
 const App: React.FC = () => {
@@ -248,7 +248,7 @@ export default App;
 
 ```sandpack
 import React from 'react';
-import { Button, ConfigProvider, Space } from 'antd';
+import { Button, ConfigProvider, Space } from 'gzj-ui';
 
 const App: React.FC = () => (
   <ConfigProvider
@@ -282,7 +282,7 @@ export default App;
 
 ```sandpack
 import React from 'react';
-import { Button, theme } from 'antd';
+import { Button, theme } from 'gzj-ui';
 
 const { useToken } = theme;
 
@@ -312,7 +312,7 @@ export default App;
 当你需要非 React 生命周期消费 Token 变量时，可以通过静态方法 `getDesignToken` 将其导出：
 
 ```jsx
-import { theme } from 'antd';
+import { theme } from 'gzj-ui';
 
 const { getDesignToken } = theme;
 
@@ -322,8 +322,8 @@ const globalToken = getDesignToken();
 `getDesignToken` 和 ConfigProvider 一样，支持传入 `theme` 属性，用于获取指定主题的 Design Token。
 
 ```tsx
-import type { ThemeConfig } from 'antd';
-import { theme } from 'antd';
+import type { ThemeConfig } from 'gzj-ui';
+import { theme } from 'gzj-ui';
 import { createRoot } from 'react-dom/client';
 
 const { getDesignToken, useToken } = theme;
@@ -421,7 +421,7 @@ const theme = {
 基本算法用于将 Seed Token 展开为 Map Token，比如由一个基本色算出一个梯度色板，或者由一个基本的圆角算出各种大小的圆角。算法可以单独使用，也可以任意地组合使用，比如可以将暗色算法和紧凑算法组合使用，得到一个暗色和紧凑相结合的主题。
 
 ```tsx
-import { theme } from 'antd';
+import { theme } from 'gzj-ui';
 
 const { darkAlgorithm, compactAlgorithm } = theme;
 

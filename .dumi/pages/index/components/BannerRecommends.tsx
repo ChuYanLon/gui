@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Carousel, Flex, Skeleton, Typography } from 'antd';
+import { Badge, Carousel, Flex, Skeleton, Typography } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 

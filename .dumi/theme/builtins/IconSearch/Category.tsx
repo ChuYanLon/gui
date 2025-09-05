@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { App } from 'antd';
+import { App } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import { useIntl } from 'dumi';
 

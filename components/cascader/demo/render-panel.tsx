@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader } from 'antd';
+import { Cascader } from 'gzj-ui';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalCascader } = Cascader;
 

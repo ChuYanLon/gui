@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader, Flex } from 'antd';
+import { Cascader, Flex } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Flex vertical gap="middle">

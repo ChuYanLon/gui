@@ -93,7 +93,7 @@ bun add antd
 
 ```tsx
 import React from 'react';
-import { Button, DatePicker } from 'antd';
+import { Button, DatePicker } from 'gzj-ui';
 
 const App = () => (
   <>

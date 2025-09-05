@@ -137,7 +137,7 @@ antd 对新增组件需求会进行严格的讨论，以防止 API 腐败而变�
 antd 会透出基本组件定义。对于未透出属性，你可以通过 antd 提供的工具类型来获取。例如：
 
 ```tsx
-import type { Checkbox, CheckboxProps, GetProp, GetProps, GetRef, Input } from 'antd';
+import type { Checkbox, CheckboxProps, GetProp, GetProps, GetRef, Input } from 'gzj-ui';
 
 // Get Props
 type CheckboxGroupProps = GetProps<typeof Checkbox.Group>;
@@ -229,7 +229,7 @@ message/notification/Modal.confirm 等静态方法不同于 `<Button />` 的渲�
 通过 SeedToken 可以很方便的实现：
 
 ```jsx
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'gzj-ui';
 
 <ConfigProvider theme={{ token: { motion: false } }}>
   <App />
@@ -273,7 +273,7 @@ import { ConfigProvider } from 'antd';
 
 ```tsx
 // This is not real world code, just for explain
-import { Form } from 'antd';
+import { Form } from 'gzj-ui';
 
 type Test = {
   value: string[] | null;
@@ -314,7 +314,7 @@ Error: Cannot access .Option on the server. You cannot dot into a client module 
 'use client';
 
 import React from 'react';
-import { Typography as OriginTypography } from 'antd';
+import { Typography as OriginTypography } from 'gzj-ui';
 import type { LinkProps } from 'antd/es/typography/Link';
 import type { ParagraphProps } from 'antd/es/typography/Paragraph';
 import type { TextProps } from 'antd/es/typography/Text';

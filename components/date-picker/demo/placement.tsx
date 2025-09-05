@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { DatePickerProps, RadioChangeEvent } from 'antd';
-import { DatePicker, Radio } from 'antd';
+import type { DatePickerProps, RadioChangeEvent } from 'gzj-ui';
+import { DatePicker, Radio } from 'gzj-ui';
 
 const { RangePicker } = DatePicker;
 

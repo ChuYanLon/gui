@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, message, Space } from 'antd';
+import { Button, message, Space } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [messageApi, contextHolder] = message.useMessage();

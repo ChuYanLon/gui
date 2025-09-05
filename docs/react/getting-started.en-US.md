@@ -24,7 +24,7 @@ const sandpackConfig = {
 };
 
 import React from 'react';
-import { Button, Space, DatePicker, version } from 'antd';
+import { Button, Space, DatePicker, version } from 'gzj-ui';
 
 const App = () => (
   <div style={{ padding: '0 24px' }}>
@@ -53,7 +53,7 @@ If you have already set things up by following the [Use with create-react-app](/
 
 ```jsx
 import React, { useState } from 'react';
-import { DatePicker, message } from 'antd';
+import { DatePicker, message } from 'gzj-ui';
 import { createRoot } from 'react-dom/client';
 
 import './index.css';
@@ -86,8 +86,8 @@ You can view the list of components in the side menu of the Components page, suc
 Click the "Open in Editor" icon in the first example to open an editor with source code to use out-of-the-box. Now you can import the `Alert` component into the codesandbox:
 
 ```diff
-- import { DatePicker, message } from 'antd';
-+ import { DatePicker, message, Alert } from 'antd';
+- import { DatePicker, message } from 'gzj-ui';
++ import { DatePicker, message, Alert } from 'gzj-ui';
 ```
 
 Now add the following jsx inside the `render` function.
@@ -126,7 +126,7 @@ Jest does not support `esm` modules, and gui uses them. In order to test your gu
 
 ## Import on Demand
 
-`gui` supports tree shaking of ES modules, so using `import { Button } from 'antd';` would drop js code you didn't use.
+`gui` supports tree shaking of ES modules, so using `import { Button } from 'gzj-ui';` would drop js code you didn't use.
 
 ## Customize your Workflow
 

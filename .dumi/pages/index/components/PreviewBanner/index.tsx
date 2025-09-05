@@ -1,5 +1,5 @@
 import React, {  use } from 'react';
-import { Flex, Typography } from 'antd';
+import { Flex, Typography } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 import { useLocation } from 'dumi';
@@ -15,7 +15,7 @@ import '../SiteContext';
 
 const locales = {
   cn: {
-    slogan: '助力设计开发者「更灵活」地搭建出「更美」的产品，让用户「快乐工作」～',
+    slogan: 'gui 是fork自ant-design，gui会定期同步ant-design的更新日志。',
     start: '开始使用',
     designLanguage: '设计语言',
   },

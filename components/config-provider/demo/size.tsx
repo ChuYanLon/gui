@@ -11,8 +11,8 @@ import {
   Space,
   Table,
   Tabs,
-} from 'antd';
-import type { ConfigProviderProps } from 'antd';
+} from 'gzj-ui';
+import type { ConfigProviderProps } from 'gzj-ui';
 
 type SizeType = ConfigProviderProps['componentSize'];
 

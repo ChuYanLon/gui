@@ -53,7 +53,7 @@ Modify `src/App.js`, import Button component from `gui`.
 
 ```jsx
 import React from 'react';
-import { Button } from 'antd';
+import { Button } from 'gzj-ui';
 
 const App = () => (
   <div className="App">

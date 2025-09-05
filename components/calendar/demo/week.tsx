@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar } from 'antd';
+import { Calendar } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

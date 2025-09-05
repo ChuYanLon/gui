@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'antd';
+import { Image } from 'gzj-ui';
 import classNames from 'classnames';
 import toArray from 'rc-util/lib/Children/toArray';
 

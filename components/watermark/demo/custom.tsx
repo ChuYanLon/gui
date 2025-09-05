@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { ColorPicker, Flex, Form, Input, InputNumber, Slider, Typography, Watermark } from 'antd';
-import type { ColorPickerProps, GetProp, WatermarkProps } from 'antd';
+import { ColorPicker, Flex, Form, Input, InputNumber, Slider, Typography, Watermark } from 'gzj-ui';
+import type { ColorPickerProps, GetProp, WatermarkProps } from 'gzj-ui';
 
 type Color = Extract<GetProp<ColorPickerProps, 'value'>, string | { cleared: any }>;
 

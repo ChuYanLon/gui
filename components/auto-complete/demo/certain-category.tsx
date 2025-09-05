@@ -1,6 +1,6 @@
 import React from 'react';
 import { UserOutlined } from '@ant-design/icons';
-import { AutoComplete, Flex, Input } from 'antd';
+import { AutoComplete, Flex, Input } from 'gzj-ui';
 
 const Title: React.FC<Readonly<{ title?: string }>> = (props) => (
   <Flex align="center" justify="space-between">

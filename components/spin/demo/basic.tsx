@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spin } from 'antd';
+import { Spin } from 'gzj-ui';
 
 const App: React.FC = () => <Spin />;
 

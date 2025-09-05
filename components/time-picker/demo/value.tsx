@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TimePicker } from 'antd';
+import { TimePicker } from 'gzj-ui';
 import type { Dayjs } from 'dayjs';
 
 const App: React.FC = () => {

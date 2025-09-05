@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Popover } from 'antd';
+import { Button, Popover } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [open, setOpen] = useState(false);

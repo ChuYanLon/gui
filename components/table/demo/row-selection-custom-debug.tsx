@@ -1,6 +1,6 @@
 import React from 'react';
-import { Table } from 'antd';
-import type { TableColumnsType, TableProps } from 'antd';
+import { Table } from 'gzj-ui';
+import type { TableColumnsType, TableProps } from 'gzj-ui';
 
 type TableRowSelection<T extends object = object> = TableProps<T>['rowSelection'];
 

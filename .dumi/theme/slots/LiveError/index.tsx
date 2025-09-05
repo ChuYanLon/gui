@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import React from 'react';
-import { Alert, theme } from 'antd';
+import { Alert, theme } from 'gzj-ui';
 
 const LiveError: FC<{ error: Error | null }> = ({ error }) => {
   const { token } = theme.useToken();

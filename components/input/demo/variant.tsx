@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Input } from 'antd';
+import { Flex, Input } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Flex vertical gap={12}>

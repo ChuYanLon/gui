@@ -1,6 +1,6 @@
 import React from 'react';
-import type { TimePickerProps } from 'antd';
-import { TimePicker } from 'antd';
+import type { TimePickerProps } from 'gzj-ui';
+import { TimePicker } from 'gzj-ui';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Space, Switch } from 'antd';
+import { Space, Switch } from 'gzj-ui';
 
 const style: React.CSSProperties = {
   width: 150,

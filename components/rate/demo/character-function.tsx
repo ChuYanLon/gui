@@ -1,6 +1,6 @@
 import React from 'react';
 import { FrownOutlined, MehOutlined, SmileOutlined } from '@ant-design/icons';
-import { Flex, Rate } from 'antd';
+import { Flex, Rate } from 'gzj-ui';
 
 const customIcons: Record<number, React.ReactNode> = {
   1: <FrownOutlined />,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tooltip } from 'antd';
+import { Tooltip } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Tooltip destroyOnHidden title="prompt text">

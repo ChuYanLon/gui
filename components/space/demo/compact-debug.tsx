@@ -14,7 +14,7 @@ import {
   Select,
   Space,
   Tooltip,
-} from 'antd';
+} from 'gzj-ui';
 
 const { Option } = Select;
 

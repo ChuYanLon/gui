@@ -10,7 +10,7 @@ import {
   Segmented,
   Select,
   TreeSelect,
-} from 'antd';
+} from 'gzj-ui';
 
 const { RangePicker } = DatePicker;
 

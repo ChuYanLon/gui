@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal } from 'antd';
+import { Modal } from 'gzj-ui';
 
 import Image from '..';
 import mountTest from '../../../tests/shared/mountTest';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Popover } from 'antd';
+import { Button, Popover } from 'gzj-ui';
 
 const content = (
   <div>

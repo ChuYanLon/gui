@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Avatar, List, Radio, Space } from 'antd';
+import { Avatar, List, Radio, Space } from 'gzj-ui';
 
 type PaginationPosition = 'top' | 'bottom' | 'both';
 

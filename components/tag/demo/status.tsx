@@ -7,7 +7,7 @@ import {
   MinusCircleOutlined,
   SyncOutlined,
 } from '@ant-design/icons';
-import { Divider, Flex, Tag } from 'antd';
+import { Divider, Flex, Tag } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

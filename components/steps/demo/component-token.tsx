@@ -1,6 +1,6 @@
 import React from 'react';
 import { LoadingOutlined, SmileOutlined, SolutionOutlined, UserOutlined } from '@ant-design/icons';
-import { ConfigProvider, Steps } from 'antd';
+import { ConfigProvider, Steps } from 'gzj-ui';
 
 const description = 'This is a description.';
 const App: React.FC = () => (

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as all from 'antd';
+import * as all from 'gzj-ui';
 
 interface AntdProps {
   component: keyof typeof all;

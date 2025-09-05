@@ -1,6 +1,6 @@
 import React from 'react';
 import { CloseOutlined } from '@ant-design/icons';
-import { Button, Card, Form, Input, Space, Typography } from 'antd';
+import { Button, Card, Form, Input, Space, Typography } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [form] = Form.useForm();

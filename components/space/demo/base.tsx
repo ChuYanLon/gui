@@ -1,6 +1,6 @@
 import React from 'react';
 import { UploadOutlined } from '@ant-design/icons';
-import { Button, Popconfirm, Space, Upload } from 'antd';
+import { Button, Popconfirm, Space, Upload } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Space>

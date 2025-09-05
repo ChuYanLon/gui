@@ -30,7 +30,7 @@ title: 动效
  * inline: true
  */
 
-import { Col, Row } from 'antd';
+import { Col, Row } from 'gzj-ui';
 
 const text = [
   {

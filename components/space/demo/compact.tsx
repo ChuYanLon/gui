@@ -13,7 +13,7 @@ import {
   TimePicker,
   Tooltip,
   TreeSelect,
-} from 'antd';
+} from 'gzj-ui';
 
 const { Option } = Select;
 const { TreeNode } = TreeSelect;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Flex } from 'antd';
+import { Button, ConfigProvider, Flex } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 
 const useSpecStyle = createStyles(({ css }) => ({

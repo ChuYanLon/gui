@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Tag } from 'antd';
+import { Grid, Tag } from 'gzj-ui';
 
 const { useBreakpoint } = Grid;
 

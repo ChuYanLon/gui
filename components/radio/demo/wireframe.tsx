@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Radio } from 'antd';
+import { ConfigProvider, Radio } from 'gzj-ui';
 import type { CheckboxGroupProps } from 'antd/es/checkbox';
 
 const options: CheckboxGroupProps<string | number>['options'] = [

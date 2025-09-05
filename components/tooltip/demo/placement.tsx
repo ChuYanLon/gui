@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Flex, Tooltip } from 'antd';
+import { Button, ConfigProvider, Flex, Tooltip } from 'gzj-ui';
 
 const text = <span>prompt text</span>;
 

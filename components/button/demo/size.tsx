@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { DownloadOutlined } from '@ant-design/icons';
-import { Button, Divider, Flex, Radio } from 'antd';
-import type { ConfigProviderProps } from 'antd';
+import { Button, Divider, Flex, Radio } from 'gzj-ui';
+import type { ConfigProviderProps } from 'gzj-ui';
 
 type SizeType = ConfigProviderProps['componentSize'];
 

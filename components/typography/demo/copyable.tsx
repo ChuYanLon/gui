@@ -1,6 +1,6 @@
 import React from 'react';
 import { SmileFilled, SmileOutlined } from '@ant-design/icons';
-import { Typography } from 'antd';
+import { Typography } from 'gzj-ui';
 
 const { Paragraph, Text } = Typography;
 

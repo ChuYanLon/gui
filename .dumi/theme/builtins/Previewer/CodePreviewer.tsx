@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { UpOutlined } from '@ant-design/icons';
-import { Badge, Tooltip } from 'antd';
+import { Badge, Tooltip } from 'gzj-ui';
 import { createStyles, css } from 'antd-style';
 import classNames from 'classnames';
 import { FormattedMessage, useLiveDemo } from 'dumi';

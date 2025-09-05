@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, Form, Input } from 'antd';
+import { Divider, Form, Input } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

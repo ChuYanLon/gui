@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from 'antd';
+import { Slider } from 'gzj-ui';
 
 const onChange = (value: number | number[]) => {
   console.log('onChange: ', value);

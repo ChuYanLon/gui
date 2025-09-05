@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, QRCode, Space } from 'antd';
+import { Input, QRCode, Space } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [text, setText] = React.useState('https://ant.design/');

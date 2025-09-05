@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimePicker } from 'antd';
+import { TimePicker } from 'gzj-ui';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalTimePicker } = TimePicker;
 

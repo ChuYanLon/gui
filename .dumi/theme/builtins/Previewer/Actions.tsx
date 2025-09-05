@@ -2,7 +2,7 @@ import React, { Suspense, useRef } from 'react';
 import { LinkOutlined, ThunderboltOutlined } from '@ant-design/icons';
 import stackblitzSdk from '@stackblitz/sdk';
 import type { Project } from '@stackblitz/sdk';
-import { Flex, Tooltip } from 'antd';
+import { Flex, Tooltip } from 'gzj-ui';
 import { FormattedMessage, useSiteData } from 'dumi';
 import LZString from 'lz-string';
 

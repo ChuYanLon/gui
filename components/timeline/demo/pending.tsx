@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Timeline } from 'antd';
+import { Button, Timeline } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [reverse, setReverse] = useState(false);

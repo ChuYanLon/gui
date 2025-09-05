@@ -1,6 +1,6 @@
 import React from 'react';
-import { Tabs } from 'antd';
-import type { TabsProps } from 'antd';
+import { Tabs } from 'gzj-ui';
+import type { TabsProps } from 'gzj-ui';
 
 const onChange = (key: string) => {
   console.log(key);

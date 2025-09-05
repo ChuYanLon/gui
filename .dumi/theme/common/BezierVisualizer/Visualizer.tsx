@@ -1,5 +1,5 @@
 import React, { useId } from 'react';
-import { theme } from 'antd';
+import { theme } from 'gzj-ui';
 
 export interface VisualizerProps {
   /**

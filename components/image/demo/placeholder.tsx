@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Image, Space } from 'antd';
+import { Button, Image, Space } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [random, setRandom] = useState<number>(Date.now());

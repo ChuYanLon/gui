@@ -1,6 +1,6 @@
 import React from 'react';
 import { ClockCircleOutlined } from '@ant-design/icons';
-import { Timeline } from 'antd';
+import { Timeline } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Timeline

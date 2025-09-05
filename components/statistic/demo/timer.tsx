@@ -1,6 +1,6 @@
 import React from 'react';
-import type { StatisticTimerProps } from 'antd';
-import { Col, Row, Statistic } from 'antd';
+import type { StatisticTimerProps } from 'gzj-ui';
+import { Col, Row, Statistic } from 'gzj-ui';
 
 const { Timer } = Statistic;
 

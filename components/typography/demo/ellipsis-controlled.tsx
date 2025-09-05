@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flex, Slider, Switch, Typography } from 'antd';
+import { Flex, Slider, Switch, Typography } from 'gzj-ui';
 
 const App = () => {
   const [rows, setRows] = useState(2);

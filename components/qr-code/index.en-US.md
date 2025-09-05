@@ -9,7 +9,7 @@ demo:
 group:
   title: Data Display
   order: 5
-tag: 5.1.0
+
 ---
 
 ## When To Use

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mentions } from 'antd';
+import { Mentions } from 'gzj-ui';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalMentions } = Mentions;
 

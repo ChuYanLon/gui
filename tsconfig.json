@@ -14,7 +14,11 @@
       "antd": ["components/index.ts"],
       "antd/es/*": ["components/*"],
       "antd/lib/*": ["components/*"],
-      "antd/locale/*": ["components/locale/*"]
+      "antd/locale/*": ["components/locale/*"],
+      "gzj-ui": ["components/index.ts"],
+      "gzj-ui/es/*": ["components/*"],
+      "gzj-ui/lib/*": ["components/*"],
+      "gzj-ui/locale/*": ["components/locale/*"],
     },
     "resolvePackageJsonExports": true,
     "strict": true,

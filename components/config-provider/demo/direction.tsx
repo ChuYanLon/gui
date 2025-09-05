@@ -8,7 +8,7 @@ import {
   SearchOutlined as SearchIcon,
   SmileOutlined,
 } from '@ant-design/icons';
-import type { ConfigProviderProps, RadioChangeEvent } from 'antd';
+import type { ConfigProviderProps, RadioChangeEvent } from 'gzj-ui';
 import {
   Badge,
   Button,
@@ -29,7 +29,7 @@ import {
   Switch,
   Tree,
   TreeSelect,
-} from 'antd';
+} from 'gzj-ui';
 
 type DirectionType = ConfigProviderProps['direction'];
 

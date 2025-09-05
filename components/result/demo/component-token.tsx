@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Result } from 'antd';
+import { Button, ConfigProvider, Result } from 'gzj-ui';
 
 const App: React.FC = () => (
   <ConfigProvider

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'antd';
+import { Card } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Card style={{ width: 300 }}>

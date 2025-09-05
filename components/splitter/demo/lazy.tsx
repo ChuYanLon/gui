@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Space, Splitter, Typography } from 'antd';
+import { Flex, Space, Splitter, Typography } from 'gzj-ui';
 
 const Desc: React.FC<Readonly<{ text?: string | number }>> = (props) => (
   <Flex justify="center" align="center" style={{ height: '100%' }}>

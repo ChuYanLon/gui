@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Input } from 'antd';
+import { Button, Input } from 'gzj-ui';
 
 const { TextArea } = Input;
 

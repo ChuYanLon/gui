@@ -4,15 +4,16 @@ title: 快速上手
 showImport: false
 ---
 
-##  添加git子模块
+##  npm 安装
 
 ```bash
-git submodule add https://github.com/ChuYanLon/gui .gui
+npm install gzj-ui
 ```
-## 拉去最新子模块
+
+##  pnpm 安装
 
 ```bash
-git submodule update --remote --merge
+pnpm add gzj-ui
 ```
 
 ## 使用组件 {#examples}

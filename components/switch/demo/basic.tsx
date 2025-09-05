@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch } from 'antd';
+import { Switch } from 'gzj-ui';
 
 const onChange = (checked: boolean) => {
   console.log(`switch to ${checked}`);

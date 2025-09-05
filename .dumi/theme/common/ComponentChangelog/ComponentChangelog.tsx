@@ -1,7 +1,7 @@
 import React, { cloneElement, isValidElement } from 'react';
 import { BugOutlined } from '@ant-design/icons';
-import { Button, Drawer, Flex, Grid, Popover, Tag, Timeline, Typography } from 'antd';
-import type { TimelineItemProps } from 'antd';
+import { Button, Drawer, Flex, Grid, Popover, Tag, Timeline, Typography } from 'gzj-ui';
+import type { TimelineItemProps } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 
 import useFetch from '../../../hooks/useFetch';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker, Space } from 'antd';
+import { DatePicker, Space } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Space direction="vertical" style={{ width: '100%' }}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Popover, QRCode } from 'antd';
+import { Button, Popover, QRCode } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Popover content={<QRCode value="https://ant.design" bordered={false} />}>

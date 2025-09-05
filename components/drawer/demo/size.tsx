@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Drawer, Space } from 'antd';
-import type { DrawerProps } from 'antd';
+import { Button, Drawer, Space } from 'gzj-ui';
+import type { DrawerProps } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [open, setOpen] = useState(false);

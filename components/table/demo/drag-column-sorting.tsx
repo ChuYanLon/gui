@@ -15,8 +15,8 @@ import {
   SortableContext,
   useSortable,
 } from '@dnd-kit/sortable';
-import { Table } from 'antd';
-import type { TableColumnsType } from 'antd';
+import { Table } from 'gzj-ui';
+import type { TableColumnsType } from 'gzj-ui';
 
 interface DataType {
   key: string;

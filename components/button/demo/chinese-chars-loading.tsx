@@ -1,6 +1,6 @@
 import React from 'react';
 import { PoweroffOutlined } from '@ant-design/icons';
-import { Button, Flex } from 'antd';
+import { Button, Flex } from 'gzj-ui';
 
 const Text1 = () => <>部署</>;
 const Text2 = () => <span>部署</span>;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { AntDesignOutlined } from '@ant-design/icons';
-import { Button, ConfigProvider, Space } from 'antd';
+import { Button, ConfigProvider, Space } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 
 const useStyle = createStyles(({ prefixCls, css }) => ({

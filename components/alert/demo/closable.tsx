@@ -1,6 +1,6 @@
 import React from 'react';
 import { CloseSquareOutlined } from '@ant-design/icons';
-import { Alert } from 'antd';
+import { Alert } from 'gzj-ui';
 
 const onClose = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
   console.log(e, 'I was closed.');

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Switch, Typography } from 'antd';
+import { Switch, Typography } from 'gzj-ui';
 
 const { Paragraph, Text } = Typography;
 

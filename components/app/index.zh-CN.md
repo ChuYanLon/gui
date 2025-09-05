@@ -8,7 +8,7 @@ cover: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*HJz8SZos2wgAAAAAAA
 coverDark: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*oC92TK44Ex8AAAAAAAAAAAAADrJ8AQ/original
 demo:
   cols: 2
-tag: 5.1.0
+
 ---
 
 ## 何时使用 {#when-to-use}
@@ -30,7 +30,7 @@ App 组件通过 `Context` 提供上下文方法调用，因而 useApp 需要作
 
 ```tsx
 import React from 'react';
-import { App } from 'antd';
+import { App } from 'gzj-ui';
 
 const MyPage: React.FC = () => {
   const { message, notification, modal } = App.useApp();
@@ -80,7 +80,7 @@ App 组件只能在 `ConfigProvider` 之下才能使用 Design Token， 如果�
 
 ```tsx
 // Entry component
-import { App } from 'antd';
+import { App } from 'gzj-ui';
 import type { MessageInstance } from 'antd/es/message/interface';
 import type { ModalStaticFunctions } from 'antd/es/modal/confirm';
 import type { NotificationInstance } from 'antd/es/notification/interface';
@@ -103,7 +103,7 @@ export { message, notification, modal };
 ```tsx
 // sub page
 import React from 'react';
-import { Button, Space } from 'antd';
+import { Button, Space } from 'gzj-ui';
 
 import { message } from './store';
 

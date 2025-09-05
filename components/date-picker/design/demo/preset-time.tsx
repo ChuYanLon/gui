@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker } from 'antd';
+import { DatePicker } from 'gzj-ui';
 import dayjs from 'dayjs';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: PureDatePicker } = DatePicker;

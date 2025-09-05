@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColorPicker } from 'antd';
+import { ColorPicker } from 'gzj-ui';
 import type { Color } from 'antd/es/color-picker';
 import { FormattedMessage } from 'dumi';
 

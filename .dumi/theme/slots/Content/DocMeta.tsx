@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useMemo, useState } from 'react';
 import { CalendarOutlined } from '@ant-design/icons';
-import { Avatar, Flex, Skeleton, Typography } from 'antd';
+import { Avatar, Flex, Skeleton, Typography } from 'gzj-ui';
 import DayJS from 'dayjs';
 import { useRouteMeta } from 'dumi';
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Anchor, Col, Row } from 'antd';
+import { Anchor, Col, Row } from 'gzj-ui';
 
 const style: React.CSSProperties = {
   height: '30vh',

@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
-import type { InputRef } from 'antd';
-import { Button, Input, Space, Switch } from 'antd';
+import type { InputRef } from 'gzj-ui';
+import { Button, Input, Space, Switch } from 'gzj-ui';
 
 const App: React.FC = () => {
   const inputRef = useRef<InputRef>(null);

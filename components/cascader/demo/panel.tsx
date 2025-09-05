@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { CascaderProps } from 'antd';
-import { Cascader, Flex, Switch } from 'antd';
+import type { CascaderProps } from 'gzj-ui';
+import { Cascader, Flex, Switch } from 'gzj-ui';
 
 interface Option {
   value: string | number;

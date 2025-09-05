@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Popconfirm } from 'antd';
+import { Button, Popconfirm } from 'gzj-ui';
 
 const style: React.CSSProperties = {
   width: '300vw',

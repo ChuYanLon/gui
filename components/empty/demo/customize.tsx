@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Empty, Typography } from 'antd';
+import { Button, Empty, Typography } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Empty

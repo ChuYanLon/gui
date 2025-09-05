@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [modal1Open, setModal1Open] = useState(false);

@@ -1,6 +1,6 @@
 import React from 'react';
-import type { BadgeProps, CalendarProps } from 'antd';
-import { Badge, Calendar } from 'antd';
+import type { BadgeProps, CalendarProps } from 'gzj-ui';
+import { Badge, Calendar } from 'gzj-ui';
 import type { Dayjs } from 'dayjs';
 
 const getListData = (value: Dayjs) => {

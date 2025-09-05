@@ -1,6 +1,6 @@
 import React from 'react';
 import ClockCircleOutlined from '@ant-design/icons/ClockCircleOutlined';
-import { Input, Space } from 'antd';
+import { Input, Space } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Space direction="vertical" style={{ width: '100%' }}>

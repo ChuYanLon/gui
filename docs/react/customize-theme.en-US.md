@@ -36,7 +36,7 @@ const sandpackConfig = {
   autorun: true,
 };
 
-import { Button, ConfigProvider, Space } from 'antd';
+import { Button, ConfigProvider, Space } from 'gzj-ui';
 import React from 'react';
 
 const App: React.FC = () => (
@@ -78,7 +78,7 @@ const sandpackConfig = {
 };
 
 import React from 'react';
-import { Button, ConfigProvider, Input, Space, theme } from 'antd';
+import { Button, ConfigProvider, Input, Space, theme } from 'gzj-ui';
 
 const App: React.FC = () => (
   <ConfigProvider
@@ -114,7 +114,7 @@ In version `>= 5.8.0`, component tokens support the `algorithm` property, which 
 
 ```sandpack
 import React from 'react';
-import { ConfigProvider, Button, Space, Input, Divider } from 'antd';
+import { ConfigProvider, Button, Space, Input, Divider } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>
@@ -169,7 +169,7 @@ antd has built-in interaction animations to make enterprise-level pages more det
 
 ```sandpack
 import React from 'react';
-import { Checkbox, Col, ConfigProvider, Flex, Radio, Row, Switch } from 'antd';
+import { Checkbox, Col, ConfigProvider, Flex, Radio, Row, Switch } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [checked, setChecked] = React.useState<boolean>(false);
@@ -213,7 +213,7 @@ export default App;
 In v5, dynamically switching themes is very simple for users, you can dynamically switch themes at any time through the `theme` property of `ConfigProvider` without any additional configuration.
 
 ```sandpack
-import { Button, ConfigProvider, Space, Input, ColorPicker, Divider } from 'antd';
+import { Button, ConfigProvider, Space, Input, ColorPicker, Divider } from 'gzj-ui';
 import React from 'react';
 
 const App: React.FC = () => {
@@ -248,7 +248,7 @@ By nesting `ConfigProvider` you can apply local theme to some parts of your page
 
 ```sandpack
 import React from 'react';
-import { Button, ConfigProvider, Space } from 'antd';
+import { Button, ConfigProvider, Space } from 'gzj-ui';
 
 const App: React.FC = () => (
   <ConfigProvider
@@ -282,7 +282,7 @@ If you want to consume the Design Token under the current theme, we provide `use
 
 ```sandpack
 import React from 'react';
-import { Button, theme } from 'antd';
+import { Button, theme } from 'gzj-ui';
 
 const { useToken } = theme;
 
@@ -312,7 +312,7 @@ export default App;
 When you need token out of React life cycle, you can use static function to get them:
 
 ```jsx
-import { theme } from 'antd';
+import { theme } from 'gzj-ui';
 
 const { getDesignToken } = theme;
 
@@ -322,8 +322,8 @@ const globalToken = getDesignToken();
 Same as ConfigProvider, `getDesignToken` could also accept a config object as `theme`:
 
 ```tsx
-import type { ThemeConfig } from 'antd';
-import { theme } from 'antd';
+import type { ThemeConfig } from 'gzj-ui';
+import { theme } from 'gzj-ui';
 import { createRoot } from 'react-dom/client';
 
 const { getDesignToken, useToken } = theme;
@@ -421,7 +421,7 @@ const theme = {
 The basic algorithm is used to expand the Seed Token into a Map Token, such as calculating a gradient color palette from a basic color, or calculating rounded corners of various sizes from a basic rounded corner. Algorithms can be used alone or in any combination, for example, dark and compact algorithms can be combined to get a dark and compact theme.
 
 ```tsx
-import { theme } from 'antd';
+import { theme } from 'gzj-ui';
 
 const { darkAlgorithm, compactAlgorithm } = theme;
 

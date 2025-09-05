@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Radio, Slider, Space } from 'antd';
-import type { ConfigProviderProps } from 'antd';
+import { Button, Radio, Slider, Space } from 'gzj-ui';
+import type { ConfigProviderProps } from 'gzj-ui';
 
 type SizeType = ConfigProviderProps['componentSize'];
 

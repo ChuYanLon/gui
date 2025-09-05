@@ -1,6 +1,6 @@
 import React from 'react';
 import * as AntdIcons from '@ant-design/icons';
-import { App, Badge } from 'antd';
+import { App, Badge } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 import CopyToClipboard from 'react-copy-to-clipboard';

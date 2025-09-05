@@ -11,7 +11,7 @@ import {
   Tag,
   Tour,
   Typography,
-} from 'antd';
+} from 'gzj-ui';
 import { createStyles, css } from 'antd-style';
 import classNames from 'classnames';
 import dayjs from 'dayjs';

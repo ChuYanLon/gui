@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, Mentions, Space } from 'antd';
+import { Button, Form, Mentions, Space } from 'gzj-ui';
 
 const { getMentions } = Mentions;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker } from 'antd';
+import { DatePicker } from 'gzj-ui';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalDatePicker } = DatePicker;
 

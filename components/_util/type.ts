@@ -11,8 +11,8 @@ export type CustomComponent<P = AnyObject> = React.ComponentType<P> | string;
  * Get component props
  * @example
  * ```ts
- * import { Checkbox } from 'antd'
- * import type { GetProps } from 'antd';
+ * import { Checkbox } from 'gzj-ui'
+ * import type { GetProps } from 'gzj-ui';
  *
  * type CheckboxGroupProps = GetProps<typeof Checkbox.Group>
  * ```
@@ -30,8 +30,8 @@ export type GetProps<T extends React.ComponentType<any> | object> = T extends Re
  * Get component props by component name
  * @example
  * ```ts
- * import { Select } from 'antd';
- * import type { GetProp, SelectProps } from 'antd';
+ * import { Select } from 'gzj-ui';
+ * import type { GetProp, SelectProps } from 'gzj-ui';
  *
  * type SelectOption1 = GetProp<SelectProps, 'options'>[number];
  * // or
@@ -58,8 +58,8 @@ type ExtractRefAttributesRef<T> = T extends React.RefAttributes<infer P> ? P : n
  * Get component ref
  * @example
  * ```ts
- * import { Input } from 'antd';
- * import type { GetRef } from 'antd';
+ * import { Input } from 'gzj-ui';
+ * import type { GetRef } from 'gzj-ui';
  *
  * type InputRef = GetRef<typeof Input>;
  * ```

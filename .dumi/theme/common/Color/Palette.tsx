@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { presetDarkPalettes } from '@ant-design/colors';
-import { App } from 'antd';
+import { App } from 'gzj-ui';
 import CopyToClipboard from 'react-copy-to-clipboard';
 
 const rgbToHex = (rgbString: string): string => {

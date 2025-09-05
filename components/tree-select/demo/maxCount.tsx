@@ -1,6 +1,6 @@
 import React from 'react';
 import { DownOutlined } from '@ant-design/icons';
-import { TreeSelect } from 'antd';
+import { TreeSelect } from 'gzj-ui';
 
 const MAX_COUNT = 3;
 

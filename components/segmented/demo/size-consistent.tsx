@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Flex, Input, Segmented, Select } from 'antd';
+import { Button, Flex, Input, Segmented, Select } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Flex gap="small" vertical>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { GetProp, RadioChangeEvent, TreeSelectProps } from 'antd';
-import { Radio, TreeSelect } from 'antd';
+import type { GetProp, RadioChangeEvent, TreeSelectProps } from 'gzj-ui';
+import { Radio, TreeSelect } from 'gzj-ui';
 
 type SelectCommonPlacement = GetProp<TreeSelectProps, 'placement'>;
 

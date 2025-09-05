@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Rate } from 'antd';
+import { Flex, Rate } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Flex gap="middle" vertical>

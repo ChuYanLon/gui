@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Descriptions, Divider, Radio, Switch } from 'antd';
-import type { DescriptionsProps } from 'antd';
+import { Descriptions, Divider, Radio, Switch } from 'gzj-ui';
+import type { DescriptionsProps } from 'gzj-ui';
 
 const labelStyle: React.CSSProperties = { background: 'red' };
 const contentStyle: React.CSSProperties = { background: 'green' };

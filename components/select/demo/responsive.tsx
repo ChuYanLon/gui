@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { SelectProps } from 'antd';
-import { Select, Space, Tooltip } from 'antd';
+import type { SelectProps } from 'gzj-ui';
+import { Select, Space, Tooltip } from 'gzj-ui';
 
 interface ItemProps {
   label: string;

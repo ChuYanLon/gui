@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Form, Input, Typography } from 'antd';
+import { Alert, Form, Input, Typography } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [form] = Form.useForm();

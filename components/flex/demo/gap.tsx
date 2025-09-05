@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Flex, Radio, Slider } from 'antd';
-import type { ConfigProviderProps } from 'antd';
+import { Button, Flex, Radio, Slider } from 'gzj-ui';
+import type { ConfigProviderProps } from 'gzj-ui';
 
 type SizeType = ConfigProviderProps['componentSize'];
 

@@ -1,6 +1,6 @@
 import * as React from 'react';
 // import { MenuOutlined } from '@ant-design/icons';
-// import type { MenuProps } from 'antd';
+// import type { MenuProps } from 'gzj-ui';
 // import { createStyles, css } from 'antd-style';
 import type { SharedProps } from './interface';
 

@@ -15,7 +15,7 @@ import {
   Steps,
   Switch,
   Tooltip,
-} from 'antd';
+} from 'gzj-ui';
 import { createStyles } from 'antd-style';
 
 import useLocale from '../../../../hooks/useLocale';

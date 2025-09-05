@@ -1,5 +1,5 @@
 import * as ReactDOM from 'react-dom';
-import { Modal, unstableSetRender } from 'antd';
+import { Modal, unstableSetRender } from 'gzj-ui';
 
 import { waitFakeTimer19 } from '../../tests/utils';
 

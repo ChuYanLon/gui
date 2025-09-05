@@ -1,6 +1,6 @@
 import React from 'react';
 import { SmileOutlined } from '@ant-design/icons';
-import { Dropdown } from 'antd';
+import { Dropdown } from 'gzj-ui';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalDropdown } = Dropdown;
 

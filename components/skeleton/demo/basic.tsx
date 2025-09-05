@@ -1,5 +1,5 @@
 import React from 'react';
-import { Skeleton } from 'antd';
+import { Skeleton } from 'gzj-ui';
 
 const App: React.FC = () => <Skeleton />;
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { RadioChangeEvent, TabsProps } from 'antd';
-import { Radio, Tabs } from 'antd';
+import type { RadioChangeEvent, TabsProps } from 'gzj-ui';
+import { Radio, Tabs } from 'gzj-ui';
 
 type TargetKey = React.MouseEvent | React.KeyboardEvent | string;
 

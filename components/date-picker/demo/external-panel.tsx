@@ -1,6 +1,6 @@
 import React from 'react';
 import { DownOutlined } from '@ant-design/icons';
-import { DatePicker, Dropdown, Space } from 'antd';
+import { DatePicker, Dropdown, Space } from 'gzj-ui';
 import dayjs, { Dayjs } from 'dayjs';
 
 const DatePickerDemo: React.FC = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import type { FormProps } from 'antd';
-import { Button, Checkbox, Form, Input } from 'antd';
+import type { FormProps } from 'gzj-ui';
+import { Button, Checkbox, Form, Input } from 'gzj-ui';
 
 type FieldType = {
   username?: string;

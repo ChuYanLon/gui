@@ -1,6 +1,6 @@
 import React from 'react';
 import { createFromIconfontCN } from '@ant-design/icons';
-import { Space } from 'antd';
+import { Space } from 'gzj-ui';
 
 const IconFont = createFromIconfontCN({
   scriptUrl: [

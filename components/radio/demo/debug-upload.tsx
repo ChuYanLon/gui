@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox, Radio, Space, Upload } from 'antd';
+import { Checkbox, Radio, Space, Upload } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Space>

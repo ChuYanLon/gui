@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Checkbox } from 'antd';
-import type { CheckboxProps } from 'antd';
+import { Button, Checkbox } from 'gzj-ui';
+import type { CheckboxProps } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [checked, setChecked] = useState(true);

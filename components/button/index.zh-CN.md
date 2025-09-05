@@ -39,7 +39,7 @@ group:
 <code src="./demo/color-variant.tsx" version="5.21.0">颜色与变体</code>
 <code src="./demo/debug-color-variant" debug>调试颜色与变体</code>
 <code src="./demo/icon.tsx">按钮图标</code>
-<code src="./demo/icon-position.tsx" version="5.17.0">按钮图标位置</code>
+<code src="./demo/icon-position.tsx" >按钮图标位置</code>
 <code src="./demo/debug-icon.tsx" debug>调试图标按钮</code>
 <code src="./demo/debug-block.tsx" debug>调试按钮block属性</code>
 <code src="./demo/size.tsx">按钮尺寸</code>
@@ -53,7 +53,7 @@ group:
 <code src="./demo/chinese-chars-loading.tsx" debug>加载中状态 bug 还原</code>
 <code src="./demo/component-token.tsx" debug>组件 Token</code>
 <code src="./demo/linear-gradient.tsx">渐变按钮</code>
-<code src="./demo/chinese-space.tsx" version="5.17.0">移除两个汉字之间的空格</code>
+<code src="./demo/chinese-space.tsx" >移除两个汉字之间的空格</code>
 
 ## API
 

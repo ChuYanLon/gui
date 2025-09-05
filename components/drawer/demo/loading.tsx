@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Drawer } from 'antd';
+import { Button, Drawer } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [open, setOpen] = React.useState<boolean>(false);

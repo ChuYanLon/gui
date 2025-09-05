@@ -1,6 +1,6 @@
 import React from 'react';
-import { ConfigProvider, Tree } from 'antd';
-import type { TreeDataNode, TreeProps } from 'antd';
+import { ConfigProvider, Tree } from 'gzj-ui';
+import type { TreeDataNode, TreeProps } from 'gzj-ui';
 
 const treeData: TreeDataNode[] = [
   {

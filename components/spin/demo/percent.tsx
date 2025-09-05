@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Spin, Switch } from 'antd';
+import { Flex, Spin, Switch } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [auto, setAuto] = React.useState(false);

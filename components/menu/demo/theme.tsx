@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
-import type { MenuProps, MenuTheme } from 'antd';
-import { Menu, Switch } from 'antd';
+import type { MenuProps, MenuTheme } from 'gzj-ui';
+import { Menu, Switch } from 'gzj-ui';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Select, Tag } from 'antd';
-import type { SelectProps } from 'antd';
+import { Select, Tag } from 'gzj-ui';
+import type { SelectProps } from 'gzj-ui';
 
 type TagRender = SelectProps['tagRender'];
 

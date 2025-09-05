@@ -5,7 +5,11 @@
       "antd": ["es"],
       "antd/es/*": ["es/*"],
       "antd/lib/*": ["lib/*"],
-      "antd/locale/*": ["locale/*"]
+      "antd/locale/*": ["locale/*"],
+      "gzj-ui": ["es"],
+      "gzj-ui/es/*": ["es/*"],
+      "gzj-ui/lib/*": ["lib/*"],
+      "gzj-ui/locale/*": ["locale/*"],
     }
   },
   "include": ["components/*/demo/*.tsx"],

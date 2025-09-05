@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Form, Input } from 'antd';
+import { Alert, Form, Input } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Form name="trigger" style={{ maxWidth: 600 }} layout="vertical" autoComplete="off">

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, TimePicker } from 'antd';
+import { Button, TimePicker } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [open, setOpen] = useState(false);

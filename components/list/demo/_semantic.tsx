@@ -3,7 +3,7 @@ import React from 'react';
 import SemanticPreview from '../../../.dumi/theme/common/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';
 
-import { Avatar, List, Space } from 'antd';
+import { Avatar, List, Space } from 'gzj-ui';
 import { LikeOutlined, MessageOutlined, StarOutlined } from '@ant-design/icons';
 
 const locales = {

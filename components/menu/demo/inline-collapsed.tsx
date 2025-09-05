@@ -8,8 +8,8 @@ import {
   MenuUnfoldOutlined,
   PieChartOutlined,
 } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Button, Menu } from 'antd';
+import type { MenuProps } from 'gzj-ui';
+import { Button, Menu } from 'gzj-ui';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

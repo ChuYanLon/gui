@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker, Flex } from 'antd';
+import { DatePicker, Flex } from 'gzj-ui';
 
 const { RangePicker } = DatePicker;
 

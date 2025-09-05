@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Input, Space } from 'antd';
+import { Button, Input, Space } from 'gzj-ui';
 
 import TreeSelect, { TreeNode } from '..';
 import { resetWarned } from '../../_util/warning';

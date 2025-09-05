@@ -1,6 +1,6 @@
 import React from 'react';
 import { SmileOutlined } from '@ant-design/icons';
-import { DatePicker, Flex, Segmented } from 'antd';
+import { DatePicker, Flex, Segmented } from 'gzj-ui';
 
 import SemanticPreview from '../../../.dumi/theme/common/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

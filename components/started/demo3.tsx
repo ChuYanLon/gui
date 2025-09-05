@@ -1,6 +1,6 @@
 import React from 'react';
 import { CloseCircleOutlined, DeleteOutlined } from '@ant-design/icons';
-import { Tag } from 'antd';
+import { Tag } from 'gzj-ui';
 
 const preventDefault = (e: React.MouseEvent<HTMLElement>) => {
   e.preventDefault();

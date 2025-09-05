@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Drawer, Modal, Space, Switch } from 'antd';
+import { Drawer, Modal, Space, Switch } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [drawer, setDrawer] = useState(false);

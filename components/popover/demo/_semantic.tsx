@@ -1,6 +1,6 @@
 import React from 'react';
-import { Popover } from 'antd';
-import type { PopoverProps } from 'antd';
+import { Popover } from 'gzj-ui';
+import type { PopoverProps } from 'gzj-ui';
 
 import SemanticPreview from '../../../.dumi/theme/common/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

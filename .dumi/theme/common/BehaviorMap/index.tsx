@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import React, { Suspense } from 'react';
-import { Skeleton } from 'antd';
+import { Skeleton } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 
 import useLocale from '../../../hooks/useLocale';

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Select } from 'antd';
-import type { SelectProps } from 'antd';
+import { Select } from 'gzj-ui';
+import type { SelectProps } from 'gzj-ui';
 
 type LabelRender = SelectProps['labelRender'];
 

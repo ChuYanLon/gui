@@ -1,6 +1,6 @@
 import React from 'react';
 import { green, red } from '@ant-design/colors';
-import { Flex, Progress } from 'antd';
+import { Flex, Progress } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Flex gap="small" vertical>

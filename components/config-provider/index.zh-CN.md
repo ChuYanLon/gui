@@ -14,7 +14,7 @@ ConfigProvider 使用 React 的 [context](https://facebook.github.io/react/docs/
 
 ```tsx
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'gzj-ui';
 
 // ...
 const Demo: React.FC = () => (

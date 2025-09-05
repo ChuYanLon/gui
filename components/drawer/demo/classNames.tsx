@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, ConfigProvider, Drawer, Space } from 'antd';
+import { Button, ConfigProvider, Drawer, Space } from 'gzj-ui';
 import { createStyles, useTheme } from 'antd-style';
 import type { DrawerClassNames, DrawerStyles } from 'antd/es/drawer/DrawerPanel';
 

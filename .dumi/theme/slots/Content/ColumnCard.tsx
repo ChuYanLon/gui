@@ -1,6 +1,6 @@
 import React from 'react';
 import { RightOutlined, YuqueOutlined, ZhihuOutlined } from '@ant-design/icons';
-import { Button, Card, Divider } from 'antd';
+import { Button, Card, Divider } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 

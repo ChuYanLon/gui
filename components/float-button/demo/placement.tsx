@@ -6,7 +6,7 @@ import {
   RightOutlined,
   UpOutlined,
 } from '@ant-design/icons';
-import { Flex, FloatButton } from 'antd';
+import { Flex, FloatButton } from 'gzj-ui';
 
 const BOX_SIZE = 100;
 const BUTTON_SIZE = 40;

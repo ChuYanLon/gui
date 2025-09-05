@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Transfer } from 'antd';
-import type { TransferProps } from 'antd';
+import { Transfer } from 'gzj-ui';
+import type { TransferProps } from 'gzj-ui';
 
 interface RecordType {
   key: string;

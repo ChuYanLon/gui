@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tooltip, Button } from 'antd';
+import { Tooltip, Button } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 import omit from 'rc-util/lib/omit';

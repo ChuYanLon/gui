@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, ConfigProvider, Modal, Space } from 'antd';
+import { Button, ConfigProvider, Modal, Space } from 'gzj-ui';
 import { createStyles, useTheme } from 'antd-style';
 
 const useStyle = createStyles(({ token }) => ({

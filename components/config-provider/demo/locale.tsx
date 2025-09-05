@@ -6,7 +6,7 @@ import type {
   TableProps,
   TourProps,
   UploadFile,
-} from 'antd';
+} from 'gzj-ui';
 import {
   Button,
   Calendar,
@@ -30,7 +30,7 @@ import {
   Tour,
   Transfer,
   Upload,
-} from 'antd';
+} from 'gzj-ui';
 import enUS from 'antd/locale/en_US';
 import zhCN from 'antd/locale/zh_CN';
 import dayjs from 'dayjs';

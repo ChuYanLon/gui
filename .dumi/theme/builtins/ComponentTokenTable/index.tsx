@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { LinkOutlined, QuestionCircleOutlined, RightOutlined } from '@ant-design/icons';
-import { ConfigProvider, Flex, Popover, Table, Typography } from 'antd';
+import { ConfigProvider, Flex, Popover, Table, Typography } from 'gzj-ui';
 import { createStyles, css, useTheme } from 'antd-style';
 import { getDesignToken } from 'antd-token-previewer';
 import tokenMeta from 'antd/es/version/token-meta.json';

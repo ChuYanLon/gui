@@ -1,6 +1,6 @@
 import React from 'react';
-import { Checkbox } from 'antd';
-import type { CheckboxProps } from 'antd';
+import { Checkbox } from 'gzj-ui';
+import type { CheckboxProps } from 'gzj-ui';
 
 const onChange: CheckboxProps['onChange'] = (e) => {
   console.log(`checked = ${e.target.checked}`);

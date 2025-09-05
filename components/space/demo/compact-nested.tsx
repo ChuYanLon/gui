@@ -1,6 +1,6 @@
 import React from 'react';
 import { CopyOutlined, SearchOutlined } from '@ant-design/icons';
-import { Button, Cascader, Input, InputNumber, Select, Space, TimePicker } from 'antd';
+import { Button, Cascader, Input, InputNumber, Select, Space, TimePicker } from 'gzj-ui';
 
 const { Option } = Select;
 

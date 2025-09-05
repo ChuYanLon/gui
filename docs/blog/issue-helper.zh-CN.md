@@ -164,7 +164,7 @@ return <Menu.Item key={item.id}>{item.name}</Menu.Item>;
 
 ```tsx
 import React from 'react';
-import { Menu } from 'antd';
+import { Menu } from 'gzj-ui';
 
 const Demo: React.FC = () => {
   const [collapsed, setCollapsed] = useState<boolean>(false);

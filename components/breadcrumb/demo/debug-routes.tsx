@@ -1,5 +1,5 @@
 import React from 'react';
-import { Breadcrumb } from 'antd';
+import { Breadcrumb } from 'gzj-ui';
 
 export default () => (
   <Breadcrumb

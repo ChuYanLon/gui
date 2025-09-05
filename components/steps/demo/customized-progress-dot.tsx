@@ -1,6 +1,6 @@
 import React from 'react';
-import type { StepsProps } from 'antd';
-import { Popover, Steps } from 'antd';
+import type { StepsProps } from 'gzj-ui';
+import { Popover, Steps } from 'gzj-ui';
 
 const customDot: StepsProps['progressDot'] = (dot, { status, index }) => (
   <Popover

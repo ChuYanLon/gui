@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Rate } from 'antd';
+import { ConfigProvider, Rate } from 'gzj-ui';
 
 /** Test usage. Do not use in your production. */
 export default () => (

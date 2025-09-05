@@ -1,5 +1,5 @@
 import React, { Suspense, useLayoutEffect, useMemo, useState } from 'react';
-import { Col, Flex, FloatButton, Skeleton, Space, Typography } from 'antd';
+import { Col, Flex, FloatButton, Skeleton, Space, Typography } from 'gzj-ui';
 import classNames from 'classnames';
 import { FormattedMessage, useRouteMeta } from 'dumi';
 

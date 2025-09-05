@@ -1,5 +1,5 @@
 import React from 'react';
-import { Anchor, Col, Row } from 'antd';
+import { Anchor, Col, Row } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Row>

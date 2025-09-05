@@ -1,4 +1,4 @@
-import { Tooltip } from 'antd';
+import { Tooltip } from 'gzj-ui';
 import React from 'react';
 
 const ComponentWithEvents: React.FC<React.HTMLAttributes<HTMLSpanElement>> = (props) => (

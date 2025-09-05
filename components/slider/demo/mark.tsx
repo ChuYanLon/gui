@@ -1,6 +1,6 @@
 import React from 'react';
-import { Slider } from 'antd';
-import type { SliderSingleProps } from 'antd';
+import { Slider } from 'gzj-ui';
+import type { SliderSingleProps } from 'gzj-ui';
 
 const marks: SliderSingleProps['marks'] = {
   0: '0°C',

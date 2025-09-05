@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SmileOutlined } from '@ant-design/icons';
-import { Button, Checkbox, ConfigProvider, Radio, Select } from 'antd';
+import { Button, Checkbox, ConfigProvider, Radio, Select } from 'gzj-ui';
 
 // gui site use `es` module for view
 // but do not replace related lib `lib` with `es`

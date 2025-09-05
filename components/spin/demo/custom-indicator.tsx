@@ -1,6 +1,6 @@
 import React from 'react';
 import { LoadingOutlined } from '@ant-design/icons';
-import { Flex, Spin } from 'antd';
+import { Flex, Spin } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Flex align="center" gap="middle">

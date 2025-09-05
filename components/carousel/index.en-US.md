@@ -22,7 +22,7 @@ demo:
 <code src="./demo/position.tsx">Position</code>
 <code src="./demo/autoplay.tsx">Scroll automatically</code>
 <code src="./demo/fade.tsx">Fade in</code>
-<code src="./demo/arrows.tsx" version="5.17.0">Arrows for switching</code>
+<code src="./demo/arrows.tsx" >Arrows for switching</code>
 <code src="./demo/dot-duration.tsx" version="5.24.0">Progress of dots</code>
 <code src="./demo/component-token.tsx" debug>Component Token</code>
 

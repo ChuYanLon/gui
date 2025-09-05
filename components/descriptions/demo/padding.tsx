@@ -1,6 +1,6 @@
 import React from 'react';
-import { Descriptions, Flex } from 'antd';
-import type { DescriptionsProps } from 'antd';
+import { Descriptions, Flex } from 'gzj-ui';
+import type { DescriptionsProps } from 'gzj-ui';
 
 const items: DescriptionsProps['items'] = [
   {

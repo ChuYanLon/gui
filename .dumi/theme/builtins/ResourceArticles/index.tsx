@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Avatar, Divider, Empty, Skeleton, Tabs } from 'antd';
+import { Avatar, Divider, Empty, Skeleton, Tabs } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import dayjs from 'dayjs';
 import { FormattedMessage } from 'dumi';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { TreeSelect } from 'antd';
+import { TreeSelect } from 'gzj-ui';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalTreeSelect } = TreeSelect;
 

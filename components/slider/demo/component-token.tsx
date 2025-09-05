@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Slider } from 'antd';
+import { ConfigProvider, Slider } from 'gzj-ui';
 
 const style: React.CSSProperties = {
   display: 'inline-block',

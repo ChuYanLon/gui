@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { CascaderProps } from 'antd';
+import type { CascaderProps } from 'gzj-ui';
 import {
   AutoComplete,
   Button,
@@ -11,7 +11,7 @@ import {
   InputNumber,
   Row,
   Select,
-} from 'antd';
+} from 'gzj-ui';
 
 const { Option } = Select;
 

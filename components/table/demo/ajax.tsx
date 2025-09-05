@@ -1,7 +1,7 @@
 /* eslint-disable compat/compat */
 import React, { useEffect, useState } from 'react';
-import type { GetProp, TableProps } from 'antd';
-import { Table } from 'antd';
+import type { GetProp, TableProps } from 'gzj-ui';
+import { Table } from 'gzj-ui';
 import type { AnyObject } from 'antd/es/_util/type';
 import type { SorterResult } from 'antd/es/table/interface';
 

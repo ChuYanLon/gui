@@ -8,8 +8,8 @@ import {
   PictureTwoTone,
   PlusOutlined,
 } from '@ant-design/icons';
-import { Image, Upload } from 'antd';
-import type { GetProp, UploadFile, UploadProps } from 'antd';
+import { Image, Upload } from 'gzj-ui';
+import type { GetProp, UploadFile, UploadProps } from 'gzj-ui';
 
 type FileType = Parameters<GetProp<UploadProps, 'beforeUpload'>>[0];
 

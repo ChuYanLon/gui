@@ -7,7 +7,7 @@ cover: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*HJz8SZos2wgAAAAAAA
 coverDark: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*oC92TK44Ex8AAAAAAAAAAAAADrJ8AQ/original
 demo:
   cols: 2
-tag: 5.1.0
+
 ---
 
 ## When To Use
@@ -29,7 +29,7 @@ App provides upstream and downstream method calls through `Context`, because use
 
 ```tsx
 import React from 'react';
-import { App } from 'antd';
+import { App } from 'gzj-ui';
 
 const MyPage: React.FC = () => {
   const { message, notification, modal } = App.useApp();
@@ -79,7 +79,7 @@ The App component can only use the token in the `ConfigProvider`, if you need to
 
 ```tsx
 // Entry component
-import { App } from 'antd';
+import { App } from 'gzj-ui';
 import type { MessageInstance } from 'antd/es/message/interface';
 import type { ModalStaticFunctions } from 'antd/es/modal/confirm';
 import type { NotificationInstance } from 'antd/es/notification/interface';
@@ -102,7 +102,7 @@ export { message, modal, notification };
 ```tsx
 // sub page
 import React from 'react';
-import { Button, Space } from 'antd';
+import { Button, Space } from 'gzj-ui';
 
 import { message } from './store';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Anchor } from 'antd';
+import { Anchor } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Anchor

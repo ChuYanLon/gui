@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Tooltip } from 'antd';
+import { Button, Tooltip } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [disabled, setDisabled] = useState(true);

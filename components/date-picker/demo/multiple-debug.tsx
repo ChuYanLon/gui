@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker, Flex } from 'antd';
+import { DatePicker, Flex } from 'gzj-ui';
 import dayjs from 'dayjs';
 
 const defaultValue = Array.from({ length: 10 }).map((_, i) => dayjs('2000-01-01').add(i, 'day'));

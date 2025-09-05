@@ -1,6 +1,6 @@
 import React from 'react';
-import type { MenuProps } from 'antd';
-import { Button, Dropdown, Space } from 'antd';
+import type { MenuProps } from 'gzj-ui';
+import { Button, Dropdown, Space } from 'gzj-ui';
 
 const items: MenuProps['items'] = [
   {

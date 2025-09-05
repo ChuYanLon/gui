@@ -1,6 +1,6 @@
 import React from 'react';
-import type { InputNumberProps } from 'antd';
-import { InputNumber } from 'antd';
+import type { InputNumberProps } from 'gzj-ui';
+import { InputNumber } from 'gzj-ui';
 
 const onChange: InputNumberProps['onChange'] = (value) => {
   console.log('changed', value);

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Cascader } from 'antd';
-import type { CascaderProps, GetProp } from 'antd';
+import { Cascader } from 'gzj-ui';
+import type { CascaderProps, GetProp } from 'gzj-ui';
 
 type DefaultOptionType = GetProp<CascaderProps, 'options'>[number];
 

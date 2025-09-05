@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox, ConfigProvider, Radio, Space } from 'antd';
+import { Checkbox, ConfigProvider, Radio, Space } from 'gzj-ui';
 
 const sharedStyle: React.CSSProperties = {
   border: '1px solid red',

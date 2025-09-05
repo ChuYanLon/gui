@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Progress, theme } from 'antd';
+import { Flex, Progress, theme } from 'gzj-ui';
 
 const Demo = () => {
   const { token } = theme.useToken();

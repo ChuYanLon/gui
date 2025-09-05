@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { ConfigProviderProps, RadioChangeEvent } from 'antd';
-import { DatePicker, Radio, Space } from 'antd';
+import type { ConfigProviderProps, RadioChangeEvent } from 'gzj-ui';
+import { DatePicker, Radio, Space } from 'gzj-ui';
 
 type SizeType = ConfigProviderProps['componentSize'];
 

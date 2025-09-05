@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, QRCode, Segmented, Space } from 'antd';
-import type { QRCodeProps } from 'antd';
+import { Button, QRCode, Segmented, Space } from 'gzj-ui';
+import type { QRCodeProps } from 'gzj-ui';
 
 function doDownload(url: string, fileName: string) {
   const a = document.createElement('a');

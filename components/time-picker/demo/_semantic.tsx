@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimePicker } from 'antd';
+import { TimePicker } from 'gzj-ui';
 
 import { PickerSemanticTemplate } from '../../date-picker/demo/_semantic';
 

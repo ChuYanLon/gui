@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CarryOutOutlined } from '@ant-design/icons';
-import { Space, Switch, TreeSelect } from 'antd';
+import { Space, Switch, TreeSelect } from 'gzj-ui';
 
 const treeData = [
   {

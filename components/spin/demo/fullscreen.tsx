@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Spin } from 'antd';
+import { Button, Spin } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [spinning, setSpinning] = React.useState(false);

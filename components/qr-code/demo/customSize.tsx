@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
-import { Button, QRCode, Space } from 'antd';
+import { Button, QRCode, Space } from 'gzj-ui';
 
 const MIN_SIZE = 48;
 const MAX_SIZE = 300;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Flex, Spin, Switch } from 'antd';
+import { Alert, Flex, Spin, Switch } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [loading, setLoading] = React.useState<boolean>(false);

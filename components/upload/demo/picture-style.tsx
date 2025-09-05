@@ -1,7 +1,7 @@
 import React from 'react';
 import { UploadOutlined } from '@ant-design/icons';
-import { Button, Upload } from 'antd';
-import type { UploadFile } from 'antd';
+import { Button, Upload } from 'gzj-ui';
+import type { UploadFile } from 'gzj-ui';
 
 const fileList: UploadFile[] = [
   {

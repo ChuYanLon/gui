@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Divider, Space } from 'antd';
+import { Badge, Divider, Space } from 'gzj-ui';
 
 const colors = [
   'pink',

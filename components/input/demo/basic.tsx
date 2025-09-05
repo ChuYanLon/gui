@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input } from 'antd';
+import { Input } from 'gzj-ui';
 
 const App: React.FC = () => <Input placeholder="Basic usage" />;
 

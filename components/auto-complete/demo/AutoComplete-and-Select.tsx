@@ -1,5 +1,5 @@
 import React from 'react';
-import { AutoComplete, Flex, Select } from 'antd';
+import { AutoComplete, Flex, Select } from 'gzj-ui';
 
 const AutoCompleteAndSelect = () => {
   return (

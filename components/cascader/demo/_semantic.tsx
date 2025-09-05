@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader } from 'antd';
+import { Cascader } from 'gzj-ui';
 
 import SemanticPreview from '../../../.dumi/theme/common/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

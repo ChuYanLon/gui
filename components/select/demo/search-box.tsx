@@ -1,7 +1,7 @@
 /* eslint-disable compat/compat */
 import React, { useState } from 'react';
-import { Select } from 'antd';
-import type { SelectProps } from 'antd';
+import { Select } from 'gzj-ui';
+import type { SelectProps } from 'gzj-ui';
 import type { AnyObject } from 'antd/es/_util/type';
 
 let timeout: ReturnType<typeof setTimeout> | null;

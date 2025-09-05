@@ -1,7 +1,7 @@
 import React from 'react';
 import { EditOutlined, GithubOutlined, HistoryOutlined, CompassOutlined } from '@ant-design/icons';
-import type { GetProp } from 'antd';
-import { Descriptions, Flex, theme, Tooltip, Typography } from 'antd';
+import type { GetProp } from 'gzj-ui';
+import { Descriptions, Flex, theme, Tooltip, Typography } from 'gzj-ui';
 import { createStyles, css } from 'antd-style';
 import kebabCase from 'lodash/kebabCase';
 import CopyToClipboard from 'react-copy-to-clipboard';
@@ -35,7 +35,7 @@ const locales = {
   },
 };
 
-const branchUrl = 'https://github.com/ant-design/ant-design/edit/master/';
+const branchUrl = 'https://github.com/ChuYanLon/gui/edit/dev/';
 
 function isVersionNumber(value?: string) {
   return value && /^\d+\.\d+\.\d+$/.test(value);
@@ -98,7 +98,7 @@ const ComponentMeta: React.FC<ComponentMetaProps> = (props) => {
     if (String(source) === 'true') {
       const kebabComponent = kebabCase(component);
       return [
-        `https://github.com/ant-design/ant-design/blob/master/components/${kebabComponent}`,
+        `https://github.com/ChuYanLon/gui/blob/dev/components/${kebabComponent}`,
         `components/${kebabComponent}`,
       ];
     }
@@ -118,7 +118,7 @@ const ComponentMeta: React.FC<ComponentMetaProps> = (props) => {
   };
 
   // ======================== Render ========================
-  const importList = `import { ${transformComponentName(component)} } from "antd";`;
+  const importList = `import { ${transformComponentName(component)} } from "gzj-ui";`;
 
   return (
     <Descriptions
@@ -134,7 +134,7 @@ const ComponentMeta: React.FC<ComponentMetaProps> = (props) => {
           {
             label: locale.import,
             children: (
-              <CopyToClipboard text={`import { ${component} } from "antd";`} onCopy={onCopy}>
+              <CopyToClipboard text={`import { ${component} } from "gzj-ui";`} onCopy={onCopy}>
                 <Tooltip
                   placement="right"
                   title={copied ? locale.copied : locale.copy}
@@ -154,41 +154,6 @@ const ComponentMeta: React.FC<ComponentMetaProps> = (props) => {
                 <GithubOutlined className={styles.icon} />
                 <span>{abbrSource}</span>
               </Typography.Link>
-            ),
-          },
-          filename && {
-            label: locale.docs,
-            children: (
-              <Flex justify="flex-start" align="center" gap="small">
-                <Typography.Link
-                  className={styles.code}
-                  href={`${branchUrl}${filename}`}
-                  target="_blank"
-                >
-                  <EditOutlined className={styles.icon} />
-                  <span>{locale.edit}</span>
-                </Typography.Link>
-                {designUrl && (
-                  <Link className={styles.code} to={designUrl}>
-                    <CompassOutlined className={styles.icon} />
-                    <span>{locale.design}</span>
-                  </Link>
-                )}
-                <ComponentChangelog>
-                  <Typography.Link className={styles.code}>
-                    <HistoryOutlined className={styles.icon} />
-                    <span>{locale.changelog}</span>
-                  </Typography.Link>
-                </ComponentChangelog>
-              </Flex>
-            ),
-          },
-          isVersionNumber(version) && {
-            label: locale.version,
-            children: (
-              <Typography.Text className={styles.code}>
-                {isZhCN ? `自 ${version} 起支持` : `supported since ${version}`}
-              </Typography.Text>
             ),
           },
         ].filter(Boolean) as GetProp<typeof Descriptions, 'items'>

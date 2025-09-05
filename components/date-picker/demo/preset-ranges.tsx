@@ -1,6 +1,6 @@
 import React from 'react';
-import type { TimeRangePickerProps } from 'antd';
-import { DatePicker, Space } from 'antd';
+import type { TimeRangePickerProps } from 'gzj-ui';
+import { DatePicker, Space } from 'gzj-ui';
 import dayjs from 'dayjs';
 import type { Dayjs } from 'dayjs';
 

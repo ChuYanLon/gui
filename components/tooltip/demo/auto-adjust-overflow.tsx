@@ -1,6 +1,6 @@
 import React from 'react';
-import type { TooltipProps } from 'antd';
-import { Button, Tooltip, Typography } from 'antd';
+import type { TooltipProps } from 'gzj-ui';
+import { Button, Tooltip, Typography } from 'gzj-ui';
 
 const Block = React.forwardRef<HTMLDivElement, Partial<TooltipProps>>((props, ref) => (
   <div

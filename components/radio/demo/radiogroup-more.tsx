@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { RadioChangeEvent } from 'antd';
-import { Input, Radio } from 'antd';
+import type { RadioChangeEvent } from 'gzj-ui';
+import { Input, Radio } from 'gzj-ui';
 
 const style: React.CSSProperties = {
   display: 'flex',

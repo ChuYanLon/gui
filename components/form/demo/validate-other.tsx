@@ -15,7 +15,7 @@ import {
   Space,
   Switch,
   Upload,
-} from 'antd';
+} from 'gzj-ui';
 
 const { Option } = Select;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Modal } from 'antd';
+import { ConfigProvider, Modal } from 'gzj-ui';
 
 /** Test usage. Do not use in your production. */
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalPanel } = Modal;

@@ -5,7 +5,7 @@ import {
   TwitterOutlined,
   YoutubeOutlined,
 } from '@ant-design/icons';
-import { Divider, Flex, Tag } from 'antd';
+import { Divider, Flex, Tag } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [checked, setChecked] = React.useState<Array<boolean>>([true, false, false, false]);

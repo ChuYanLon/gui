@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Pagination } from 'antd';
+import { Flex, Pagination } from 'gzj-ui';
 
 import useLocale from '../../../../.dumi/hooks/useLocale';
 

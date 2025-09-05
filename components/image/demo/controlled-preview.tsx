@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Image, InputNumber } from 'antd';
+import { Button, Image, InputNumber } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

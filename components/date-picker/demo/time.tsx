@@ -1,6 +1,6 @@
 import React from 'react';
-import { DatePicker, Space } from 'antd';
-import type { DatePickerProps, GetProps } from 'antd';
+import { DatePicker, Space } from 'gzj-ui';
+import type { DatePickerProps, GetProps } from 'gzj-ui';
 
 type RangePickerProps = GetProps<typeof DatePicker.RangePicker>;
 

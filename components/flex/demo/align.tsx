@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Flex, Segmented } from 'antd';
-import type { FlexProps } from 'antd';
+import { Button, Flex, Segmented } from 'gzj-ui';
+import type { FlexProps } from 'gzj-ui';
 
 const boxStyle: React.CSSProperties = {
   width: '100%',

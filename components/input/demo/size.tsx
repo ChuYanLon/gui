@@ -1,6 +1,6 @@
 import React from 'react';
 import { UserOutlined } from '@ant-design/icons';
-import { Input } from 'antd';
+import { Input } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

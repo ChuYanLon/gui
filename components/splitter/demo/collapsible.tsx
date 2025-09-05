@@ -1,6 +1,6 @@
 import React from 'react';
-import { Flex, Splitter, Typography } from 'antd';
-import type { SplitterProps } from 'antd';
+import { Flex, Splitter, Typography } from 'gzj-ui';
+import type { SplitterProps } from 'gzj-ui';
 
 const Desc: React.FC<Readonly<{ text?: string | number }>> = (props) => (
   <Flex justify="center" align="center" style={{ height: '100%' }}>

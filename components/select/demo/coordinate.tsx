@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Select, Space } from 'antd';
+import { Select, Space } from 'gzj-ui';
 
 const cityData = {
   Zhejiang: ['Hangzhou', 'Ningbo', 'Wenzhou'],

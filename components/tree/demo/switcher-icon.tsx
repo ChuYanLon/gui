@@ -1,7 +1,7 @@
 import React from 'react';
 import { DownOutlined } from '@ant-design/icons';
-import { Tree } from 'antd';
-import type { TreeDataNode, TreeProps } from 'antd';
+import { Tree } from 'gzj-ui';
+import type { TreeDataNode, TreeProps } from 'gzj-ui';
 
 const treeData: TreeDataNode[] = [
   {

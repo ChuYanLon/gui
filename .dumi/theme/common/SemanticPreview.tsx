@@ -1,6 +1,6 @@
 import React from 'react';
 import { InfoCircleOutlined, PushpinOutlined } from '@ant-design/icons';
-import { Button, Col, ConfigProvider, Flex, Popover, Row, Tag, theme, Typography } from 'antd';
+import { Button, Col, ConfigProvider, Flex, Popover, Row, Tag, theme, Typography } from 'gzj-ui';
 import { createStyles, css } from 'antd-style';
 import classnames from 'classnames';
 import Prism from 'prismjs';

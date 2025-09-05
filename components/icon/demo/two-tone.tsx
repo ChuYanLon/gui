@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckCircleTwoTone, HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
-import { Space } from 'antd';
+import { Space } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Space>

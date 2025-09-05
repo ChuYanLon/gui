@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Badge, Space } from 'antd';
+import { Avatar, Badge, Space } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Space size="middle" wrap>

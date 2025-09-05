@@ -1,6 +1,6 @@
 import React from 'react';
-import type { MenuProps } from 'antd';
-import { Button, Dropdown, Flex } from 'antd';
+import type { MenuProps } from 'gzj-ui';
+import { Button, Dropdown, Flex } from 'gzj-ui';
 
 const onMenuClick: MenuProps['onClick'] = (e) => {
   console.log('click', e);

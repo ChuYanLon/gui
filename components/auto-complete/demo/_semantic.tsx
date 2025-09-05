@@ -1,5 +1,5 @@
 import React from 'react';
-import { AutoComplete } from 'antd';
+import { AutoComplete } from 'gzj-ui';
 
 import SelectSemanticTemplate from '../../../.dumi/theme/common/SelectSemanticTemplate';
 

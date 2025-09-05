@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Flex } from 'antd';
+import { Alert, Flex } from 'gzj-ui';
 
 import useLocale from '../../../../.dumi/hooks/useLocale';
 

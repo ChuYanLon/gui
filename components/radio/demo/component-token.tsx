@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Radio, Space } from 'antd';
+import { ConfigProvider, Radio, Space } from 'gzj-ui';
 
 const App: React.FC = () => (
   <ConfigProvider

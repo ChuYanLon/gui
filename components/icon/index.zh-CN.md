@@ -17,11 +17,6 @@ demo:
 
 <InstallDependencies npm='npm install @ant-design/icons@5.x --save' yarn='yarn add @ant-design/icons@5.x' pnpm='pnpm install @ant-design/icons@5.x --save' bun='bun add @ant-design/icons@5.x'></InstallDependencies>
 
-<!-- prettier-ignore -->
-:::warning{title=温馨提示}
-使用 antd v5 时, 请确保安装配套的 @ant-design/icons v5 版本。详见 [#53275](https://github.com/ant-design/ant-design/issues/53275#issuecomment-2747448317)
-:::
-
 ## 设计师专属 {#designers-exclusive}
 
 安装 [Kitchen Sketch 插件 💎](https://kitchen.alipay.com)，就可以一键拖拽使用 gui 和 Iconfont 的海量图标，还可以关联自有项目。

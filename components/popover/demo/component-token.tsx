@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Popover } from 'antd';
+import { ConfigProvider, Popover } from 'gzj-ui';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalPopover } = Popover;
 

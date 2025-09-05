@@ -1,5 +1,5 @@
 import React from 'react';
-import { App, Button, Space } from 'antd';
+import { App, Button, Space } from 'gzj-ui';
 
 // Sub page
 const MyPage = () => {

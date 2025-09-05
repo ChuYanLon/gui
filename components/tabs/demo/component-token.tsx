@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Flex, Tabs } from 'antd';
+import { Button, ConfigProvider, Flex, Tabs } from 'gzj-ui';
 
 const tabItems = Array.from({ length: 3 }).map((_, i) => {
   const id = String(i + 1);

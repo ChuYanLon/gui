@@ -1,7 +1,7 @@
 import type { CSSProperties } from 'react';
 import React, { useCallback, useMemo, useState } from 'react';
 import Icon, * as AntdIcons from '@ant-design/icons';
-import { Affix, Empty, Input, Segmented } from 'antd';
+import { Affix, Empty, Input, Segmented } from 'gzj-ui';
 import { createStyles, useTheme } from 'antd-style';
 import type { SegmentedOptions } from 'antd/es/segmented';
 import { useIntl } from 'dumi';

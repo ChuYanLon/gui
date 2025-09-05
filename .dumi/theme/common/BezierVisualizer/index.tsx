@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Button, Flex, Tooltip, Typography } from 'antd';
+import { Button, Flex, Tooltip, Typography } from 'gzj-ui';
 
 import useLocale from '../../../hooks/useLocale';
 import ExternalLinkIcon from '../../icons/ExternalLinkIcon';

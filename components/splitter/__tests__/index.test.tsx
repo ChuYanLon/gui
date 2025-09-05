@@ -1,6 +1,6 @@
 import React from 'react';
-import type { GetProps, SplitterProps } from 'antd';
-import { ConfigProvider, Splitter } from 'antd';
+import type { GetProps, SplitterProps } from 'gzj-ui';
+import { ConfigProvider, Splitter } from 'gzj-ui';
 import { spyElementPrototypes } from 'rc-util/lib/test/domHook';
 
 import { resetWarned } from '../../_util/warning';

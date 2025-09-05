@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { GetProp, TreeSelectProps } from 'antd';
-import { TreeSelect } from 'antd';
+import type { GetProp, TreeSelectProps } from 'gzj-ui';
+import { TreeSelect } from 'gzj-ui';
 
 type DefaultOptionType = GetProp<TreeSelectProps, 'treeData'>[number];
 

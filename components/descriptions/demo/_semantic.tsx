@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Descriptions, DescriptionsProps, Divider, Switch } from 'antd';
+import { Button, Descriptions, DescriptionsProps, Divider, Switch } from 'gzj-ui';
 
 import SemanticPreview from '../../../.dumi/theme/common/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

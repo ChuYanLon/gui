@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'antd';
+import { Button } from 'gzj-ui';
 
 import ConfigProvider from '..';
 import { resetWarned } from '../../_util/warning';

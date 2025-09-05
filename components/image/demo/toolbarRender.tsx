@@ -10,7 +10,7 @@ import {
   ZoomInOutlined,
   ZoomOutOutlined,
 } from '@ant-design/icons';
-import { Image, Space } from 'antd';
+import { Image, Space } from 'gzj-ui';
 
 const imageList = [
   'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',

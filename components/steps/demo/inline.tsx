@@ -1,6 +1,6 @@
 import React from 'react';
-import type { StepsProps } from 'antd';
-import { Avatar, List, Steps } from 'antd';
+import type { StepsProps } from 'gzj-ui';
+import { Avatar, List, Steps } from 'gzj-ui';
 
 const data = [
   {

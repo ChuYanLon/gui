@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Typography } from 'antd';
+import { Typography } from 'gzj-ui';
 import { createStyles, useTheme } from 'antd-style';
 import classNames from 'classnames';
 

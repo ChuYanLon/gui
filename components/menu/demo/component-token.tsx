@@ -7,8 +7,8 @@ import {
   PieChartOutlined,
   SettingOutlined,
 } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { ConfigProvider, Menu, Space, theme } from 'antd';
+import type { MenuProps } from 'gzj-ui';
+import { ConfigProvider, Menu, Space, theme } from 'gzj-ui';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

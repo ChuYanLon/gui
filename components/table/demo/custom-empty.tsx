@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { GetProp } from 'antd';
-import { Button, ConfigProvider, Empty, Table } from 'antd';
+import type { GetProp } from 'gzj-ui';
+import { Button, ConfigProvider, Empty, Table } from 'gzj-ui';
 
 interface DataType {
   key: number;

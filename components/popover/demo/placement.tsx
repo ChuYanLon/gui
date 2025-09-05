@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Flex, Popover } from 'antd';
+import { Button, ConfigProvider, Flex, Popover } from 'gzj-ui';
 
 const text = <span>Title</span>;
 

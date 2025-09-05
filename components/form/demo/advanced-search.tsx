@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { DownOutlined } from '@ant-design/icons';
-import { Button, Col, Form, Input, Row, Select, Space, theme } from 'antd';
+import { Button, Col, Form, Input, Row, Select, Space, theme } from 'gzj-ui';
 
 const { Option } = Select;
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { SmileOutlined } from '@ant-design/icons';
-import { Alert } from 'antd';
+import { Alert } from 'gzj-ui';
 
 const icon = <SmileOutlined />;
 

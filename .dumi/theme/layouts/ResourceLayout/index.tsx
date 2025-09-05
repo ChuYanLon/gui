@@ -1,6 +1,6 @@
 import type { PropsWithChildren } from 'react';
 import React from 'react';
-import { ConfigProvider, Layout, Typography } from 'antd';
+import { ConfigProvider, Layout, Typography } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import { FormattedMessage, useRouteMeta } from 'dumi';
 

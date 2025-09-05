@@ -1,5 +1,5 @@
 import React from 'react';
-import { Timeline } from 'antd';
+import { Timeline } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Timeline

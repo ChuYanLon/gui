@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { BugOutlined, CodeOutlined, ExperimentOutlined } from '@ant-design/icons';
 import { css, Global } from '@emotion/react';
-import { Button, ConfigProvider, Tooltip } from 'antd';
+import { Button, ConfigProvider, Tooltip } from 'gzj-ui';
 import { DumiDemo, DumiDemoGrid, FormattedMessage } from 'dumi';
 
 import useLayoutState from '../../../hooks/useLayoutState';

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Tag, TagProps } from 'antd';
+import { Tag, TagProps } from 'gzj-ui';
 
 // https://github.com/umijs/dumi/blob/master/src/client/theme-default/builtins/Badge/index.tsx
 interface BadgeProps extends TagProps {

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Badge, Descriptions, Table } from 'antd';
-import type { DescriptionsProps, TableProps } from 'antd';
+import { Badge, Descriptions, Table } from 'gzj-ui';
+import type { DescriptionsProps, TableProps } from 'gzj-ui';
 
 interface DataType {
   key: React.Key;

@@ -53,7 +53,7 @@ $ npm run dev
 
 ```jsx
 import React from 'react';
-import { Button } from 'antd';
+import { Button } from 'gzj-ui';
 
 const App = () => (
   <div className="App">

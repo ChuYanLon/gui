@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { ColorPicker, Space } from 'antd';
-import type { ColorPickerProps, GetProp } from 'antd';
+import { ColorPicker, Space } from 'gzj-ui';
+import type { ColorPickerProps, GetProp } from 'gzj-ui';
 
 type Color = GetProp<ColorPickerProps, 'value'>;
 

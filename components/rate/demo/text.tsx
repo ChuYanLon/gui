@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flex, Rate } from 'antd';
+import { Flex, Rate } from 'gzj-ui';
 
 const desc = ['terrible', 'bad', 'normal', 'good', 'wonderful'];
 

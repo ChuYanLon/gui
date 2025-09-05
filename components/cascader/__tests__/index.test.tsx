@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Input, Space } from 'antd';
+import { Button, Input, Space } from 'gzj-ui';
 import type { SingleValueType } from 'rc-cascader/lib/Cascader';
 
 import type { DefaultOptionType } from '..';

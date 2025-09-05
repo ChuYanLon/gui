@@ -1,6 +1,6 @@
 import React from 'react';
 import { AntDesignOutlined, UserOutlined } from '@ant-design/icons';
-import { Avatar, Badge, ConfigProvider, Space, Tooltip } from 'antd';
+import { Avatar, Badge, ConfigProvider, Space, Tooltip } from 'gzj-ui';
 
 const App: React.FC = () => (
   <ConfigProvider

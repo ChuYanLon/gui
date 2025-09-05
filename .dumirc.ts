@@ -50,6 +50,10 @@ export default defineConfig({
     'antd/es': path.join(__dirname, 'components'),
     'antd/locale': path.join(__dirname, 'components/locale'),
     antd: path.join(__dirname, 'components'),
+    'gzj-ui/lib': path.join(__dirname, 'components'),
+    'gzj-ui/es': path.join(__dirname, 'components'),
+    'gzj-ui/locale': path.join(__dirname, 'components/locale'),
+    'gzj-ui': path.join(__dirname, 'components'),
     // https://github.com/ant-design/ant-design/issues/46628
     '@ant-design/icons$': '@ant-design/icons/lib',
   },

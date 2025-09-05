@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography } from 'antd';
+import { Typography } from 'gzj-ui';
 
 const { Title, Paragraph, Text } = Typography;
 

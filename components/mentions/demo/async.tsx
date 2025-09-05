@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState } from 'react';
-import { Mentions } from 'antd';
+import { Mentions } from 'gzj-ui';
 import debounce from 'lodash/debounce';
 
 const App: React.FC = () => {

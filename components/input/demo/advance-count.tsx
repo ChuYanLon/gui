@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Input, Typography } from 'antd';
+import { Flex, Input, Typography } from 'gzj-ui';
 import { runes } from 'runes2';
 
 const App: React.FC = () => (

@@ -9,7 +9,7 @@ import {
   Space,
   TreeSelect,
   Typography,
-} from 'antd';
+} from 'gzj-ui';
 
 const options = [
   { value: 'long', label: <Typography>long, long, long piece of text</Typography> },

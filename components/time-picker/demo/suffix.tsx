@@ -1,7 +1,7 @@
 import React from 'react';
 import { SmileOutlined } from '@ant-design/icons';
-import { Space, TimePicker } from 'antd';
-import type { TimePickerProps } from 'antd';
+import { Space, TimePicker } from 'gzj-ui';
+import type { TimePickerProps } from 'gzj-ui';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 

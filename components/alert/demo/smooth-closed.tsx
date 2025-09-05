@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Switch } from 'antd';
+import { Alert, Switch } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(true);

@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Button, InputNumber, Space } from 'antd';
+import { Button, InputNumber, Space } from 'gzj-ui';
 import type { InputNumberRef } from 'rc-input-number';
 
 const App: React.FC = () => {

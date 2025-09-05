@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Segmented, Space, Switch, Table, Typography } from 'antd';
-import type { TableProps } from 'antd';
+import { Button, Segmented, Space, Switch, Table, Typography } from 'gzj-ui';
+import type { TableProps } from 'gzj-ui';
 
 interface RecordType {
   id: number;

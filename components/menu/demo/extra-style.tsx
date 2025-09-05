@@ -1,7 +1,7 @@
 import React from 'react';
 import { DownOutlined, MailOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Flex, Menu, Space } from 'antd';
+import type { MenuProps } from 'gzj-ui';
+import { Flex, Menu, Space } from 'gzj-ui';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

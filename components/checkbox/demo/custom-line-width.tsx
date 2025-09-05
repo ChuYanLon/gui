@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox, ConfigProvider } from 'antd';
+import { Checkbox, ConfigProvider } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

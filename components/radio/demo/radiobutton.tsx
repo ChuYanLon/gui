@@ -1,6 +1,6 @@
 import React from 'react';
-import type { RadioChangeEvent } from 'antd';
-import { Flex, Radio } from 'antd';
+import type { RadioChangeEvent } from 'gzj-ui';
+import { Flex, Radio } from 'gzj-ui';
 
 const onChange = (e: RadioChangeEvent) => {
   console.log(`radio checked:${e.target.value}`);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { generate, green, presetPalettes, red } from '@ant-design/colors';
-import { ColorPicker, theme } from 'antd';
-import type { ColorPickerProps } from 'antd';
+import { ColorPicker, theme } from 'gzj-ui';
+import type { ColorPickerProps } from 'gzj-ui';
 
 type Presets = Required<ColorPickerProps>['presets'][number];
 

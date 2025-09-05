@@ -1,6 +1,6 @@
 import React from 'react';
 import { InfoCircleOutlined, UserOutlined, LockOutlined } from '@ant-design/icons';
-import { Input, Tooltip } from 'antd';
+import { Input, Tooltip } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

@@ -17,16 +17,12 @@ demo:
 - 当需要一个附加的面板来控制父窗体内容，这个面板在需要时呼出。比如，控制界面展示样式，往界面中添加内容。
 - 当需要在当前任务流中插入临时任务，创建或预览附加内容。比如展示协议条款，创建子对象。
 
-> 开发者注意事项：
->
-> 自 `5.17.0` 版本，我们提供了 `loading` 属性，内置 Spin 组件作为加载状态，但是自 `5.18.0` 版本开始，我们修复了设计失误，将内置的 Spin 组件替换成了 Skeleton 组件，同时收窄了 `loading` api 的类型范围，只能接收 boolean 类型。
-
 ## 代码演示
 
 <!-- prettier-ignore -->
 <code src="./demo/basic-right.tsx">基础抽屉</code>
 <code src="./demo/placement.tsx">自定义位置</code>
-<code src="./demo/loading.tsx" version="5.17.0">加载中</code>
+<code src="./demo/loading.tsx" >加载中</code>
 <code src="./demo/extra.tsx">额外操作</code>
 <code src="./demo/render-in-current.tsx">渲染在当前 DOM</code>
 <code src="./demo/form-in-drawer.tsx">抽屉表单</code>

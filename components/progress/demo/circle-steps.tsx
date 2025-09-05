@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Progress, Slider, Typography } from 'antd';
+import { Flex, Progress, Slider, Typography } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [stepsCount, setStepsCount] = React.useState<number>(5);

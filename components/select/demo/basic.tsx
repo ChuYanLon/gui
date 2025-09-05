@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Space } from 'antd';
+import { Select, Space } from 'gzj-ui';
 
 const handleChange = (value: string) => {
   console.log(`selected ${value}`);

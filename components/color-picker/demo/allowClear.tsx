@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColorPicker } from 'antd';
+import { ColorPicker } from 'gzj-ui';
 
 export default () => {
   const [color, setColor] = React.useState<string>('#1677ff');

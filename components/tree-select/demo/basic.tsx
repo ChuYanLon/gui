@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { TreeSelect } from 'antd';
-import type { TreeSelectProps } from 'antd';
+import { TreeSelect } from 'gzj-ui';
+import type { TreeSelectProps } from 'gzj-ui';
 
 const treeData = [
   {

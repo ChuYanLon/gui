@@ -5,8 +5,8 @@ import {
   LineChartOutlined,
   PieChartOutlined,
 } from '@ant-design/icons';
-import type { RadioChangeEvent } from 'antd';
-import { Flex, Radio } from 'antd';
+import type { RadioChangeEvent } from 'gzj-ui';
+import { Flex, Radio } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [value, setValue] = useState(1);

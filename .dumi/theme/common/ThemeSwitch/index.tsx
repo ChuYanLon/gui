@@ -6,8 +6,8 @@ import {
   SunOutlined,
   SyncOutlined,
 } from '@ant-design/icons';
-import { Badge, Button, Dropdown } from 'antd';
-import type { MenuProps } from 'antd';
+import { Badge, Button, Dropdown } from 'gzj-ui';
+import type { MenuProps } from 'gzj-ui';
 import { CompactTheme, DarkTheme } from 'antd-token-previewer/es/icons';
 import { FormattedMessage, useLocation } from 'dumi';
 

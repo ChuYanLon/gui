@@ -1,5 +1,5 @@
 import React from 'react';
-import { Anchor, Col, ConfigProvider, Row } from 'antd';
+import { Anchor, Col, ConfigProvider, Row } from 'gzj-ui';
 
 /** Test usage. Do not use in your production. */
 

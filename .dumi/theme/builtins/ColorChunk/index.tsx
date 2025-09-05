@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { FastColor } from '@ant-design/fast-color';
 import type { ColorInput } from '@ant-design/fast-color';
-import { Popover } from 'antd';
+import { Popover } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 
 const useStyle = createStyles(({ token, css }) => ({

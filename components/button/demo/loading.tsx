@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { PoweroffOutlined, SyncOutlined } from '@ant-design/icons';
-import { Button, Flex } from 'antd';
+import { Button, Flex } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [loadings, setLoadings] = useState<boolean[]>([]);

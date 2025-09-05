@@ -9,8 +9,8 @@ import {
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
-import { Table } from 'antd';
-import type { TableColumnsType } from 'antd';
+import { Table } from 'gzj-ui';
+import type { TableColumnsType } from 'gzj-ui';
 
 interface DataType {
   key: string;

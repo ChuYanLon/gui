@@ -1,6 +1,6 @@
 import React from 'react';
 import type { AvatarListItem } from '@qixian.cs/github-contributors-list/dist/AvatarList';
-import { Avatar, Tooltip } from 'antd';
+import { Avatar, Tooltip } from 'gzj-ui';
 
 interface ContributorAvatarProps {
   loading?: boolean;

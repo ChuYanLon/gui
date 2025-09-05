@@ -9,8 +9,8 @@ import {
   InputNumber,
   Space,
   Switch,
-} from 'antd';
-import type { ColorPickerProps, GetProp } from 'antd';
+} from 'gzj-ui';
+import type { ColorPickerProps, GetProp } from 'gzj-ui';
 
 type Color = Extract<GetProp<ColorPickerProps, 'value'>, { cleared: any }>;
 

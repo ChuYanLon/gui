@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from 'antd';
+import { Slider } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [value, setValue] = React.useState([20, 80]);

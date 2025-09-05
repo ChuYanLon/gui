@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { DrawerProps, RadioChangeEvent } from 'antd';
-import { Button, Drawer, Radio, Space } from 'antd';
+import type { DrawerProps, RadioChangeEvent } from 'gzj-ui';
+import { Button, Drawer, Radio, Space } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [open, setOpen] = useState(false);

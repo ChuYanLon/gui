@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'antd';
+import { Col, Row } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

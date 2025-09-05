@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Tooltip } from 'antd';
+import { Button, Tooltip } from 'gzj-ui';
 
 const style: React.CSSProperties = {
   width: '300vw',

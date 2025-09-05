@@ -1,5 +1,5 @@
 import React from 'react';
-import { Affix, Button } from 'antd';
+import { Affix, Button } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [top, setTop] = React.useState<number>(100);

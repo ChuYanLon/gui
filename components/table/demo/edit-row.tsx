@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { TableProps } from 'antd';
-import { Form, Input, InputNumber, Popconfirm, Table, Typography } from 'antd';
+import type { TableProps } from 'gzj-ui';
+import { Form, Input, InputNumber, Popconfirm, Table, Typography } from 'gzj-ui';
 
 interface DataType {
   key: string;

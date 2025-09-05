@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Flex } from 'antd';
+import { Button, Flex } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Flex gap="small" wrap>

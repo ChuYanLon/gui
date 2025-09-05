@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { QRCodeProps } from 'antd';
-import { QRCode, Segmented } from 'antd';
+import type { QRCodeProps } from 'gzj-ui';
+import { QRCode, Segmented } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [level, setLevel] = useState<QRCodeProps['errorLevel']>('L');

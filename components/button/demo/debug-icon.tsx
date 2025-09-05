@@ -1,7 +1,7 @@
 import React from 'react';
 import { MinusSquareOutlined, SearchOutlined } from '@ant-design/icons';
-import { Button, ConfigProvider, Divider, Flex, Radio, Tooltip, Input } from 'antd';
-import type { ConfigProviderProps } from 'antd';
+import { Button, ConfigProvider, Divider, Flex, Radio, Tooltip, Input } from 'gzj-ui';
+import type { ConfigProviderProps } from 'gzj-ui';
 import { FiColumns } from 'react-icons/fi';
 
 type SizeType = ConfigProviderProps['componentSize'];

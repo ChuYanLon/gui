@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { Col, ColorPicker, Row } from 'antd';
+import { Col, ColorPicker, Row } from 'gzj-ui';
 import type { Color } from 'antd/es/color-picker';
 import { FormattedMessage } from 'dumi';
 

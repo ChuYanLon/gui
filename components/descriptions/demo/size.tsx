@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Descriptions, Radio } from 'antd';
-import type { DescriptionsProps, RadioChangeEvent } from 'antd';
+import { Button, Descriptions, Radio } from 'gzj-ui';
+import type { DescriptionsProps, RadioChangeEvent } from 'gzj-ui';
 
 const borderedItems: DescriptionsProps['items'] = [
   {

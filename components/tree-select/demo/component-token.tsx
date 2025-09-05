@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ConfigProvider, TreeSelect } from 'antd';
+import { ConfigProvider, TreeSelect } from 'gzj-ui';
 
 const treeData = [
   {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CloseSquareFilled } from '@ant-design/icons';
-import { Mentions } from 'antd';
+import { Mentions } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [value, setValue] = useState('hello world');

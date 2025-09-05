@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, message } from 'antd';
+import { Button, message } from 'gzj-ui';
 
 const info = () => {
   message.info('This is a normal message');

@@ -8,7 +8,7 @@ The definition of TypeScript is very powerful, it can solve many problems, help 
 
 ```tsx
 import React from 'react';
-import { Table, type TableColumnsType } from 'antd';
+import { Table, type TableColumnsType } from 'gzj-ui';
 
 const columns: TableColumnsType = [
   {
@@ -24,7 +24,7 @@ export default () => <Table columns={columns} />;
 These definitions meet most scenarios, but sometimes developers want to get more refined type definitions, which antd may not export. In the past, we recommended developers to extend them by themselves through TypeScript's type gymnastics to meet their needs:
 
 ```tsx
-import type { SelectProps } from 'antd';
+import type { SelectProps } from 'gzj-ui';
 
 type SelectOption<T> = NonNullable<SelectProps<T>['options']>[number];
 ```
@@ -46,7 +46,7 @@ Previous two are used to help developers extract the props type of the component
 Some sub-component definition may not be exported in antd. You can get it directly through `GetProps`:
 
 ```tsx
-import type { Checkbox, GetProps } from 'antd';
+import type { Checkbox, GetProps } from 'gzj-ui';
 
 type CheckboxGroupType = GetProps<typeof Checkbox.Group>;
 ```
@@ -56,7 +56,7 @@ type CheckboxGroupType = GetProps<typeof Checkbox.Group>;
 For the property type of the component, we can get it through `GetProp`. It has been encapsulated with `NonNullable`. So there is no need to consider the null case:
 
 ```tsx
-import type { GetProp, Select, SelectProps } from 'antd';
+import type { GetProp, Select, SelectProps } from 'gzj-ui';
 
 // Both of this can work
 type SelectOptionType1 = GetProp<SelectProps, 'options'>[number];
@@ -69,7 +69,7 @@ Through `GetRef`, you don't need to remember what the ref type of the component 
 
 ```tsx
 import React, { forwardRef } from 'react';
-import type { GetRef, Select } from 'antd';
+import type { GetRef, Select } from 'gzj-ui';
 
 type SelectRefType = GetRef<typeof Select>; // BaseSelectRef
 

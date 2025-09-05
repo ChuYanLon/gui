@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Button, Divider, InputNumber, notification, Space, Switch } from 'antd';
+import { Button, Divider, InputNumber, notification, Space, Switch } from 'gzj-ui';
 
 const Context = React.createContext({ name: 'Default' });
 

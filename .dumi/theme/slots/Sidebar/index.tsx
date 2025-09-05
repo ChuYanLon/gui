@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, ConfigProvider, Menu } from 'antd';
+import { Col, ConfigProvider, Menu } from 'gzj-ui';
 import { createStyles, useTheme } from 'antd-style';
 import { useSidebarData } from 'dumi';
 import MobileMenu from 'rc-drawer';

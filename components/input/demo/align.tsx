@@ -12,7 +12,7 @@ import {
   TimePicker,
   TreeSelect,
   Typography,
-} from 'antd';
+} from 'gzj-ui';
 
 const { Text } = Typography;
 const { RangePicker } = DatePicker;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Divider, Row } from 'antd';
+import { Col, Divider, Row } from 'gzj-ui';
 
 const DemoBox: React.FC<React.PropsWithChildren<{ value: number }>> = (props) => (
   <p className={`height-${props.value}`}>{props.children}</p>

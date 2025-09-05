@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Space } from 'antd';
+import { Avatar, Space } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Space>

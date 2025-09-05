@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, message, Steps, theme } from 'antd';
+import { Button, message, Steps, theme } from 'gzj-ui';
 
 const steps = [
   {

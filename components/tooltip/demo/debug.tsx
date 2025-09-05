@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Flex, Tooltip } from 'antd';
+import { Button, Flex, Tooltip } from 'gzj-ui';
 
 const zeroWidthEle = <div />;
 

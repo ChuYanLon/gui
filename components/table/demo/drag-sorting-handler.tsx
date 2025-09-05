@@ -11,8 +11,8 @@ import {
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
-import { Button, Table } from 'antd';
-import type { TableColumnsType } from 'antd';
+import { Button, Table } from 'gzj-ui';
+import type { TableColumnsType } from 'gzj-ui';
 
 interface DataType {
   key: string;

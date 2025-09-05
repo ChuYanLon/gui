@@ -1,6 +1,6 @@
 import React from 'react';
-import { TreeSelect } from 'antd';
-import type { TreeSelectProps } from 'antd';
+import { TreeSelect } from 'gzj-ui';
+import type { TreeSelectProps } from 'gzj-ui';
 
 import SemanticPreview from '../../../.dumi/theme/common/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

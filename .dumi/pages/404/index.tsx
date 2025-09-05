@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { HomeOutlined } from '@ant-design/icons';
-import { Button, Result } from 'antd';
+import { Button, Result } from 'gzj-ui';
 import { useLocation } from 'dumi';
 
 import Link from '../../theme/common/Link';

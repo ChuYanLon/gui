@@ -1,6 +1,6 @@
 import React from 'react';
-import { Flex } from 'antd';
-import type { FlexProps } from 'antd';
+import { Flex } from 'gzj-ui';
+import type { FlexProps } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 

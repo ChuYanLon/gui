@@ -1,6 +1,6 @@
 import React from 'react';
-import type { PaginationProps } from 'antd';
-import { Pagination } from 'antd';
+import type { PaginationProps } from 'gzj-ui';
+import { Pagination } from 'gzj-ui';
 
 const showTotal: PaginationProps['showTotal'] = (total) => `Total ${total} items`;
 

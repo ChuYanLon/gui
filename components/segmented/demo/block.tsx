@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segmented } from 'antd';
+import { Segmented } from 'gzj-ui';
 
 const Demo: React.FC = () => (
   <Segmented options={[123, 456, 'longtext-longtext-longtext-longtext']} block />

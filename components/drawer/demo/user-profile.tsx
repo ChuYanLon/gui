@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Avatar, Col, Divider, Drawer, List, Row } from 'antd';
+import { Avatar, Col, Divider, Drawer, List, Row } from 'gzj-ui';
 
 interface DescriptionItemProps {
   title: string;

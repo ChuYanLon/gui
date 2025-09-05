@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { ColorPicker } from 'antd';
-import type { ColorPickerProps, GetProp } from 'antd';
+import { ColorPicker } from 'gzj-ui';
+import type { ColorPickerProps, GetProp } from 'gzj-ui';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: PureRenderColorPicker } = ColorPicker;
 

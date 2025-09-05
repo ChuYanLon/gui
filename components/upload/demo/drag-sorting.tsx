@@ -9,8 +9,8 @@ import {
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
-import { Button, Upload } from 'antd';
-import type { UploadFile, UploadProps } from 'antd';
+import { Button, Upload } from 'gzj-ui';
+import type { UploadFile, UploadProps } from 'gzj-ui';
 
 interface DraggableUploadListItemProps {
   originNode: React.ReactElement<any, string | React.JSXElementConstructor<any>>;

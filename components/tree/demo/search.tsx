@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
-import { Input, Tree } from 'antd';
-import type { TreeDataNode } from 'antd';
+import { Input, Tree } from 'gzj-ui';
+import type { TreeDataNode } from 'gzj-ui';
 
 const { Search } = Input;
 

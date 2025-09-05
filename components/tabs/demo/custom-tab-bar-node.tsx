@@ -8,8 +8,8 @@ import {
   useSortable,
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
-import { Tabs } from 'antd';
-import type { TabsProps } from 'antd';
+import { Tabs } from 'gzj-ui';
+import type { TabsProps } from 'gzj-ui';
 
 interface DraggableTabPaneProps extends React.HTMLAttributes<HTMLDivElement> {
   'data-node-key': string;

@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect } from 'react';
-import { App, Button, ConfigProvider, Skeleton } from 'antd';
+import { App, Button, ConfigProvider, Skeleton } from 'gzj-ui';
 import { enUS, zhCN } from 'antd-token-previewer';
 import type { ThemeConfig } from 'antd/es/config-provider/context';
 import { Helmet } from 'dumi';

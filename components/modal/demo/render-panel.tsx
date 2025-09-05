@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Modal, Space, Typography } from 'antd';
-import type { ModalFuncProps } from 'antd';
+import { Button, Modal, Space, Typography } from 'gzj-ui';
+import type { ModalFuncProps } from 'gzj-ui';
 
 /** Test usage. Do not use in your production. */
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalPanel } = Modal;

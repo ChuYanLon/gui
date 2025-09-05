@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Flex, Spin } from 'antd';
+import { Alert, Flex, Spin } from 'gzj-ui';
 
 const contentStyle: React.CSSProperties = {
   padding: 50,

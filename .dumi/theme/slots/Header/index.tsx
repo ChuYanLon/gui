@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { MenuOutlined } from '@ant-design/icons';
-import { Alert, Col, ConfigProvider, Popover, Row } from 'antd';
+import { Alert, Col, ConfigProvider, Popover, Row } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 import dayjs from 'dayjs';

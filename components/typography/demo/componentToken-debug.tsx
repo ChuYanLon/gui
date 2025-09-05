@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Divider, Typography } from 'antd';
+import { ConfigProvider, Divider, Typography } from 'gzj-ui';
 
 const { Title, Paragraph, Text, Link } = Typography;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Row } from 'antd';
+import { Card, Col, Row } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Row gutter={16}>

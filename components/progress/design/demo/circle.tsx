@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Progress } from 'antd';
+import { Flex, Progress } from 'gzj-ui';
 
 const Demo = () => (
   <Flex gap="middle" align="center">

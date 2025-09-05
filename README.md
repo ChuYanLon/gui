@@ -90,7 +90,7 @@ bun add antd
 ## 🔨 Usage
 
 ```tsx
-import { Button, DatePicker } from 'antd';
+import { Button, DatePicker } from 'gzj-ui';
 
 export default () => (
   <>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { CustomerServiceOutlined, QuestionCircleOutlined, SyncOutlined } from '@ant-design/icons';
-import { FloatButton } from 'antd';
+import { FloatButton } from 'gzj-ui';
 
 /** Test usage. Do not use in your production. */
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalFloatButton } = FloatButton;

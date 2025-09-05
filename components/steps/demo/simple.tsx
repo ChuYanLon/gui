@@ -1,5 +1,5 @@
 import React from 'react';
-import { Steps } from 'antd';
+import { Steps } from 'gzj-ui';
 
 const description = 'This is a description.';
 const App: React.FC = () => (

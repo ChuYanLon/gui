@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SearchOutlined } from '@ant-design/icons';
-import { Button, Divider, Flex, Radio, Space, Tooltip } from 'antd';
+import { Button, Divider, Flex, Radio, Space, Tooltip } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [position, setPosition] = useState<'start' | 'end'>('end');

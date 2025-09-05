@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Divider, Form, Input, Select } from 'antd';
+import { Button, Divider, Form, Input, Select } from 'gzj-ui';
 
 const sharedItem = (
   <Form.Item

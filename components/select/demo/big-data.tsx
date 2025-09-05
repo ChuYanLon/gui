@@ -1,6 +1,6 @@
 import React from 'react';
-import type { SelectProps } from 'antd';
-import { Select, Typography } from 'antd';
+import type { SelectProps } from 'gzj-ui';
+import { Select, Typography } from 'gzj-ui';
 
 const { Title } = Typography;
 

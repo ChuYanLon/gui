@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, DatePicker, Form, TimePicker } from 'antd';
+import { Button, DatePicker, Form, TimePicker } from 'gzj-ui';
 
 const { RangePicker } = DatePicker;
 

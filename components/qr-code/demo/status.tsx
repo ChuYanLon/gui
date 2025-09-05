@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, QRCode } from 'antd';
+import { Flex, QRCode } from 'gzj-ui';
 
 const value = 'https://ant.design';
 

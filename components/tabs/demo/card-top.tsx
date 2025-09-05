@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs } from 'antd';
+import { Tabs } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 
 const useStyle = createStyles(({ token, css }) => {

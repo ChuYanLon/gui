@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tooltip } from 'antd';
+import { Tooltip } from 'gzj-ui';
 import { isTooltipOpen } from 'antd/es/tooltip/__tests__/util';
 import dayjs from 'dayjs';
 import { renderToString } from 'react-dom/server';

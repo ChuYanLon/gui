@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { DownOutlined } from '@ant-design/icons';
-import { ColorPicker, Space } from 'antd';
+import { ColorPicker, Space } from 'gzj-ui';
 
 const Demo = () => {
   const [open, setOpen] = useState(false);

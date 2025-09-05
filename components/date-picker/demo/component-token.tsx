@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, DatePicker, Divider, Flex, Space, TimePicker } from 'antd';
+import { ConfigProvider, DatePicker, Divider, Flex, Space, TimePicker } from 'gzj-ui';
 import dayjs from 'dayjs';
 
 /** Test usage. Do not use in your production. */

@@ -6,8 +6,8 @@ import {
   MehOutlined,
   SmileOutlined,
 } from '@ant-design/icons';
-import { Tree } from 'antd';
-import type { TreeDataNode } from 'antd';
+import { Tree } from 'gzj-ui';
+import type { TreeDataNode } from 'gzj-ui';
 
 const treeData: TreeDataNode[] = [
   {

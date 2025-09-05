@@ -1,7 +1,7 @@
 import React from 'react';
-import { Collapse, ConfigProvider } from 'antd';
+import { Collapse, ConfigProvider } from 'gzj-ui';
 /** Test usage. Do not use in your production. */
-import type { CollapseProps } from 'antd';
+import type { CollapseProps } from 'gzj-ui';
 
 const text = `gui! `.repeat(26);
 

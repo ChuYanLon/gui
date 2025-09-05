@@ -1,6 +1,6 @@
 import React from 'react';
 import { CloseCircleOutlined, SyncOutlined } from '@ant-design/icons';
-import { ConfigProvider, Flex, Tag } from 'antd';
+import { ConfigProvider, Flex, Tag } from 'gzj-ui';
 
 const App: React.FC = () => (
   <ConfigProvider

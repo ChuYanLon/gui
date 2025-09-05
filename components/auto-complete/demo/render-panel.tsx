@@ -1,5 +1,5 @@
 import React from 'react';
-import { AutoComplete, Space, Switch } from 'antd';
+import { AutoComplete, Space, Switch } from 'gzj-ui';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalAutoComplete } = AutoComplete;
 

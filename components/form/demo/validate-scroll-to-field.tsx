@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Flex, Form, Input, Select } from 'antd';
+import { Button, Flex, Form, Input, Select } from 'gzj-ui';
 
 const App = () => {
   const [form] = Form.useForm();

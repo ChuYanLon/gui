@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input } from 'antd';
+import { Form, Input } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Form style={{ maxWidth: 600 }}>

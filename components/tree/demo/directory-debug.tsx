@@ -1,6 +1,6 @@
 import React from 'react';
-import { Flex, Tree } from 'antd';
-import type { GetProps, TreeDataNode } from 'antd';
+import { Flex, Tree } from 'gzj-ui';
+import type { GetProps, TreeDataNode } from 'gzj-ui';
 
 const { DirectoryTree } = Tree;
 

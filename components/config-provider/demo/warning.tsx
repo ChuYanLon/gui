@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, ConfigProvider, Input, Typography } from 'antd';
+import { Alert, ConfigProvider, Input, Typography } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

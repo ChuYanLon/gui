@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type Icon from '@ant-design/icons';
 import { LikeOutlined, MessageOutlined, StarOutlined } from '@ant-design/icons';
-import { Avatar, List, Skeleton, Switch } from 'antd';
+import { Avatar, List, Skeleton, Switch } from 'gzj-ui';
 
 interface IconTextProps {
   icon: typeof Icon;

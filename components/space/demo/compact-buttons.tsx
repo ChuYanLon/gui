@@ -11,7 +11,7 @@ import {
   StarOutlined,
   WarningOutlined,
 } from '@ant-design/icons';
-import { Button, Dropdown, Space, Tooltip } from 'antd';
+import { Button, Dropdown, Space, Tooltip } from 'gzj-ui';
 
 const App: React.FC = () => (
   <div>

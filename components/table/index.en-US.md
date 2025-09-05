@@ -308,8 +308,8 @@ Properties for row selection.
 
 ```tsx
 import React from 'react';
-import { Table } from 'antd';
-import type { TableColumnsType } from 'antd';
+import { Table } from 'gzj-ui';
+import type { TableColumnsType } from 'gzj-ui';
 
 interface User {
   key: number;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { DownOutlined, SettingOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Dropdown, Space } from 'antd';
+import type { MenuProps } from 'gzj-ui';
+import { Dropdown, Space } from 'gzj-ui';
 
 const items: MenuProps['items'] = [
   {

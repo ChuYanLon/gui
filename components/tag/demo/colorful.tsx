@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, Flex, Tag } from 'antd';
+import { Divider, Flex, Tag } from 'gzj-ui';
 
 const App: React.FC = () => (
   <>

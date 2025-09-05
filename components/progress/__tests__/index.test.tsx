@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Tooltip } from 'antd';
+import { Tooltip } from 'gzj-ui';
 
 import type { ProgressProps } from '..';
 import Progress from '..';

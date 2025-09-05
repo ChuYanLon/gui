@@ -63,7 +63,7 @@ So our extended theme also needs the ability to consume `prefixCls`. In CSS-in-J
 ```tsx
 // This is an example of using `antd-style`, you can use any CSS-in-JS library.
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 
 const useButtonStyle = createStyles(({ css }, prefixCls: string) => {
@@ -93,7 +93,7 @@ It's also easy to extend for scenarios that need to inherit `className`:
 
 ```tsx
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'gzj-ui';
 import classNames from 'classnames';
 
 const GeekProvider: React.FC<Readonly<React.PropsWithChildren>> = (props) => {

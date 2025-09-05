@@ -8,7 +8,7 @@ TypeScript 的类型定义是非常强大的帮手，它可以解决很多问题
 
 ```tsx
 import React from 'react';
-import { Table, type TableColumnsType } from 'antd';
+import { Table, type TableColumnsType } from 'gzj-ui';
 
 const columns: TableColumnsType = [
   {
@@ -24,7 +24,7 @@ export default () => <Table columns={columns} />;
 这些类型定义满足了大多数场景，但是有时候开发者希望获得更精细的类型定义，antd 并不一定将其导出。在过去，我们推荐开发通过 TypeScript 的类型体操进行自行拓展来满足需求：
 
 ```tsx
-import type { SelectProps } from 'antd';
+import type { SelectProps } from 'gzj-ui';
 
 type SelectOption<T> = NonNullable<SelectProps<T>['options']>[number];
 ```
@@ -46,7 +46,7 @@ type SelectOption<T> = NonNullable<SelectProps<T>['options']>[number];
 antd 中，对于一些组件的子组件定义不一定被导出。你可以直接通过 `GetProps` 来获取：
 
 ```tsx
-import type { Checkbox, GetProps } from 'antd';
+import type { Checkbox, GetProps } from 'gzj-ui';
 
 type CheckboxGroupType = GetProps<typeof Checkbox.Group>;
 ```
@@ -56,7 +56,7 @@ type CheckboxGroupType = GetProps<typeof Checkbox.Group>;
 对于组件的属性类型，我们可以通过 `GetProp` 来获取。它已经将 `NonNullable` 进行了封装。所以不用再考虑为空的情况：
 
 ```tsx
-import type { GetProp, Select, SelectProps } from 'antd';
+import type { GetProp, Select, SelectProps } from 'gzj-ui';
 
 // Both of this can work
 type SelectOptionType1 = GetProp<SelectProps, 'options'>[number];
@@ -69,7 +69,7 @@ type SelectOptionType2 = GetProp<typeof Select, 'options'>[number];
 
 ```tsx
 import React, { forwardRef } from 'react';
-import type { GetRef, Select } from 'antd';
+import type { GetRef, Select } from 'gzj-ui';
 
 type SelectRefType = GetRef<typeof Select>; // BaseSelectRef
 

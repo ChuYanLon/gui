@@ -1,6 +1,6 @@
 import React from 'react';
-import type { CascaderProps } from 'antd';
-import { Cascader } from 'antd';
+import type { CascaderProps } from 'gzj-ui';
+import { Cascader } from 'gzj-ui';
 
 const { SHOW_CHILD } = Cascader;
 

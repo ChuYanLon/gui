@@ -18,8 +18,8 @@ import {
   Transfer,
   Tree,
   Typography,
-} from 'antd';
-import type { TableProps, TransferProps } from 'antd';
+} from 'gzj-ui';
+import type { TableProps, TransferProps } from 'gzj-ui';
 import type { TransferKey } from 'antd/es/transfer/interface';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';

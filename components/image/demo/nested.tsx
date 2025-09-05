@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Divider, Image, Modal } from 'antd';
+import { Button, Divider, Image, Modal } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [show1, setShow1] = useState(false);

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TreeSelect } from 'antd';
+import { TreeSelect } from 'gzj-ui';
 import { DownOutlined } from '@ant-design/icons';
 
 const treeData = [

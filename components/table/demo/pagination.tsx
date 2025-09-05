@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Radio, Space, Table, Tag } from 'antd';
-import type { TableProps } from 'antd';
+import { Radio, Space, Table, Tag } from 'gzj-ui';
+import type { TableProps } from 'gzj-ui';
 
 type ColumnsType<T extends object> = TableProps<T>['columns'];
 type TablePagination<T extends object> = NonNullable<Exclude<TableProps<T>['pagination'], boolean>>;

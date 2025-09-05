@@ -9,8 +9,8 @@ import {
   UserOutlined,
   VideoCameraOutlined,
 } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Layout, Menu, theme } from 'antd';
+import type { MenuProps } from 'gzj-ui';
+import { Layout, Menu, theme } from 'gzj-ui';
 
 const { Header, Content, Footer, Sider } = Layout;
 

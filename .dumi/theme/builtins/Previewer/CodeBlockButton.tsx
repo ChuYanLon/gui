@@ -1,6 +1,6 @@
 import React, { Suspense, useState } from 'react';
 import { LoadingOutlined } from '@ant-design/icons';
-import { App, Tooltip } from 'antd';
+import { App, Tooltip } from 'gzj-ui';
 import { FormattedMessage } from 'dumi';
 
 import useLocale from '../../../hooks/useLocale';

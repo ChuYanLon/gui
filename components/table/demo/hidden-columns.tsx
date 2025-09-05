@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Checkbox, Divider, Table } from 'antd';
-import type { CheckboxOptionType, TableColumnsType } from 'antd';
+import { Checkbox, Divider, Table } from 'gzj-ui';
+import type { CheckboxOptionType, TableColumnsType } from 'gzj-ui';
 
 interface DataType {
   key: React.Key;

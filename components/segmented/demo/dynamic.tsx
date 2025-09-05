@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Flex, Segmented } from 'antd';
+import { Button, Flex, Segmented } from 'gzj-ui';
 
 const Demo: React.FC = () => {
   const [options, setOptions] = useState(['Daily', 'Weekly', 'Monthly']);

@@ -1,6 +1,6 @@
 import React from 'react';
-import { AutoComplete } from 'antd';
-import type { AutoCompleteProps } from 'antd';
+import { AutoComplete } from 'gzj-ui';
+import type { AutoCompleteProps } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [options, setOptions] = React.useState<AutoCompleteProps['options']>([]);

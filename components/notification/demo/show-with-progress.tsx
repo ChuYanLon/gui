@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, notification, Space } from 'antd';
+import { Button, notification, Space } from 'gzj-ui';
 
 const App: React.FC = () => {
   const [api, contextHolder] = notification.useNotification();

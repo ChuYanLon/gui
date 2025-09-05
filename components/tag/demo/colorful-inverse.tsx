@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Tag } from 'antd';
+import { Flex, Tag } from 'gzj-ui';
 
 const App: React.FC = () => (
   <Flex gap="4px 0" wrap>

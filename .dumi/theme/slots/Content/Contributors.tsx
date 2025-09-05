@@ -48,8 +48,8 @@ const Contributors: React.FC<ContributorsProps> = ({ filename }) => {
 
   return (
     <div className={classNames({ [styles.listMobile]: isMobile })}>
-      <div className={styles.title}>{formatMessage({ id: 'app.content.contributors' })}</div>
-      <ContributorsList
+      {/* <div className={styles.title}>{formatMessage({ id: 'app.content.contributors' })}</div> */}
+      {/* <ContributorsList
         cache
         repo="ant-design"
         owner="ant-design"
@@ -58,7 +58,7 @@ const Contributors: React.FC<ContributorsProps> = ({ filename }) => {
         renderItem={(item, loading) => (
           <ContributorAvatar item={item} loading={loading} key={item?.url} />
         )}
-      />
+      /> */}
     </div>
   );
 };

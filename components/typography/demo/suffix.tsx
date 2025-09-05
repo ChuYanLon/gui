@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Slider, Typography } from 'antd';
+import { Slider, Typography } from 'gzj-ui';
 
 const { Paragraph } = Typography;
 

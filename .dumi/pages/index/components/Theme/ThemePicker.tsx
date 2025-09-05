@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Flex } from 'antd';
+import { Flex } from 'gzj-ui';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 

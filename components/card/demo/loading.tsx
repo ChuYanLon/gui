@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
-import { Avatar, Card, Flex, Switch } from 'antd';
+import { Avatar, Card, Flex, Switch } from 'gzj-ui';
 
 const actions: React.ReactNode[] = [
   <EditOutlined key="edit" />,

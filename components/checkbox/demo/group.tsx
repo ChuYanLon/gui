@@ -1,6 +1,6 @@
 import React from 'react';
-import { Checkbox } from 'antd';
-import type { CheckboxOptionType, GetProp } from 'antd';
+import { Checkbox } from 'gzj-ui';
+import type { CheckboxOptionType, GetProp } from 'gzj-ui';
 
 const onChange: GetProp<typeof Checkbox.Group, 'onChange'> = (checkedValues) => {
   console.log('checked = ', checkedValues);

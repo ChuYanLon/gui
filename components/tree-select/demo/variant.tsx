@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, TreeSelect } from 'antd';
+import { Flex, TreeSelect } from 'gzj-ui';
 
 const style: React.CSSProperties = {
   width: '100%',

@@ -1,4 +1,4 @@
-import type { ColorPickerProps, GetProp } from 'antd';
+import type { ColorPickerProps, GetProp } from 'gzj-ui';
 import { generateColor } from 'antd/es/color-picker/util';
 
 type Color = GetProp<ColorPickerProps, 'value'>;
