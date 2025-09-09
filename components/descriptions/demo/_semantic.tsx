@@ -1,8 +1,9 @@
 import React from 'react';
-import { Button, Descriptions, DescriptionsProps, Divider, Switch } from 'gzj-ui';
+import { Button, Descriptions, Divider, Switch } from 'gzj-ui';
+import type { DescriptionsProps } from 'gzj-ui';
 
-import SemanticPreview from '../../../.dumi/theme/common/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';
+import SemanticPreview from '../../../.dumi/theme/common/SemanticPreview';
 
 const locales = {
   cn: {
@@ -31,7 +32,7 @@ const items: DescriptionsProps['items'] = [
   },
 ];
 
-const BlockList: React.FC<React.PropsWithChildren> = (props: any) => {
+const BlockList: React.FC<React.PropsWithChildren<DescriptionsProps>> = (props) => {
   const divRef = React.useRef<HTMLDivElement>(null);
   const [bordered, setBordered] = React.useState(false);
 
