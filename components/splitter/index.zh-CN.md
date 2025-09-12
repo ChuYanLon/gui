@@ -30,6 +30,7 @@ demo:
 <code src="./demo/nested-in-tabs.tsx" debug>标签页中嵌套</code>
 <code src="./demo/lazy.tsx" version="5.23.0">延迟渲染模式</code>
 <code src="./demo/debug.tsx" debug>调试</code>
+<code src="./demo/size-mix.tsx" debug>尺寸混合</code>
 
 ## API
 
